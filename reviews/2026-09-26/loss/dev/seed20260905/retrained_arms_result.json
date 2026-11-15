@@ -1,0 +1,206 @@
+{
+  "status": "completed",
+  "label": "retrained ablation arms vs full control (v1-anchored)",
+  "seed": 20260905,
+  "arms": [
+    "full",
+    "huber90"
+  ],
+  "key_groups": {
+    "full": [
+      "local",
+      "pool",
+      "station",
+      "fourier"
+    ],
+    "huber90": [
+      "local",
+      "pool",
+      "station",
+      "fourier"
+    ]
+  },
+  "v1_anchor_check_applied": false,
+  "v1_anchor_check_by_queue": {
+    "selection_42": false
+  },
+  "queues": {
+    "selection_42": {
+      "n_cases": 42,
+      "full": {
+        "q": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.0620586248497654,
+            "sensor_macro": 0.061954661643204206
+          },
+          "raw_mae": {
+            "episode_macro": 287.2841340765973,
+            "sensor_macro": 285.52911299148855
+          }
+        },
+        "o": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.1623495311609511,
+            "sensor_macro": 0.16298401131489157
+          },
+          "raw_mae": {
+            "episode_macro": 0.02087440011235074,
+            "sensor_macro": 0.02102900256046066
+          }
+        }
+      },
+      "huber90": {
+        "q": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.06334306338159637,
+            "sensor_macro": 0.06303791564608875
+          },
+          "raw_mae": {
+            "episode_macro": 290.93810195072905,
+            "sensor_macro": 288.09923556866516
+          }
+        },
+        "o": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.168011704180696,
+            "sensor_macro": 0.1687393937592319
+          },
+          "raw_mae": {
+            "episode_macro": 0.02375058774210841,
+            "sensor_macro": 0.023904026101999796
+          }
+        }
+      },
+      "occupancy_bins": {
+        "full": {
+          "q": {
+            "[0,.05)": {
+              "n_cells": 24824,
+              "rmse": 0.033973887576313255,
+              "bias": -0.0054897636073690855
+            },
+            "[.05,.10)": {
+              "n_cells": 32648,
+              "rmse": 0.05635236104795739,
+              "bias": -0.00797927442822159
+            },
+            "[.10,.20)": {
+              "n_cells": 34431,
+              "rmse": 0.07069559634487603,
+              "bias": -0.029946426577379847
+            },
+            "[.20,.30)": {
+              "n_cells": 6012,
+              "rmse": 0.08391582690661574,
+              "bias": -0.022001177275767742
+            },
+            "[.30,1]": {
+              "n_cells": 5389,
+              "rmse": 0.13253692945663526,
+              "bias": 0.03516975202486901
+            }
+          },
+          "o": {
+            "[0,.05)": {
+              "n_cells": 24824,
+              "rmse": 0.041993958837419,
+              "bias": 0.02821714246796182
+            },
+            "[.05,.10)": {
+              "n_cells": 32648,
+              "rmse": 0.09872071974658717,
+              "bias": 0.05680222049080743
+            },
+            "[.10,.20)": {
+              "n_cells": 34431,
+              "rmse": 0.1368632484224994,
+              "bias": 0.057363579723604126
+            },
+            "[.20,.30)": {
+              "n_cells": 6012,
+              "rmse": 0.3183072014210305,
+              "bias": -0.18170214957958528
+            },
+            "[.30,1]": {
+              "n_cells": 5389,
+              "rmse": 0.613968239972557,
+              "bias": -0.446976543678426
+            }
+          }
+        },
+        "huber90": {
+          "q": {
+            "[0,.05)": {
+              "n_cells": 24824,
+              "rmse": 0.033505532559862175,
+              "bias": 0.003498768586519601
+            },
+            "[.05,.10)": {
+              "n_cells": 32648,
+              "rmse": 0.057823228635443466,
+              "bias": -0.007942228222709022
+            },
+            "[.10,.20)": {
+              "n_cells": 34431,
+              "rmse": 0.07239006814193437,
+              "bias": -0.028505997458383964
+            },
+            "[.20,.30)": {
+              "n_cells": 6012,
+              "rmse": 0.085053528118122,
+              "bias": -0.022763728654273573
+            },
+            "[.30,1]": {
+              "n_cells": 5389,
+              "rmse": 0.13697479110152092,
+              "bias": 0.0337104785910554
+            }
+          },
+          "o": {
+            "[0,.05)": {
+              "n_cells": 24824,
+              "rmse": 0.059481920147730426,
+              "bias": 0.04725042348858987
+            },
+            "[.05,.10)": {
+              "n_cells": 32648,
+              "rmse": 0.11695075970924433,
+              "bias": 0.07594296387794978
+            },
+            "[.10,.20)": {
+              "n_cells": 34431,
+              "rmse": 0.16193633715600864,
+              "bias": 0.09721952165915684
+            },
+            "[.20,.30)": {
+              "n_cells": 6012,
+              "rmse": 0.28668689197097813,
+              "bias": -0.13929650325300846
+            },
+            "[.30,1]": {
+              "n_cells": 5389,
+              "rmse": 0.5751362030023409,
+              "bias": -0.4141384572410079
+            }
+          }
+        }
+      },
+      "occupancy_note": "binned on TRUE occupancy (unavailable at inference); pooled by cell, interpretation only",
+      "paired_vs_full": {
+        "huber90": {
+          "q": {
+            "mean_diff": 0.001284438531830977,
+            "improved_cases": 7,
+            "worsened_cases": 35
+          },
+          "o": {
+            "mean_diff": 0.005662173019744888,
+            "improved_cases": 9,
+            "worsened_cases": 33
+          }
+        }
+      }
+    }
+  },
+  "note": "full-arm predictions bitwise-equal the archived v1 predictions on every evaluated case where an archive exists; other arms differ only by their token-context hook during training and inference. selection_42 has no archived v1 prediction, so its anchor check is recorded as not applied."
+}

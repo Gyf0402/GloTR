@@ -1,0 +1,2932 @@
+{
+ "status": "daily_array_digest_manifest",
+ "produced_by": "corridor crop of the frozen district release",
+ "crop": {
+  "stations": 20,
+  "station_source": "data/pems/graphs/qo_pilot_v1/release_v1/graph.json",
+  "rule": "rows of every station-indexed array kept where station_ids is in station_order",
+  "note": "values are unchanged; only the station axis is reduced"
+ },
+ "days": [
+  {
+   "day": "2019-01-01",
+   "path": "data/pems/releases/arrays_2019/2019-01-01",
+   "sha256": "b0b92b11051259308caba5ccba49cf6fbfa9780d486b8ccca0be89cf04003fc3",
+   "bytes": 109718,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-02",
+   "path": "data/pems/releases/arrays_2019/2019-01-02",
+   "sha256": "83797f8fce7f186a68d4652e82eeedcc4c4355280f79c29629623cf7188b2fdc",
+   "bytes": 110399,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-03",
+   "path": "data/pems/releases/arrays_2019/2019-01-03",
+   "sha256": "b1a8d6a0a1b9ac37c51167ceee47f715c534b10900363218dc73b902e7a5a3ab",
+   "bytes": 109811,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-04",
+   "path": "data/pems/releases/arrays_2019/2019-01-04",
+   "sha256": "c749015900b0f9562a1071288ca76267d4565fd24ff932a94c8557333f75f4c0",
+   "bytes": 109749,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-05",
+   "path": "data/pems/releases/arrays_2019/2019-01-05",
+   "sha256": "eee5a419fad224428f0faa18dab8b5dd99810af84367890c7414f20473ac0e3e",
+   "bytes": 108216,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-06",
+   "path": "data/pems/releases/arrays_2019/2019-01-06",
+   "sha256": "76cca3f5eb6c742a108a65ed50938cc51373a68d1a7f9d3968d3cc629c5faf4e",
+   "bytes": 109681,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-07",
+   "path": "data/pems/releases/arrays_2019/2019-01-07",
+   "sha256": "77d69171bd95c4cd7e60f0cafe3f29565ec431211d584c7fc56d50e209aa8ca0",
+   "bytes": 110699,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-08",
+   "path": "data/pems/releases/arrays_2019/2019-01-08",
+   "sha256": "10e5d00f7ad797ab4dd191fc8463b60f7bdf5f15e76ec5a5a3c8a71c52a53192",
+   "bytes": 112772,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-09",
+   "path": "data/pems/releases/arrays_2019/2019-01-09",
+   "sha256": "1c4c27373a390a1660dcefc4a7e4b4ff4755cf28c3a3ddf14e36ba4bb4d5ad52",
+   "bytes": 115038,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-10",
+   "path": "data/pems/releases/arrays_2019/2019-01-10",
+   "sha256": "253a2582fc2bd8ec9cfd9d84a2b4cbda42507dc6e77f79d089228dc04251f9e4",
+   "bytes": 115516,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-11",
+   "path": "data/pems/releases/arrays_2019/2019-01-11",
+   "sha256": "f56f4625ddaba5a35b716590e8bc4ce8c0a6ec19cc3d4e6d86fbde8527c5f839",
+   "bytes": 113838,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-12",
+   "path": "data/pems/releases/arrays_2019/2019-01-12",
+   "sha256": "0d9e7f021c79d2d1387c0240af27156acbbdf7a293a7da704f03738204eb435b",
+   "bytes": 114818,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-13",
+   "path": "data/pems/releases/arrays_2019/2019-01-13",
+   "sha256": "9ed9039188db3d6f62b15dde06bb4a945cfb48e7feef7913acbc4d5306c6e9c9",
+   "bytes": 112104,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-14",
+   "path": "data/pems/releases/arrays_2019/2019-01-14",
+   "sha256": "a1a6d5b6e13a40cc62d8100baed61b2f0e0705c500c4203db760f4a102bb6cad",
+   "bytes": 115036,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-15",
+   "path": "data/pems/releases/arrays_2019/2019-01-15",
+   "sha256": "de7e97d00a25125d58abf3f7d57380a5286347ebcf688762c17e48f9d91e86b7",
+   "bytes": 114797,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-16",
+   "path": "data/pems/releases/arrays_2019/2019-01-16",
+   "sha256": "a3b3836f9d3049184ff37036503e61e5f9dada42bb7bd1a20a871fb884309b1b",
+   "bytes": 115088,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-17",
+   "path": "data/pems/releases/arrays_2019/2019-01-17",
+   "sha256": "523a68a1d38e1685cc9cfe755dae49f1f46c5057842998e301493b76efd07195",
+   "bytes": 115716,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-18",
+   "path": "data/pems/releases/arrays_2019/2019-01-18",
+   "sha256": "716dd8526578149d0f3bf84cff3d3af8f198f1f40c2349ee955946405a6b9198",
+   "bytes": 115760,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-19",
+   "path": "data/pems/releases/arrays_2019/2019-01-19",
+   "sha256": "52fe5ca831ea264448e636963b4974caea7f6ae4d2baf40c96e1ab88e1f5cfe4",
+   "bytes": 114456,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-20",
+   "path": "data/pems/releases/arrays_2019/2019-01-20",
+   "sha256": "68892ee7e9c5a0e1de1af7af9a14af027117b8d9daffe624bd260a1eb0255d48",
+   "bytes": 113005,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-21",
+   "path": "data/pems/releases/arrays_2019/2019-01-21",
+   "sha256": "54048b44bdbe73383bf5d763ab6d76759f0a59dbb6efa27e7b984cf7789232ff",
+   "bytes": 113850,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-22",
+   "path": "data/pems/releases/arrays_2019/2019-01-22",
+   "sha256": "2fba997dd8af6bd8c548fd55d916e511d52369bf0fadf8ce051097c9a3973476",
+   "bytes": 117475,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-23",
+   "path": "data/pems/releases/arrays_2019/2019-01-23",
+   "sha256": "d3c5bdd80d63fedb5679ac6b5690278fba2b2b4d31421e4ab7edd79634b90214",
+   "bytes": 119945,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-24",
+   "path": "data/pems/releases/arrays_2019/2019-01-24",
+   "sha256": "82728dde07f573721a832f79d7f05355190a482d02741a79625f964990b07732",
+   "bytes": 120688,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-25",
+   "path": "data/pems/releases/arrays_2019/2019-01-25",
+   "sha256": "1133706a1cbb6d16cdbec5d6aca69cfb857e919279c5f61969c7fe9a10cdc432",
+   "bytes": 118956,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-26",
+   "path": "data/pems/releases/arrays_2019/2019-01-26",
+   "sha256": "c1b6ae44f305146c58b1c2985e6b03b7b40222429418f094c684fc0f9ecaf3aa",
+   "bytes": 119127,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-27",
+   "path": "data/pems/releases/arrays_2019/2019-01-27",
+   "sha256": "c2327dd67f68f8589b951ad159fd0c8c34434061f8aa1702b7c435471cfe192b",
+   "bytes": 117243,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-28",
+   "path": "data/pems/releases/arrays_2019/2019-01-28",
+   "sha256": "61deb12fe300b20cb61d9f438473bc6ad378bef35873da16f81b95b72e115117",
+   "bytes": 120100,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-29",
+   "path": "data/pems/releases/arrays_2019/2019-01-29",
+   "sha256": "816626adccdf0b8a9c6787eb70546af2e05bc4df63ac28e3e60307bfa37eae9e",
+   "bytes": 119947,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-30",
+   "path": "data/pems/releases/arrays_2019/2019-01-30",
+   "sha256": "61da9f46e45d4e53791b2a7a0a7e3c5eb83690b1ac6602f987b50bc10f217321",
+   "bytes": 121616,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-01-31",
+   "path": "data/pems/releases/arrays_2019/2019-01-31",
+   "sha256": "c94b6abb7c5022f83b9282b5c02d0d626ea51399e680614f9a5eb832825d88ed",
+   "bytes": 120670,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-01",
+   "path": "data/pems/releases/arrays_2019/2019-02-01",
+   "sha256": "34a6030d1c95f92cab50fbf12a59b678f216502f5c909e8f06369b00928791c6",
+   "bytes": 118729,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-02",
+   "path": "data/pems/releases/arrays_2019/2019-02-02",
+   "sha256": "8012cafa86f4da45933c044a11a886a1e33a4fa45050e036dbef9ebb82f7df3d",
+   "bytes": 113208,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-03",
+   "path": "data/pems/releases/arrays_2019/2019-02-03",
+   "sha256": "e61fcfe5442b6d800d17df6afd91d340bd88039e07e34f90864f572494f9dfc4",
+   "bytes": 114883,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-04",
+   "path": "data/pems/releases/arrays_2019/2019-02-04",
+   "sha256": "f2761c9091682c86849ae462d195d1f170d75cbb270fd226a82be09c31240b15",
+   "bytes": 115816,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-05",
+   "path": "data/pems/releases/arrays_2019/2019-02-05",
+   "sha256": "6fdf62f01ffdd3be33229575101ef9dc4f8eaf10b239beb1ae6ca58c2f2c6955",
+   "bytes": 116092,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-06",
+   "path": "data/pems/releases/arrays_2019/2019-02-06",
+   "sha256": "7245023752b3df561204a9caf98968aeef01f3abf339637b3e4a58bbea038770",
+   "bytes": 116979,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-07",
+   "path": "data/pems/releases/arrays_2019/2019-02-07",
+   "sha256": "171289539522b3b71f8bc190680a83d7b648a658c5a1aa4d8c7484493d9cf1ac",
+   "bytes": 115555,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-08",
+   "path": "data/pems/releases/arrays_2019/2019-02-08",
+   "sha256": "e37f8f702c9c6f4aaf6aa24a50565b059a95bccada173e0ab0eb1de79aeda435",
+   "bytes": 114065,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-09",
+   "path": "data/pems/releases/arrays_2019/2019-02-09",
+   "sha256": "cec99114244f43e2c17f817fb681d48b9986bf4c6a6023177af6b4d8a7fc5a24",
+   "bytes": 114337,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-10",
+   "path": "data/pems/releases/arrays_2019/2019-02-10",
+   "sha256": "10f8f922a8ef7b8fcb47dc91271bf1c535bfb3f66d554611153fab8cfbacf2d2",
+   "bytes": 111856,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-11",
+   "path": "data/pems/releases/arrays_2019/2019-02-11",
+   "sha256": "f708813c84fae85e7ef71092ba8cacdbdea69a4513509f88d8cc4d61f919327d",
+   "bytes": 115354,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-12",
+   "path": "data/pems/releases/arrays_2019/2019-02-12",
+   "sha256": "c2e97df5d058453b75121173f5db296aaa39dbc88bf5a3733d4e35083626df5a",
+   "bytes": 115925,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-13",
+   "path": "data/pems/releases/arrays_2019/2019-02-13",
+   "sha256": "29ec80436e64aa8febc2d58cb53830b3e7f8490000090938695400f8b17710f4",
+   "bytes": 114586,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-14",
+   "path": "data/pems/releases/arrays_2019/2019-02-14",
+   "sha256": "7a845cfe027586e2f394346d61301e15d24ac70a255bc1f598b9d4992a90d7a8",
+   "bytes": 115775,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-15",
+   "path": "data/pems/releases/arrays_2019/2019-02-15",
+   "sha256": "9db1160e10bb8ee91772cc5be09491ca15623bf10972d027ec1dceda390c8dea",
+   "bytes": 113430,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-16",
+   "path": "data/pems/releases/arrays_2019/2019-02-16",
+   "sha256": "9d584d0180d7187d1a542483efa7ea6453841f67dd2ae4c87e1ed59fe32e8c37",
+   "bytes": 113983,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-17",
+   "path": "data/pems/releases/arrays_2019/2019-02-17",
+   "sha256": "5a45687c6faf5e445fb18cf3a06fe8637f4e122d29defe3312e440664c2025d7",
+   "bytes": 114148,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-18",
+   "path": "data/pems/releases/arrays_2019/2019-02-18",
+   "sha256": "bbd9610a9d7dc7c945a66f0a775bf18aa40b760079581b35d695eedfdc3f2637",
+   "bytes": 113284,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-19",
+   "path": "data/pems/releases/arrays_2019/2019-02-19",
+   "sha256": "39f2020e228b4782798d21a6942a60b08b00e70e617be565bbc0f82524d22771",
+   "bytes": 115987,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-20",
+   "path": "data/pems/releases/arrays_2019/2019-02-20",
+   "sha256": "38a939429bdfde9168c5e2b56a1dc1159b4929cfe466ed6952d074e0e1d41692",
+   "bytes": 118880,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-21",
+   "path": "data/pems/releases/arrays_2019/2019-02-21",
+   "sha256": "90bd1550f83f5d671d2649cabb038973aed44ca6250ec8e8906fd9c21ac5ff36",
+   "bytes": 119629,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-22",
+   "path": "data/pems/releases/arrays_2019/2019-02-22",
+   "sha256": "e579be9f2f950ba91a348507c59229a71fa160139ac3924a4a30a3abdc71c6ac",
+   "bytes": 119001,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-23",
+   "path": "data/pems/releases/arrays_2019/2019-02-23",
+   "sha256": "09e90c936b7a5bb99f5d3ee5a29ac19b76f441159df6cfd16d3e992ce483f651",
+   "bytes": 120074,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-24",
+   "path": "data/pems/releases/arrays_2019/2019-02-24",
+   "sha256": "18be01a0ab45a0664561af2ea7f6cb63d26e692a14a8007ef5faf2ab5e40b74f",
+   "bytes": 118440,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-25",
+   "path": "data/pems/releases/arrays_2019/2019-02-25",
+   "sha256": "a07eab320306dd6a61a4d1dd21a8e048c7664eb8b888fb3e3adf240c9c57a50b",
+   "bytes": 119042,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-26",
+   "path": "data/pems/releases/arrays_2019/2019-02-26",
+   "sha256": "6a9f63a0a55e5f6108fef6a2a61e7c67f57552ce49a8ae52cbb346e69b742e57",
+   "bytes": 119839,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-27",
+   "path": "data/pems/releases/arrays_2019/2019-02-27",
+   "sha256": "d44e2a0458f1d0d1b4740540100dd3f104e8468d42071b7034eb5e7157ef8b00",
+   "bytes": 119997,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-02-28",
+   "path": "data/pems/releases/arrays_2019/2019-02-28",
+   "sha256": "197d49e55d2551db38887c324abe31536de4725710eb22949eff7d653487e881",
+   "bytes": 119724,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-01",
+   "path": "data/pems/releases/arrays_2019/2019-03-01",
+   "sha256": "b3d11f695e6d47c473f3110fe31ba61356c10c5aa010dd0cbc00445f0da4356e",
+   "bytes": 118677,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-02",
+   "path": "data/pems/releases/arrays_2019/2019-03-02",
+   "sha256": "94cb7ab27ff94006d332dc5076aedb648831bb9a747ccf6b1fb1d6ed5ba10a41",
+   "bytes": 118391,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-03",
+   "path": "data/pems/releases/arrays_2019/2019-03-03",
+   "sha256": "859a3ef713f33005a098dd11934fb4d6de28b588c11aeab072cc21b18fa41144",
+   "bytes": 118929,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-04",
+   "path": "data/pems/releases/arrays_2019/2019-03-04",
+   "sha256": "7dd7ea2ea556501a05a734066d6bed9bb142cff67c863306418e0c1bb43122f4",
+   "bytes": 120492,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-05",
+   "path": "data/pems/releases/arrays_2019/2019-03-05",
+   "sha256": "e74774e7a474ecbdbf53148034ca7d3048d27669b122ef448f385f298105d2d8",
+   "bytes": 119609,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-06",
+   "path": "data/pems/releases/arrays_2019/2019-03-06",
+   "sha256": "c2832f9fe9a3e03fa47729504dfeada5c2ebbbf866787b683501ba7d9c71714c",
+   "bytes": 119915,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-07",
+   "path": "data/pems/releases/arrays_2019/2019-03-07",
+   "sha256": "bb196217a9c780d1c748e6219633d8d17716386ae49aaa11e4731939df782356",
+   "bytes": 118989,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-08",
+   "path": "data/pems/releases/arrays_2019/2019-03-08",
+   "sha256": "642b571b9ee5aff752a8bd74009d721ce4660669680ee3ebbcf9e61b5086cc6e",
+   "bytes": 118033,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-09",
+   "path": "data/pems/releases/arrays_2019/2019-03-09",
+   "sha256": "4762d2f7c161121345954202ffd9e23e124abf304561a802508f938156089698",
+   "bytes": 118059,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-10",
+   "path": "data/pems/releases/arrays_2019/2019-03-10",
+   "sha256": "1ee9ca70788798ce8dda104357e2228ea2a3e0efe2cfd8ef639e1286eea13376",
+   "bytes": 112955,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-11",
+   "path": "data/pems/releases/arrays_2019/2019-03-11",
+   "sha256": "63b832d445ff0b039eaefeb8ff0db37a4c85712d0fd994ceceec52c8d966227d",
+   "bytes": 117926,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-12",
+   "path": "data/pems/releases/arrays_2019/2019-03-12",
+   "sha256": "62200c639c824e802c27aab5bfd79750c022b4b6a11cb06b626287bd008c243b",
+   "bytes": 117488,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-13",
+   "path": "data/pems/releases/arrays_2019/2019-03-13",
+   "sha256": "14a91b618925572be23d6cb4e2b5cf138ec29a1dbc6578d215e547315b3a16eb",
+   "bytes": 118213,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-14",
+   "path": "data/pems/releases/arrays_2019/2019-03-14",
+   "sha256": "5c42bb8d6f7346b35a292eea3379062c9a607f964e39a89f7a327fd2a777124c",
+   "bytes": 118644,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-15",
+   "path": "data/pems/releases/arrays_2019/2019-03-15",
+   "sha256": "c0c2e9fcc99a4d9a7abefd657cca964625adfa722512b97feb525db58ab2d8e0",
+   "bytes": 119477,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-16",
+   "path": "data/pems/releases/arrays_2019/2019-03-16",
+   "sha256": "7e738e82b1951aa225351746c643e74699f1994e267c1c2c3c31e10ef2c12b8e",
+   "bytes": 119644,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-17",
+   "path": "data/pems/releases/arrays_2019/2019-03-17",
+   "sha256": "b114d95b590f0001527738326d491713257ab6f3d99a16d15d0dd773fa8609b5",
+   "bytes": 120714,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-18",
+   "path": "data/pems/releases/arrays_2019/2019-03-18",
+   "sha256": "2aeaad8dd0fc143fc86c35890e83b6e0ac6fdd884966a8ee13e309884a03e990",
+   "bytes": 120152,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-19",
+   "path": "data/pems/releases/arrays_2019/2019-03-19",
+   "sha256": "2be3e49e31ff859604b8587e20ce75650c709f6649d20ced6e8a99b7f4207c47",
+   "bytes": 119940,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-20",
+   "path": "data/pems/releases/arrays_2019/2019-03-20",
+   "sha256": "c8dba4e0cb153b442247d3ff90f86435f69a21b80c954799d8609e4d064d9c4e",
+   "bytes": 120320,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-21",
+   "path": "data/pems/releases/arrays_2019/2019-03-21",
+   "sha256": "64941761b4a66833a83a47d1d785836d26d4aac204338d997cce419967f41942",
+   "bytes": 120107,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-22",
+   "path": "data/pems/releases/arrays_2019/2019-03-22",
+   "sha256": "632ea5d56150b146730be1da7c4c459cb792e8e241dc3b8034cfbb0a60c26656",
+   "bytes": 119083,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-23",
+   "path": "data/pems/releases/arrays_2019/2019-03-23",
+   "sha256": "fa7aeb2fa1de27f1e2da1ac36d98d789e6b5746dce67143ac67679ce88390c90",
+   "bytes": 119214,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-24",
+   "path": "data/pems/releases/arrays_2019/2019-03-24",
+   "sha256": "38693ec209a50f58a6d50487533c31e13d636c2d5691e2b073bee9181b5b5674",
+   "bytes": 118374,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-25",
+   "path": "data/pems/releases/arrays_2019/2019-03-25",
+   "sha256": "6c975625ac08e71ccb087a05f84f5e422085f10bd1072a579e3b556fdded55a1",
+   "bytes": 118921,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-26",
+   "path": "data/pems/releases/arrays_2019/2019-03-26",
+   "sha256": "982cfc27936a78a84fb2cbf59184d2a34efc499879f28b9dd1fec624238bdb58",
+   "bytes": 120689,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-27",
+   "path": "data/pems/releases/arrays_2019/2019-03-27",
+   "sha256": "ebe745e82d86a087bb238925777b32869229d50016930973c8520d6f98d8bdd8",
+   "bytes": 119915,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-28",
+   "path": "data/pems/releases/arrays_2019/2019-03-28",
+   "sha256": "2e6ad524e3fcf99bbc163fedaabb0270254ef81540249ee2a1412fa55f35fa21",
+   "bytes": 120041,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-29",
+   "path": "data/pems/releases/arrays_2019/2019-03-29",
+   "sha256": "ff4bbbbd08d6d0dddf7bb22f3259f31b0be13752c13ea10dc2d13526c73d4032",
+   "bytes": 124189,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-30",
+   "path": "data/pems/releases/arrays_2019/2019-03-30",
+   "sha256": "fbe274e851afe76ecef70faf174327ec423d64a7652c67aee7c027dd88ff2f4e",
+   "bytes": 127021,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-03-31",
+   "path": "data/pems/releases/arrays_2019/2019-03-31",
+   "sha256": "19d27418f7d9d25ac5fc1c1a9753549c3611f0968cb87f936f742c1e7e12b6d0",
+   "bytes": 127818,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-01",
+   "path": "data/pems/releases/arrays_2019/2019-04-01",
+   "sha256": "0a2caae251cb36ad1c6e40d6f624087759b4c34779c26988149ba9b2424888ee",
+   "bytes": 127935,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-02",
+   "path": "data/pems/releases/arrays_2019/2019-04-02",
+   "sha256": "71add5f7e5899bfe9b6752acf9460730e69dd58f3d71ef72c0da823ebb64f756",
+   "bytes": 128759,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-03",
+   "path": "data/pems/releases/arrays_2019/2019-04-03",
+   "sha256": "ff33820f73f215d90eb37fa4ebd916a621c04f59196cbc1b127192745ecc8b14",
+   "bytes": 129440,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-04",
+   "path": "data/pems/releases/arrays_2019/2019-04-04",
+   "sha256": "33e60309fff27900f2e1a7294d8269b029ac61092c908aa5efaaf2b59d7801dd",
+   "bytes": 128492,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-05",
+   "path": "data/pems/releases/arrays_2019/2019-04-05",
+   "sha256": "34fb5ce0ab259aa82ed4f554fdd310dcf4f5ec64382b268713aeb1b5413fc18e",
+   "bytes": 128254,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-06",
+   "path": "data/pems/releases/arrays_2019/2019-04-06",
+   "sha256": "80c0b2b1a7c5ea8f7a65746e836284ead83f82a51e7519829c6a25d524cd1e1e",
+   "bytes": 128562,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-07",
+   "path": "data/pems/releases/arrays_2019/2019-04-07",
+   "sha256": "3d3664a80ff9d6eac54dca0092ad035985adf110b60ca83de8ddf61bf6ac6128",
+   "bytes": 126055,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-08",
+   "path": "data/pems/releases/arrays_2019/2019-04-08",
+   "sha256": "4c8051aa201f5f57de8e58d84900b3680016cbc210fa67ab78be164db7a0a47c",
+   "bytes": 123554,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-09",
+   "path": "data/pems/releases/arrays_2019/2019-04-09",
+   "sha256": "23a080633d3a50459f3a962fb9d378850d5881ee294a94334a437a6357caa796",
+   "bytes": 127652,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-10",
+   "path": "data/pems/releases/arrays_2019/2019-04-10",
+   "sha256": "13bcd33c3e1503e753261d453629d22eba4e9d7cd632c915f8329da402f33aff",
+   "bytes": 129897,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-11",
+   "path": "data/pems/releases/arrays_2019/2019-04-11",
+   "sha256": "79c337ad2f2363c2d13cc8046fc8127de655f1d70a86f19cd1b87efe6ca570f9",
+   "bytes": 129530,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-12",
+   "path": "data/pems/releases/arrays_2019/2019-04-12",
+   "sha256": "49c036bad8f353ef834e19706dcabd072762b099f3e687c7491aaff45c9de835",
+   "bytes": 125690,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-13",
+   "path": "data/pems/releases/arrays_2019/2019-04-13",
+   "sha256": "8fdf68a401d8ceff9af90951b48e87dae8b91ead70de16672858b92223b9c463",
+   "bytes": 126852,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-14",
+   "path": "data/pems/releases/arrays_2019/2019-04-14",
+   "sha256": "a835b2484afe84ac350c0bc2728804112d6aa0db6b842b6aead9d0c8710c9231",
+   "bytes": 127743,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-15",
+   "path": "data/pems/releases/arrays_2019/2019-04-15",
+   "sha256": "7eb5660ae8ee1a12004435cb95b1931b6795c16a1f461dc489af75999b45d379",
+   "bytes": 128361,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-16",
+   "path": "data/pems/releases/arrays_2019/2019-04-16",
+   "sha256": "e53742168d85bc1c9d32c26d52ba9e5b458c3e7933687cc5e81622286a7daac6",
+   "bytes": 128092,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-17",
+   "path": "data/pems/releases/arrays_2019/2019-04-17",
+   "sha256": "5ca46d210fc29cdfd19a2da075f43d315ee543be81e8cf6b93fc74dd08ddf93a",
+   "bytes": 128929,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-18",
+   "path": "data/pems/releases/arrays_2019/2019-04-18",
+   "sha256": "9dd230ee1b3b51f2b4bf292e3c0f4927b446d6f3e6447c6932c63e95d8171638",
+   "bytes": 126992,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-19",
+   "path": "data/pems/releases/arrays_2019/2019-04-19",
+   "sha256": "434e7c308dd00f0aa4443ec77e223c7ea2f914c1b5c24f7befb086a815c1dbce",
+   "bytes": 123166,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-20",
+   "path": "data/pems/releases/arrays_2019/2019-04-20",
+   "sha256": "f16a9fa6497d04cd6c28f6fb8cb98c825525f20901f9d0872aa7808571228117",
+   "bytes": 122377,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-21",
+   "path": "data/pems/releases/arrays_2019/2019-04-21",
+   "sha256": "6a6a095262ea69e0f752f4a129626152c513a64efce5a5a79f64a2fc7937d33d",
+   "bytes": 122707,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-22",
+   "path": "data/pems/releases/arrays_2019/2019-04-22",
+   "sha256": "3953f91e57463222ef1e8832622a1b5b84e486abe6b4619c64cfd62a050194af",
+   "bytes": 127062,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-23",
+   "path": "data/pems/releases/arrays_2019/2019-04-23",
+   "sha256": "0175e07992cc2af808573b91012fb3402e678d3a75c10ca3b76411afdc3730bb",
+   "bytes": 130965,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-24",
+   "path": "data/pems/releases/arrays_2019/2019-04-24",
+   "sha256": "fb9317470a5499f845c869cd57bf7f14853bef132c1aa0244208a636fe9ce72e",
+   "bytes": 129493,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-25",
+   "path": "data/pems/releases/arrays_2019/2019-04-25",
+   "sha256": "e246f89c1dccf09d615a3b1e4232f8845409585e55ee4f4e36502e02d964bc7b",
+   "bytes": 128374,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-26",
+   "path": "data/pems/releases/arrays_2019/2019-04-26",
+   "sha256": "79ee57f94cdb3c3ab541e3cc19744ffa02ceebac1b325b0d77321c610fbb065f",
+   "bytes": 127268,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-27",
+   "path": "data/pems/releases/arrays_2019/2019-04-27",
+   "sha256": "ecfd4f30c32b397934b9de6b32e01b4251f806d74b0d73543c44d608957b85a1",
+   "bytes": 126790,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-28",
+   "path": "data/pems/releases/arrays_2019/2019-04-28",
+   "sha256": "322cc40f5284b29ef781531c1d98a690450911b81c3f1eee39c152da36d2a300",
+   "bytes": 125855,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-29",
+   "path": "data/pems/releases/arrays_2019/2019-04-29",
+   "sha256": "302818023e7b8073e62053afc122f0fcd0bc360e94b6230ac5088460d297c44f",
+   "bytes": 127430,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-04-30",
+   "path": "data/pems/releases/arrays_2019/2019-04-30",
+   "sha256": "8118e28f34d35023be16eeb813bfcc15e2f69514fd44ba778279af4f57b9594e",
+   "bytes": 128753,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-01",
+   "path": "data/pems/releases/arrays_2019/2019-05-01",
+   "sha256": "0058b9f009ee7e0252c8b6cbd405554cf2df62ae4a5d801323dbccb0d74e2e02",
+   "bytes": 129078,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-02",
+   "path": "data/pems/releases/arrays_2019/2019-05-02",
+   "sha256": "05a7456ce37cee9d06796fe447e15696ba545914ac6e09e4f017830cd49c4fd2",
+   "bytes": 127400,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-03",
+   "path": "data/pems/releases/arrays_2019/2019-05-03",
+   "sha256": "f76b4dd20e23a27d4ef1bb5d86ca4d7ef5f5e3e68f61c5b716f6efab53abde90",
+   "bytes": 129238,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-04",
+   "path": "data/pems/releases/arrays_2019/2019-05-04",
+   "sha256": "65fb757d8ee74465a59f47ffd67aff0a3a7a24e5ce5ebadc56c7c893dd7fc5c9",
+   "bytes": 128062,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-05",
+   "path": "data/pems/releases/arrays_2019/2019-05-05",
+   "sha256": "bf94ed9758a3fb5cc8ea0b9967f4fe7b882ad0799007bf39fdeee9f5bef0d3a4",
+   "bytes": 127867,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-06",
+   "path": "data/pems/releases/arrays_2019/2019-05-06",
+   "sha256": "ecc4111487845ed3cb3862cb59694cea840677aeda58ca55ba9e102b9e909153",
+   "bytes": 128551,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-07",
+   "path": "data/pems/releases/arrays_2019/2019-05-07",
+   "sha256": "ec392d7d1fa9a74ef287c6f84fe95e040b01e0e108abbc234fd0563d59fbcced",
+   "bytes": 128610,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-08",
+   "path": "data/pems/releases/arrays_2019/2019-05-08",
+   "sha256": "76525f72e967499019b69fc4e42f880ce9be490e16c551f6cc9bd9b294c5f4c3",
+   "bytes": 128902,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-09",
+   "path": "data/pems/releases/arrays_2019/2019-05-09",
+   "sha256": "6748a1145dbc77db176aba0bfb0c9bceaab32c4b2b2f0a8e6d536ee4d6d9a5c7",
+   "bytes": 126469,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-10",
+   "path": "data/pems/releases/arrays_2019/2019-05-10",
+   "sha256": "b2ca54a90d8ab136751632018016758b8681de94d3ff81b575d994c22ea2fd15",
+   "bytes": 129194,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-11",
+   "path": "data/pems/releases/arrays_2019/2019-05-11",
+   "sha256": "ac1b7e5b0e08755fc556dd96cf6e9b812244aafa06555212c66442908c35b064",
+   "bytes": 127792,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-12",
+   "path": "data/pems/releases/arrays_2019/2019-05-12",
+   "sha256": "2ca22363e0752b75d055b39a197cc88786e28536bcd43372b90aa9f93efe6d23",
+   "bytes": 126329,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-13",
+   "path": "data/pems/releases/arrays_2019/2019-05-13",
+   "sha256": "56add21d8afd25506561040794ad2328465014ee8a32681161299e9eb6411721",
+   "bytes": 126911,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-14",
+   "path": "data/pems/releases/arrays_2019/2019-05-14",
+   "sha256": "af89266d484de9436550dd045e55a05889a7d96907680041f84076fd973f30d2",
+   "bytes": 128417,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-15",
+   "path": "data/pems/releases/arrays_2019/2019-05-15",
+   "sha256": "0340ff5f2b4751aae577abd74a928680c56a16c09a2681f5168934a2b35388b0",
+   "bytes": 128051,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-16",
+   "path": "data/pems/releases/arrays_2019/2019-05-16",
+   "sha256": "30a295f00d67976b3711c58f7397b99ecf4fd051cb1467ed202a43ed29152811",
+   "bytes": 129921,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-17",
+   "path": "data/pems/releases/arrays_2019/2019-05-17",
+   "sha256": "6adb031d28fdac78a94fe24feaef7c6331d944e06a6e28ca11ce90036aad1a82",
+   "bytes": 126971,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-18",
+   "path": "data/pems/releases/arrays_2019/2019-05-18",
+   "sha256": "d0ca8b99526024ece51f8caed674750b1203de2476d424601701de8d9e07aff2",
+   "bytes": 127724,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-19",
+   "path": "data/pems/releases/arrays_2019/2019-05-19",
+   "sha256": "03c65cb9333d0217c5a31305c445a158e383fe2d69bd28d2015db5a234bc3f49",
+   "bytes": 111155,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-20",
+   "path": "data/pems/releases/arrays_2019/2019-05-20",
+   "sha256": "e35e90d4f1269d82ac935588867d2c787927f3013751c712e752881030510ebe",
+   "bytes": 85501,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-21",
+   "path": "data/pems/releases/arrays_2019/2019-05-21",
+   "sha256": "549dafc1bddf21e8c2b31f7b0ae430de7a356a3766c1861b63b0e94ac47742ea",
+   "bytes": 129412,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-22",
+   "path": "data/pems/releases/arrays_2019/2019-05-22",
+   "sha256": "7d899a283c3310b362588af91a4c393291609c0112ed0a20f9875e459464e82c",
+   "bytes": 129679,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-23",
+   "path": "data/pems/releases/arrays_2019/2019-05-23",
+   "sha256": "86a52e9827870d1008ebd25a7d13abdfc1a118029c76a32ff34c5f3c9a39ded5",
+   "bytes": 128239,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-24",
+   "path": "data/pems/releases/arrays_2019/2019-05-24",
+   "sha256": "a73d5a9ad31ffc546e61d71ad7055a02d49ea3b161ebbeccad94b67e742d6537",
+   "bytes": 127244,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-25",
+   "path": "data/pems/releases/arrays_2019/2019-05-25",
+   "sha256": "afb11f874f79452d323dde45b6dfafcffa21b7ea014f95a5aee7b464a6ed3bf7",
+   "bytes": 126851,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-26",
+   "path": "data/pems/releases/arrays_2019/2019-05-26",
+   "sha256": "7d34c5489b36602c2227e566e00a5e9fbfca0d800903e661acc164e243331af7",
+   "bytes": 126938,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-27",
+   "path": "data/pems/releases/arrays_2019/2019-05-27",
+   "sha256": "e7c9c5f27f0a2edf1d6bf4895ac15b121f75a7bdd6850a092d7c5c178e9c6cc3",
+   "bytes": 125371,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-28",
+   "path": "data/pems/releases/arrays_2019/2019-05-28",
+   "sha256": "d6a4693aec658765277158c1675dd97219dd45602259ae5468f605865a9985f5",
+   "bytes": 128968,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-29",
+   "path": "data/pems/releases/arrays_2019/2019-05-29",
+   "sha256": "2845bee6e5384cb53eaa2399e5bb2734738ad9ce38bc18fee3d25719bcd3f5a8",
+   "bytes": 129199,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-30",
+   "path": "data/pems/releases/arrays_2019/2019-05-30",
+   "sha256": "7a331f34836b76000ee80563ca19497de3a4450c8f3af0eaa8facd916519b0c2",
+   "bytes": 128537,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-05-31",
+   "path": "data/pems/releases/arrays_2019/2019-05-31",
+   "sha256": "d6b1f564ad7136fd336170a42d56562f0ebf2611df017870b35e208175db59e8",
+   "bytes": 127889,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-01",
+   "path": "data/pems/releases/arrays_2019/2019-06-01",
+   "sha256": "623598fefef20b234507017de92f471a3d95abfe94f6e77599ec93970762f9ec",
+   "bytes": 127338,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-02",
+   "path": "data/pems/releases/arrays_2019/2019-06-02",
+   "sha256": "71578a82bd322c7d753b0c93bf8dd056151c4b3d7d95f3cf7e418f6dc65ebe4e",
+   "bytes": 126792,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-03",
+   "path": "data/pems/releases/arrays_2019/2019-06-03",
+   "sha256": "3df1cd41e39ab7ffa1d997876129b37bce866923560b444bf957838c5715f947",
+   "bytes": 128498,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-04",
+   "path": "data/pems/releases/arrays_2019/2019-06-04",
+   "sha256": "17ae5cdb09aa4375193b6a2cd006a6023593eab5fddf1d3504ad2073165944cd",
+   "bytes": 128173,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-05",
+   "path": "data/pems/releases/arrays_2019/2019-06-05",
+   "sha256": "b12cc04e060a8fe33ee2a262ca14d7ef2069e01f82856968ca58f8f72b1f20c7",
+   "bytes": 129396,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-06",
+   "path": "data/pems/releases/arrays_2019/2019-06-06",
+   "sha256": "725085825775e8b251e6a828be5d5c19ffa758ecbf713dc164c0ff68162b0900",
+   "bytes": 128371,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-07",
+   "path": "data/pems/releases/arrays_2019/2019-06-07",
+   "sha256": "e5bba5565706520fb78eaf97ce06c0c4c9937fa46a62502ed240a5fe1a3766c8",
+   "bytes": 123251,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-08",
+   "path": "data/pems/releases/arrays_2019/2019-06-08",
+   "sha256": "0f463300fc5d9513c6fb1a1391ab8daee872d313783d1cc3c4d555494a88beff",
+   "bytes": 124480,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-09",
+   "path": "data/pems/releases/arrays_2019/2019-06-09",
+   "sha256": "4ddc9a0708490c54e967fc9c6e3985b285f32a410808097dd6a06d198f55e294",
+   "bytes": 127449,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-10",
+   "path": "data/pems/releases/arrays_2019/2019-06-10",
+   "sha256": "2906216d8bb5cba5125f8928197059e15c2071fd0b713157f76d46cb5ad2fff3",
+   "bytes": 127890,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-11",
+   "path": "data/pems/releases/arrays_2019/2019-06-11",
+   "sha256": "25caaa82edebcecc4a80e8222acbc0a892b3f7db387656e7650a0cf88254559a",
+   "bytes": 129238,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-12",
+   "path": "data/pems/releases/arrays_2019/2019-06-12",
+   "sha256": "6ed2345437fe4d4246cac4274f38fdf235da58d9c19f4775167aa68592c14ca0",
+   "bytes": 129378,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-13",
+   "path": "data/pems/releases/arrays_2019/2019-06-13",
+   "sha256": "cb43eb07765ce1455889e48906aae7eea8c00482acd79c66f73548789104be58",
+   "bytes": 127688,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-14",
+   "path": "data/pems/releases/arrays_2019/2019-06-14",
+   "sha256": "f7af8b852f5d1af2438d81d22a5b91bf1fdb5d9681016e2279b29cc7dfb89ab0",
+   "bytes": 127911,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-15",
+   "path": "data/pems/releases/arrays_2019/2019-06-15",
+   "sha256": "d7167aa2f21d0e02e995c60befe09a455ed7ff0ed5795747b8481a5e98f417a3",
+   "bytes": 128138,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-16",
+   "path": "data/pems/releases/arrays_2019/2019-06-16",
+   "sha256": "6f557577752d0e72b331d92dd6319398a8c2b724d9f5d73e76c3598cb95858fb",
+   "bytes": 127392,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-17",
+   "path": "data/pems/releases/arrays_2019/2019-06-17",
+   "sha256": "6278cd4d0b7dac0d697806482ac075a66f928db886c783234018ec4eae6fd96b",
+   "bytes": 129494,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-18",
+   "path": "data/pems/releases/arrays_2019/2019-06-18",
+   "sha256": "94357d7d4273bd257228f89d1601aba48ac4c6b36137532ef432f4bb747e4e82",
+   "bytes": 127691,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-19",
+   "path": "data/pems/releases/arrays_2019/2019-06-19",
+   "sha256": "76fa976f6df8c08dbacd6cb70f86db4c0b0625cd260e7492a1e72185442c5ae7",
+   "bytes": 127953,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-20",
+   "path": "data/pems/releases/arrays_2019/2019-06-20",
+   "sha256": "c631cf23e04faa82cf60c3c959fffa5be75026d4a5b545ce860dcf318e576bc5",
+   "bytes": 128536,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-21",
+   "path": "data/pems/releases/arrays_2019/2019-06-21",
+   "sha256": "10783d48822eecc5ac8aec0b5b9120c119ecfd47c7e28035f4e725883bfe5cb7",
+   "bytes": 127447,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-22",
+   "path": "data/pems/releases/arrays_2019/2019-06-22",
+   "sha256": "c1ee706cac4ebef3f42c9622be8d5aa244d04ef1da8b40dbd177ec06aa9b9761",
+   "bytes": 127440,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-23",
+   "path": "data/pems/releases/arrays_2019/2019-06-23",
+   "sha256": "4f340451b001c75e60447f28791436d9e8d8c9994d8499728d62534a61c42e62",
+   "bytes": 128174,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-24",
+   "path": "data/pems/releases/arrays_2019/2019-06-24",
+   "sha256": "0d152155420fc5d19e97d107c4bc46fd092287cce66a65d790e149abf426d770",
+   "bytes": 127962,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-25",
+   "path": "data/pems/releases/arrays_2019/2019-06-25",
+   "sha256": "62e4104ce17bc0a9216d7a819a54dd71611ade95b7270b6569aed91d24b3a919",
+   "bytes": 128279,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-26",
+   "path": "data/pems/releases/arrays_2019/2019-06-26",
+   "sha256": "b765572a34abcc9ac12177f41448221688bf06abea338f6a36b41e5b79bb9d54",
+   "bytes": 128479,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-27",
+   "path": "data/pems/releases/arrays_2019/2019-06-27",
+   "sha256": "c2918c98a4d8c59027b9737a34572cd0e8342b9a830906eb87c18a4c041dd112",
+   "bytes": 128517,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-28",
+   "path": "data/pems/releases/arrays_2019/2019-06-28",
+   "sha256": "1768d020a9ada24c89096a530bfdc91e053c015a25fa66c4b0c94bd5600fe201",
+   "bytes": 109075,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-29",
+   "path": "data/pems/releases/arrays_2019/2019-06-29",
+   "sha256": "e7041410b4367ebd0f91ddd0a7acfde066429432d7227064a7fbd0c72e850375",
+   "bytes": 103833,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-06-30",
+   "path": "data/pems/releases/arrays_2019/2019-06-30",
+   "sha256": "dc9232a9dc19958d5eb0e335b76e8116c4870d975d8c4b333e831b065b04348a",
+   "bytes": 104469,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-01",
+   "path": "data/pems/releases/arrays_2019/2019-07-01",
+   "sha256": "1749312326f75b4be989a9b37afa659fe622798959a5f3625c57a9f5a006d104",
+   "bytes": 105573,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-02",
+   "path": "data/pems/releases/arrays_2019/2019-07-02",
+   "sha256": "2cb7aff7886918d99be3dca02e5c2cf578c2e03dcaac050dc0041dced794a103",
+   "bytes": 105081,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-03",
+   "path": "data/pems/releases/arrays_2019/2019-07-03",
+   "sha256": "e662a22839b7eb67a54ebcca51657b2ad96ccf643c2b29ca04d025641bbe0d5c",
+   "bytes": 103906,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-04",
+   "path": "data/pems/releases/arrays_2019/2019-07-04",
+   "sha256": "3075ad2b53518bf6917c557d14686c3b479fba0aa557de1ff310bbaae4b8e5a9",
+   "bytes": 102689,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-05",
+   "path": "data/pems/releases/arrays_2019/2019-07-05",
+   "sha256": "9ea2428ec6d820a3492220dca0bf9e59f1247c31aa757e2c6e0af9e261a25d14",
+   "bytes": 104295,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-06",
+   "path": "data/pems/releases/arrays_2019/2019-07-06",
+   "sha256": "f509dc5fb19f5b4f1b6e4377fd22b82ad314a69363e93319ba21cdf9627e7d2b",
+   "bytes": 104419,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-07",
+   "path": "data/pems/releases/arrays_2019/2019-07-07",
+   "sha256": "a84e1e0f6f105c02423db2f6e245c5400db3fe6809b07e552dcc02694b299646",
+   "bytes": 103739,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-08",
+   "path": "data/pems/releases/arrays_2019/2019-07-08",
+   "sha256": "d99d62edc8f8d4efe6b3b74da0f2a102c65235280e2c42469ee686266ca2b7fb",
+   "bytes": 104633,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-09",
+   "path": "data/pems/releases/arrays_2019/2019-07-09",
+   "sha256": "26748777198a7db04e5f3e1e7078df42eca6426aafe7ede7c356e3ca9750f45e",
+   "bytes": 105608,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-10",
+   "path": "data/pems/releases/arrays_2019/2019-07-10",
+   "sha256": "6fbba09df36104c7a4304f7a85f39c12f14277d8aa2a50960174d9e644ee5c78",
+   "bytes": 106384,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-11",
+   "path": "data/pems/releases/arrays_2019/2019-07-11",
+   "sha256": "ed7628a689fb6408021d1fd48911ffe883f0ab13014e9644a13daef85da94e6b",
+   "bytes": 106213,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-12",
+   "path": "data/pems/releases/arrays_2019/2019-07-12",
+   "sha256": "7eee7493a10fe8b6ead1c72f90a1de686dcc41a74b3dac8055c0aaee933aa495",
+   "bytes": 104127,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-13",
+   "path": "data/pems/releases/arrays_2019/2019-07-13",
+   "sha256": "f635307ffb2d19d9b2007dc86e22ba8a3cacbd364d5e387b33b958168df12aad",
+   "bytes": 104088,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-14",
+   "path": "data/pems/releases/arrays_2019/2019-07-14",
+   "sha256": "e19d5d8be14b20b2e759a8c2a8bd71884fa1026afeb868bc241a662ef9541720",
+   "bytes": 103605,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-15",
+   "path": "data/pems/releases/arrays_2019/2019-07-15",
+   "sha256": "5dddbf5f5927c5405ab34162e8e1fc55b54491014384adcd59e6c153bd91c7e3",
+   "bytes": 111996,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-16",
+   "path": "data/pems/releases/arrays_2019/2019-07-16",
+   "sha256": "cae2710e7bbdc9e8d4fdb9ba7e7ceadbc054d4b99ec44a6f0d87506b16c0d9e8",
+   "bytes": 129033,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-17",
+   "path": "data/pems/releases/arrays_2019/2019-07-17",
+   "sha256": "63ccca8e62da1ebe4a15b4e9afab28c5fbebb42944ac4ece849be773eec10036",
+   "bytes": 128369,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-18",
+   "path": "data/pems/releases/arrays_2019/2019-07-18",
+   "sha256": "519177ebdbd0464e5e69985abbf3ea8d0710d9a192a684b94aa561733e7cbdf2",
+   "bytes": 128783,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-19",
+   "path": "data/pems/releases/arrays_2019/2019-07-19",
+   "sha256": "a0bb82b994f001ccb392fc8d6bc8dbf7f4cb270a3c6f39a57f7b4d389ead4ba9",
+   "bytes": 127498,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-20",
+   "path": "data/pems/releases/arrays_2019/2019-07-20",
+   "sha256": "962a1820ca2df5bc97453279a7f3666fca11aa438903b38b3c91330edbf8a297",
+   "bytes": 127438,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-21",
+   "path": "data/pems/releases/arrays_2019/2019-07-21",
+   "sha256": "e8c35a8702ff0a4273c4d7cb472d6b2c7e7e3b6702734cf2e4b652eb9e4b451a",
+   "bytes": 125419,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-22",
+   "path": "data/pems/releases/arrays_2019/2019-07-22",
+   "sha256": "ec6ec2452cce65ea341a6c5b7ec74e0caed09de2324e7f1e4b73766f10f1bd83",
+   "bytes": 123856,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-23",
+   "path": "data/pems/releases/arrays_2019/2019-07-23",
+   "sha256": "c4436b7f17bd0bb9f22c6ad1143b5108699e454b0d2b475cdb0f551e05eb90c7",
+   "bytes": 126669,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-24",
+   "path": "data/pems/releases/arrays_2019/2019-07-24",
+   "sha256": "e741a775afbc60aef9e3b92e38efc25485469fb88fb7e8e6207e52962904359e",
+   "bytes": 128216,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-25",
+   "path": "data/pems/releases/arrays_2019/2019-07-25",
+   "sha256": "82bc811cf7c76a89898d5585c44e34a22362b410816cc7b81e2d8332868e1e4b",
+   "bytes": 127237,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-26",
+   "path": "data/pems/releases/arrays_2019/2019-07-26",
+   "sha256": "a4533d0aaf504c70007dc1b4176ab20fe4e2fc968e88f3ed6c7c11d418ae6b72",
+   "bytes": 127823,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-27",
+   "path": "data/pems/releases/arrays_2019/2019-07-27",
+   "sha256": "d0778787c2635fa9e768d36038148eda5da7fbfe31582c2a4c8dcedfb9fe3ddb",
+   "bytes": 127097,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-28",
+   "path": "data/pems/releases/arrays_2019/2019-07-28",
+   "sha256": "269a54a79999ffe356cc8d8aca6edcaffb090dfc8a68707cdb43dbca57e2c29e",
+   "bytes": 125411,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-29",
+   "path": "data/pems/releases/arrays_2019/2019-07-29",
+   "sha256": "f3e6be5bd83cb1290e976e0c9a62e0f8190cd91120f3bc1f6563c192ff696d2a",
+   "bytes": 127593,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-30",
+   "path": "data/pems/releases/arrays_2019/2019-07-30",
+   "sha256": "09d66b94c2c1debee6c7ff915134506df072d05dac0ad01e0920f8127c96801c",
+   "bytes": 128318,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-07-31",
+   "path": "data/pems/releases/arrays_2019/2019-07-31",
+   "sha256": "f98ec290d9440da2d9e2b24867a89f9e5119642107fedf0908e976fae851c7cf",
+   "bytes": 128816,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-01",
+   "path": "data/pems/releases/arrays_2019/2019-08-01",
+   "sha256": "5b3ca96a9c8baead31bf8dd5ce9c6940bd9cee646e1a299acd29b1493263330c",
+   "bytes": 126223,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-02",
+   "path": "data/pems/releases/arrays_2019/2019-08-02",
+   "sha256": "2cba12ad7db00adb0f8f83554e71ae0bb8e8463644c5585f9d39df8eb849587d",
+   "bytes": 126743,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-03",
+   "path": "data/pems/releases/arrays_2019/2019-08-03",
+   "sha256": "689e1a6fcd786cbd4859e197878501abb0d52990db4c9555e84e881f76fc131d",
+   "bytes": 128398,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-04",
+   "path": "data/pems/releases/arrays_2019/2019-08-04",
+   "sha256": "532c954bbeaea4ebfacbd3dbc1bb286fada7b70e703777b0ddf5daf921a43ebd",
+   "bytes": 128515,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-05",
+   "path": "data/pems/releases/arrays_2019/2019-08-05",
+   "sha256": "de306146f17d8242cfaede6858ccc84bffbc7bb2998287f8555676a855281bc8",
+   "bytes": 126432,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-06",
+   "path": "data/pems/releases/arrays_2019/2019-08-06",
+   "sha256": "13d342d03a7ae889caac3545c1812da7e9ea6156b48555f7aca058effe5c03fd",
+   "bytes": 128272,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-07",
+   "path": "data/pems/releases/arrays_2019/2019-08-07",
+   "sha256": "a29e9e71983292e31773e0f67c8f48510a1ef1a900da80e2e516b62a76b51917",
+   "bytes": 130307,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-08",
+   "path": "data/pems/releases/arrays_2019/2019-08-08",
+   "sha256": "8dfaab72165961324dd290dffcbbf25b73b199563181a6ebfbddb6f703983844",
+   "bytes": 130014,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-09",
+   "path": "data/pems/releases/arrays_2019/2019-08-09",
+   "sha256": "33b572fb060fc3aa15408549fa92d5e6b896e115e188c9b7f00f08c19bead28a",
+   "bytes": 128675,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-10",
+   "path": "data/pems/releases/arrays_2019/2019-08-10",
+   "sha256": "e895c20b5990e54d81e7cf05549135678394e7e82c5f0cdce494fa1c78cb08c4",
+   "bytes": 127181,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-11",
+   "path": "data/pems/releases/arrays_2019/2019-08-11",
+   "sha256": "da5388b53ab48a76991e0856fd1d7fe90510c92ca021d212a48294a6f1236974",
+   "bytes": 127482,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-12",
+   "path": "data/pems/releases/arrays_2019/2019-08-12",
+   "sha256": "36115fa1548bf1040b0f97cafbe15182b4100b1e092e56adaf849c5da5ed5004",
+   "bytes": 120986,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-13",
+   "path": "data/pems/releases/arrays_2019/2019-08-13",
+   "sha256": "631921fe1eded510e437e74f2680ad6189b7847ddc4d41eef4c360bd6019111a",
+   "bytes": 105360,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-14",
+   "path": "data/pems/releases/arrays_2019/2019-08-14",
+   "sha256": "617ee439f53d75d36bef4d0ca3d598976f80a3e4aacbf6f6b0a3129b1a229b98",
+   "bytes": 106056,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-15",
+   "path": "data/pems/releases/arrays_2019/2019-08-15",
+   "sha256": "312c6d678fc4b8cfc8d84b9b6a606332ef401e603fb69ede7f1051a569955a1f",
+   "bytes": 108822,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-16",
+   "path": "data/pems/releases/arrays_2019/2019-08-16",
+   "sha256": "206654d83254c75bcaa8a5e50865f23a29e77a560ff8f51ee37ddc423f8931e1",
+   "bytes": 107944,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-17",
+   "path": "data/pems/releases/arrays_2019/2019-08-17",
+   "sha256": "c4aa7c0c254609dc25a911e39f877dfc01de3fff0271d5cbc96ea1c23db15742",
+   "bytes": 107571,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-18",
+   "path": "data/pems/releases/arrays_2019/2019-08-18",
+   "sha256": "3285f9483f628fc03ff8b0b8cd57a3d23e31ceb6a707aa487563364b1a2555dd",
+   "bytes": 109716,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-19",
+   "path": "data/pems/releases/arrays_2019/2019-08-19",
+   "sha256": "1d5cb30e30d4a2f731e08bf9ae8207bc4c453dd0d29e2a7e29543bbce052f2eb",
+   "bytes": 107903,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-20",
+   "path": "data/pems/releases/arrays_2019/2019-08-20",
+   "sha256": "7f8866e492efe5ed7137c3e697afb7416613e8010dcd00da41272d8604310539",
+   "bytes": 109641,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-21",
+   "path": "data/pems/releases/arrays_2019/2019-08-21",
+   "sha256": "74297da053f4be8d3fe8d6fbdbe92e03b8606b605469944392f3eeb25e88caae",
+   "bytes": 110346,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-22",
+   "path": "data/pems/releases/arrays_2019/2019-08-22",
+   "sha256": "e0a984eda04e6ee0981262702cb7b27b2183e82276041ffaf2c3474f5fa304d8",
+   "bytes": 108358,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-23",
+   "path": "data/pems/releases/arrays_2019/2019-08-23",
+   "sha256": "899175df1edae93fc9f09cfa5d0e9fa774e4f2a40707cb3ee784b4b22adeab42",
+   "bytes": 113557,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-24",
+   "path": "data/pems/releases/arrays_2019/2019-08-24",
+   "sha256": "e37af93fc7175913a2923e843801a9b77b0ddf996f4b2dab63733975705653a2",
+   "bytes": 117631,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-25",
+   "path": "data/pems/releases/arrays_2019/2019-08-25",
+   "sha256": "483f8815ec4bb730c2d7d3c43963c7fce04aaf6e5ce68d73fbc9e98beb818165",
+   "bytes": 116361,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-26",
+   "path": "data/pems/releases/arrays_2019/2019-08-26",
+   "sha256": "6301127763bae1686d91790cadee6095ba5fa5970a9052387c33258e67e7685b",
+   "bytes": 123930,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-27",
+   "path": "data/pems/releases/arrays_2019/2019-08-27",
+   "sha256": "0f58788f79ae0c176b7feb717bf0e3962d0d54a3412338167180a3c1e9cda522",
+   "bytes": 129831,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-28",
+   "path": "data/pems/releases/arrays_2019/2019-08-28",
+   "sha256": "205d00da598aa605f1fced6f9b54328451aca656a6e291038290296ff480c54e",
+   "bytes": 129105,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-29",
+   "path": "data/pems/releases/arrays_2019/2019-08-29",
+   "sha256": "0889f4fb473120bab560786aff202ef883a65613f044d21aeba94b8c685c1e79",
+   "bytes": 129422,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-30",
+   "path": "data/pems/releases/arrays_2019/2019-08-30",
+   "sha256": "e9e0d2a8605c22d65f70d3e5cd8c727111954cf9ed3075a20cde7c26862afebc",
+   "bytes": 127749,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-08-31",
+   "path": "data/pems/releases/arrays_2019/2019-08-31",
+   "sha256": "2953fd97e313e1c75a74b1392e01dcf1b187f3a6589173804ce28d4bfa78374e",
+   "bytes": 124174,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-01",
+   "path": "data/pems/releases/arrays_2019/2019-09-01",
+   "sha256": "b0a0f0ba18d202d83650927c7dcb0ee8f99f19fd75bcf88c7d84e82207d07d10",
+   "bytes": 118232,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-02",
+   "path": "data/pems/releases/arrays_2019/2019-09-02",
+   "sha256": "a11eac812e04585f33f2ad0fdc257e24d4fa34d756748cc64ae892453df22659",
+   "bytes": 113820,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-03",
+   "path": "data/pems/releases/arrays_2019/2019-09-03",
+   "sha256": "16643ed2a14512fa3d06caf0f6bf75465d937bcdb8790263e5a6f3a84fe4ba40",
+   "bytes": 120407,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-04",
+   "path": "data/pems/releases/arrays_2019/2019-09-04",
+   "sha256": "952089a5908fe0217eacae83f0a04d49e0be4dd16388f0727dc23443e82b9145",
+   "bytes": 124488,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-05",
+   "path": "data/pems/releases/arrays_2019/2019-09-05",
+   "sha256": "916812ae78c50d1b024540e64d605ef96534ed8637605db3cabefb1649fd63ed",
+   "bytes": 130296,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-06",
+   "path": "data/pems/releases/arrays_2019/2019-09-06",
+   "sha256": "f6b025966388bbdec2d695f6bfc5198d69bf255191bf422468ce0b3b280ee5f0",
+   "bytes": 130023,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-07",
+   "path": "data/pems/releases/arrays_2019/2019-09-07",
+   "sha256": "95004a6fa9a4571205d66a6eef257aa2c4c6ffc2a21a8d9d3b74ee7bd86d69f1",
+   "bytes": 126192,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-08",
+   "path": "data/pems/releases/arrays_2019/2019-09-08",
+   "sha256": "50000ddd91d93c986a5b44244849c9a8f358deb24b8a3ea109d5e976f80d43ef",
+   "bytes": 127150,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-09",
+   "path": "data/pems/releases/arrays_2019/2019-09-09",
+   "sha256": "20012923a47689db7d5fd92dfc8fc85041d11d297c527a8d0a1f45b99ba79ae0",
+   "bytes": 125762,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-10",
+   "path": "data/pems/releases/arrays_2019/2019-09-10",
+   "sha256": "638d925c9f8def4d3ae9bd27fcc0cb9f6b40027821d5741cfd87fb99f20777f0",
+   "bytes": 119132,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-11",
+   "path": "data/pems/releases/arrays_2019/2019-09-11",
+   "sha256": "369a2f68516bf48636065f6edb85ea855e4224bb0bc0d2f5069aac83306c02c4",
+   "bytes": 127415,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-12",
+   "path": "data/pems/releases/arrays_2019/2019-09-12",
+   "sha256": "04bd21571a005da022a607ae85a631ef7a43575b4020c1f534cefd082b2265c8",
+   "bytes": 130101,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-13",
+   "path": "data/pems/releases/arrays_2019/2019-09-13",
+   "sha256": "06eae875f0ccae873a61afec99dd1fb44cbebe5aacb2ce64c6fe706a67a99b0d",
+   "bytes": 128350,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-14",
+   "path": "data/pems/releases/arrays_2019/2019-09-14",
+   "sha256": "dc974b248a6564cf4635970fb4cdf7e636c0ce354eb6b4ce14d0ab6438bbda45",
+   "bytes": 128810,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-15",
+   "path": "data/pems/releases/arrays_2019/2019-09-15",
+   "sha256": "d9191c3f9eee9cf750c457f545fa4de0ebe9e9d656255b33705510da28978796",
+   "bytes": 127679,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-16",
+   "path": "data/pems/releases/arrays_2019/2019-09-16",
+   "sha256": "dceb40cc51ab800af51877fc5739d02de50deceaf66ecf39390953e90c22cdda",
+   "bytes": 125551,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-17",
+   "path": "data/pems/releases/arrays_2019/2019-09-17",
+   "sha256": "dcf23be229d4f5af1c75e77e57b272df23fa5b3f35bf80a9c7eff09b4a54f2e1",
+   "bytes": 120358,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-18",
+   "path": "data/pems/releases/arrays_2019/2019-09-18",
+   "sha256": "0e54cc31de6eeb1758101dc04741ac689336d30cd7f838a41f7f5eec031b2352",
+   "bytes": 121132,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-19",
+   "path": "data/pems/releases/arrays_2019/2019-09-19",
+   "sha256": "2997dabbe6f2dd022c2c464b66e3b2ddc91bf1e708d3cf31789ea26b8089b159",
+   "bytes": 119965,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-20",
+   "path": "data/pems/releases/arrays_2019/2019-09-20",
+   "sha256": "7bd711889af7411d7e8236d298768e3f26bae4da796e06772aab031a757e802e",
+   "bytes": 124308,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-21",
+   "path": "data/pems/releases/arrays_2019/2019-09-21",
+   "sha256": "8f3163c4744e4646f6119374e0dbe639b965c6e70852dcb604dba3860c1d5dc7",
+   "bytes": 128523,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-22",
+   "path": "data/pems/releases/arrays_2019/2019-09-22",
+   "sha256": "0f1035c57cbc7b3f081d47bbb05b623e865a658f5bf6e445c33b42bed60892df",
+   "bytes": 125157,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-23",
+   "path": "data/pems/releases/arrays_2019/2019-09-23",
+   "sha256": "756da615a14600d25b7ea32c2b62d5dd5bc7a07cd78425a8e2e65a356902c72a",
+   "bytes": 119798,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-24",
+   "path": "data/pems/releases/arrays_2019/2019-09-24",
+   "sha256": "c191bfee8fa5c2b22d33f49ea2b1719228019cf65ef84895a69babffe5f0d5a3",
+   "bytes": 127124,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-25",
+   "path": "data/pems/releases/arrays_2019/2019-09-25",
+   "sha256": "f4167b36636a337826148d903bc79a84be56335394e0eeeb5448e473a15fa569",
+   "bytes": 128849,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-26",
+   "path": "data/pems/releases/arrays_2019/2019-09-26",
+   "sha256": "dbd96caf74dae41753ae6d28afc7a10b891214afc83a503638c7ccca5dbd49f7",
+   "bytes": 129373,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-27",
+   "path": "data/pems/releases/arrays_2019/2019-09-27",
+   "sha256": "8c23ef12cb0dfce784722d4c8691b5a079f2c4a4022dfe5791330640f9742b5e",
+   "bytes": 127012,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-28",
+   "path": "data/pems/releases/arrays_2019/2019-09-28",
+   "sha256": "916a52303385be69bda25a7e023d0ebe874a06824ec7294371b3a9aaa2411d23",
+   "bytes": 126932,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-29",
+   "path": "data/pems/releases/arrays_2019/2019-09-29",
+   "sha256": "4c21414fa8b694e0c3058c6f76aa4aa84aefbde16ddf56a8db1adb6046c56a72",
+   "bytes": 128160,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-09-30",
+   "path": "data/pems/releases/arrays_2019/2019-09-30",
+   "sha256": "3a6c642ece54e0f420d7faa23e3af5cfeba244b9dffb9492d3b5d281950dd0d2",
+   "bytes": 124299,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-01",
+   "path": "data/pems/releases/arrays_2019/2019-10-01",
+   "sha256": "5a696d904918c55dd63ec209f759dc72e0ffa14d78dd193f048cd37c9b7223b0",
+   "bytes": 123960,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-02",
+   "path": "data/pems/releases/arrays_2019/2019-10-02",
+   "sha256": "6d6c78a3b7cbc4385911f28733eca2a262c59aac01bb3b81254a3790c7b8f288",
+   "bytes": 129069,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-03",
+   "path": "data/pems/releases/arrays_2019/2019-10-03",
+   "sha256": "03b62383c4afa9e14ff80c95472e29029c41e4816dd1079d1d734d448df38831",
+   "bytes": 129468,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-04",
+   "path": "data/pems/releases/arrays_2019/2019-10-04",
+   "sha256": "2c0d34909aa47342dd0cfb8f833713db20caa104d0d9cc300dd376f52e5d8c50",
+   "bytes": 129316,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-05",
+   "path": "data/pems/releases/arrays_2019/2019-10-05",
+   "sha256": "60ac94085f2e8e89c9144aa3bdec9f0baf90e3507b461cf7bcdefe38893c2123",
+   "bytes": 125895,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-06",
+   "path": "data/pems/releases/arrays_2019/2019-10-06",
+   "sha256": "2a6ada70a084a3c8c56fb884ec9b0be401ef3f6afd2489762bc1f5771f66f85f",
+   "bytes": 123562,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-07",
+   "path": "data/pems/releases/arrays_2019/2019-10-07",
+   "sha256": "1f3842bea53967e0c690aae34b62949bc62a6c2e09192d2a7844bbdea31032bb",
+   "bytes": 124868,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-08",
+   "path": "data/pems/releases/arrays_2019/2019-10-08",
+   "sha256": "5e9740d855139a94cea518eee776d56329c1e07e3ff3ae90b58f1ac69f0cce95",
+   "bytes": 123800,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-09",
+   "path": "data/pems/releases/arrays_2019/2019-10-09",
+   "sha256": "c174a3e6c15f1757800520c5cb68071bef0eaf67a3e5405d59f0a580f20494eb",
+   "bytes": 125940,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-10",
+   "path": "data/pems/releases/arrays_2019/2019-10-10",
+   "sha256": "dbb3aabb152acfed95db5523846db244ab6a99c19bf69cf7664c54d8bc8b5f98",
+   "bytes": 129946,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-11",
+   "path": "data/pems/releases/arrays_2019/2019-10-11",
+   "sha256": "3e698ca51e66f51a227c5e3e1f4b3775d7f9254c90ef64855c670ee19a6eb573",
+   "bytes": 128540,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-12",
+   "path": "data/pems/releases/arrays_2019/2019-10-12",
+   "sha256": "28cb35a59e73a56d94e7aa5cccbcd132618682239b08f6ba285b7ec1dbad6d92",
+   "bytes": 127798,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-13",
+   "path": "data/pems/releases/arrays_2019/2019-10-13",
+   "sha256": "ff5393bd6c7cd4857e2a86a1595e17fce593840436d29005e3a14f6dd0d614c3",
+   "bytes": 122919,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-14",
+   "path": "data/pems/releases/arrays_2019/2019-10-14",
+   "sha256": "56691c0820f0ad4338c3fc5b046324faa45d300d6768c58ee5a57cbcddb7d88c",
+   "bytes": 117463,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-15",
+   "path": "data/pems/releases/arrays_2019/2019-10-15",
+   "sha256": "3bae274b0d363cf1f4dc8e5e91223601836811cba8aed8fb2c3df54aae3aa0df",
+   "bytes": 128669,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-16",
+   "path": "data/pems/releases/arrays_2019/2019-10-16",
+   "sha256": "d093614ff0b92ea18f9952b7f9d4278479495fb5f35e737d6d14eb7f61efdad0",
+   "bytes": 128953,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-17",
+   "path": "data/pems/releases/arrays_2019/2019-10-17",
+   "sha256": "55ea8ad3fb6114902f6bd2c0963941a23ee545868f6264817946104f276c51ac",
+   "bytes": 129352,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-18",
+   "path": "data/pems/releases/arrays_2019/2019-10-18",
+   "sha256": "b6fb596d0c8fb33801b6cab60606e3d7aaea30c4ad8768365f833ddb63f4eca5",
+   "bytes": 128351,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-19",
+   "path": "data/pems/releases/arrays_2019/2019-10-19",
+   "sha256": "a7aa816cedb5abc2e58add8cb5a80d95bfdd9eed925da37508da9b66d41f5529",
+   "bytes": 127485,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-20",
+   "path": "data/pems/releases/arrays_2019/2019-10-20",
+   "sha256": "b6a3e865c22887e7a64c954611bf95eaa1f3f4ca4c8980d71fc154660a24f2f5",
+   "bytes": 127528,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-21",
+   "path": "data/pems/releases/arrays_2019/2019-10-21",
+   "sha256": "2613075fb7d8f2378a7166c23dc9c14067154d84bb57b18815e017e4d4dc808c",
+   "bytes": 128432,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-22",
+   "path": "data/pems/releases/arrays_2019/2019-10-22",
+   "sha256": "f429d1205512ba3fe704599b677f14c5c295dcefe5eb684a791aee7aa9e0f670",
+   "bytes": 129379,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-23",
+   "path": "data/pems/releases/arrays_2019/2019-10-23",
+   "sha256": "99a927ecb53495e5b988ab045eee778039acfc45019bf9553aa071b4f3fcdf83",
+   "bytes": 130047,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-24",
+   "path": "data/pems/releases/arrays_2019/2019-10-24",
+   "sha256": "249d8046ac116470ec9e25435703abe856967a988052a1d20470c37537400559",
+   "bytes": 129123,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-25",
+   "path": "data/pems/releases/arrays_2019/2019-10-25",
+   "sha256": "88814e3a1935300c01319d1020d212f0a79572c9e486b0bf30c19cc7cebdb556",
+   "bytes": 128904,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-26",
+   "path": "data/pems/releases/arrays_2019/2019-10-26",
+   "sha256": "671a2e14f2e37a98400c8dfa7f95366a5cff51de191f776de326d688f79e8175",
+   "bytes": 127510,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-27",
+   "path": "data/pems/releases/arrays_2019/2019-10-27",
+   "sha256": "7887c8e662ddcc471fba8568d275caf44c95fc24120c977a2e6bd75075d56a98",
+   "bytes": 127859,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-28",
+   "path": "data/pems/releases/arrays_2019/2019-10-28",
+   "sha256": "6021455261d00d259feaf32b87b00b06b7b156d3d77d0f06e8520d2d95583622",
+   "bytes": 128859,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-29",
+   "path": "data/pems/releases/arrays_2019/2019-10-29",
+   "sha256": "f8c2e8ec9ce6fc4ea92daadcc8c6393d179ce4e0dc68a5b1a4b9a7e0b6be944e",
+   "bytes": 129466,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-30",
+   "path": "data/pems/releases/arrays_2019/2019-10-30",
+   "sha256": "fc2da51091838af57e707ec6d9e3b9913d8866a813708ff2de8237c2f01b5b22",
+   "bytes": 124754,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-10-31",
+   "path": "data/pems/releases/arrays_2019/2019-10-31",
+   "sha256": "69cb5f99c548b0c035d495666b6a56afd5f6049d69a344873f15720b63510f97",
+   "bytes": 124111,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-01",
+   "path": "data/pems/releases/arrays_2019/2019-11-01",
+   "sha256": "b2a3c56bf6567b90de4afa36f9644009c6c39e280853e88ae05eb201403cada4",
+   "bytes": 102047,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-02",
+   "path": "data/pems/releases/arrays_2019/2019-11-02",
+   "sha256": "9685fd8345fc9812836f7f43b96d3f107869675aa3a490848bcb50879f81e767",
+   "bytes": 101386,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-03",
+   "path": "data/pems/releases/arrays_2019/2019-11-03",
+   "sha256": "8b67ad07ae6d4c28cca43c9b26159dd149dde0e9fe1fbf83444fff7f2cf7d181",
+   "bytes": 101183,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-04",
+   "path": "data/pems/releases/arrays_2019/2019-11-04",
+   "sha256": "121e4b2f1a5e4effcd43970d023f92ac5b30013c16eb280ea779d1827036cbdd",
+   "bytes": 103407,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-05",
+   "path": "data/pems/releases/arrays_2019/2019-11-05",
+   "sha256": "d3a63ce25a82138fc7fd9162e1b866bc3542a45c68f1869ae775772ddc861e27",
+   "bytes": 103612,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-06",
+   "path": "data/pems/releases/arrays_2019/2019-11-06",
+   "sha256": "7b57568bdb5b361a9d942f93e11aa0452faf31f9a2d72107b3259bf8a8f57828",
+   "bytes": 103286,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-07",
+   "path": "data/pems/releases/arrays_2019/2019-11-07",
+   "sha256": "66f26ce420ba8dee0df3f209441c1039328ff9b10ded278f9916166da25d589b",
+   "bytes": 103114,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-08",
+   "path": "data/pems/releases/arrays_2019/2019-11-08",
+   "sha256": "1fd48e1260b0b9a568d4f767ada9c5f7ddee13b7251314c1025aa84a27bc3771",
+   "bytes": 102530,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-09",
+   "path": "data/pems/releases/arrays_2019/2019-11-09",
+   "sha256": "706a391a782ac39865679a08ee6e8aeff9dc3c5f80ea954980a3f36d3d639f25",
+   "bytes": 102164,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-10",
+   "path": "data/pems/releases/arrays_2019/2019-11-10",
+   "sha256": "f859dabcfede85cee57c178387f7a101426134906b485f1d83928af70a47b3dc",
+   "bytes": 102322,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-11",
+   "path": "data/pems/releases/arrays_2019/2019-11-11",
+   "sha256": "b9ac70a6dd4229d228c02dc1dd68d5e6f838734053019d59a56c3911f0711943",
+   "bytes": 101161,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-12",
+   "path": "data/pems/releases/arrays_2019/2019-11-12",
+   "sha256": "a5f8901f1a435422347256f6933b0e3667feaa2a22f3dacea55bcac3b8356f46",
+   "bytes": 101947,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-13",
+   "path": "data/pems/releases/arrays_2019/2019-11-13",
+   "sha256": "1f488b0439c9b58578441aeb2327a9c31e04c23cfe1e7696b559d2dbb256f3b1",
+   "bytes": 103196,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-14",
+   "path": "data/pems/releases/arrays_2019/2019-11-14",
+   "sha256": "740cb840b6ed32e9a9725af9989c0a0cb4f54e4fae55cbadde334c3a937cfb9b",
+   "bytes": 102801,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-15",
+   "path": "data/pems/releases/arrays_2019/2019-11-15",
+   "sha256": "06da8cf2620a9984eee232a680b1065449c50b4dd2cc00e126f40eba37bde4a2",
+   "bytes": 104860,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-16",
+   "path": "data/pems/releases/arrays_2019/2019-11-16",
+   "sha256": "a2677573e7187e1bc295fb078ec3490e06a68149f8e9913f8d56171c962bd540",
+   "bytes": 107436,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-17",
+   "path": "data/pems/releases/arrays_2019/2019-11-17",
+   "sha256": "9f712fcb0c06c7915def489422723fb489af52b1e85490d83973864460860c17",
+   "bytes": 106908,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-18",
+   "path": "data/pems/releases/arrays_2019/2019-11-18",
+   "sha256": "d307ac061f80fd3da9a24bf6455ae7508c63a23915f8d45e043fca426b80797b",
+   "bytes": 108693,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-19",
+   "path": "data/pems/releases/arrays_2019/2019-11-19",
+   "sha256": "937575052762830805b5eede185fc4252ebad167a722807c3e5dc5c938973566",
+   "bytes": 107379,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-20",
+   "path": "data/pems/releases/arrays_2019/2019-11-20",
+   "sha256": "0b8fbd89eff77cf96b9d64da5529fa1068180988c5255611b92ef5ca404ffd52",
+   "bytes": 108206,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-21",
+   "path": "data/pems/releases/arrays_2019/2019-11-21",
+   "sha256": "6a253d7d908bd71d008a62777f2baf2ec3b23ef87ce48db834513c2be72a3af0",
+   "bytes": 107149,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-22",
+   "path": "data/pems/releases/arrays_2019/2019-11-22",
+   "sha256": "6e249a53710977fe5213c80114ada344c80f38a9005127ede2c04b2f710a244e",
+   "bytes": 106674,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-23",
+   "path": "data/pems/releases/arrays_2019/2019-11-23",
+   "sha256": "30aca3cc62852efdbd8e7b67216cf3f17eb62914a996b6cf045927268abd482d",
+   "bytes": 105478,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-24",
+   "path": "data/pems/releases/arrays_2019/2019-11-24",
+   "sha256": "53bd616eba23ba25bd27f6c44d2c74b46d2f4ac644940d549f7ba5983dc75cfd",
+   "bytes": 103412,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-25",
+   "path": "data/pems/releases/arrays_2019/2019-11-25",
+   "sha256": "ad0ddec54634251e02239d0d087edf21792cc47f3c9e552f1cd320bd3a79225f",
+   "bytes": 104154,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-26",
+   "path": "data/pems/releases/arrays_2019/2019-11-26",
+   "sha256": "cffabfd7bc7f2500396c070c3274e3509d19017811045eea1951305da9ad4bac",
+   "bytes": 73056,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-27",
+   "path": "data/pems/releases/arrays_2019/2019-11-27",
+   "sha256": "5dfa64c8031fdbf0973950901357db5e2e07b632aa84952b1ff6541902c790ae",
+   "bytes": 106096,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-28",
+   "path": "data/pems/releases/arrays_2019/2019-11-28",
+   "sha256": "3ca871a99fe8333cc5ff2b2341988325a782b50cd1aea255f1f9dde32ad3aee4",
+   "bytes": 104476,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-29",
+   "path": "data/pems/releases/arrays_2019/2019-11-29",
+   "sha256": "4f7509390b3c0728c8db3d2110ba497895874be728291d8381d6ebe9bec5bc10",
+   "bytes": 105043,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-11-30",
+   "path": "data/pems/releases/arrays_2019/2019-11-30",
+   "sha256": "055bb7458fc0fcfb0040de275ca6ab49db98a311ed94ea67a1c367940ba4999c",
+   "bytes": 105091,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-01",
+   "path": "data/pems/releases/arrays_2019/2019-12-01",
+   "sha256": "8956d6ce168200d24548c43e60c6339f27aff995c7fbe0021a16d063b9a2a222",
+   "bytes": 103032,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-02",
+   "path": "data/pems/releases/arrays_2019/2019-12-02",
+   "sha256": "4a85133990afcd1c82de4ef47282690ca7d7f402054ddc77369f065290827e0d",
+   "bytes": 106955,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-03",
+   "path": "data/pems/releases/arrays_2019/2019-12-03",
+   "sha256": "f6fab28ed53d8b3632486b87d95e3c48262a3bcd71007b44c500c52f4046844e",
+   "bytes": 106041,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-04",
+   "path": "data/pems/releases/arrays_2019/2019-12-04",
+   "sha256": "47c9a80424804a391b0e3d867d8d988fac7d2fff9d8baafd3c6c0eabba3661d0",
+   "bytes": 105964,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-05",
+   "path": "data/pems/releases/arrays_2019/2019-12-05",
+   "sha256": "bd2d23d42571fbe9f7bdf3868685d1137a991376bb4f7ca78710e07a9ca767b3",
+   "bytes": 106090,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-06",
+   "path": "data/pems/releases/arrays_2019/2019-12-06",
+   "sha256": "5edb7208454da55cc8b0ccaefe8c5569444f36e12d7305e9ff721f5f664cfc26",
+   "bytes": 105140,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-07",
+   "path": "data/pems/releases/arrays_2019/2019-12-07",
+   "sha256": "142410517c4d8891b02d4177f15ad42fe0ff5b3999ecc4b8e1ffef5083686c7f",
+   "bytes": 104972,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-08",
+   "path": "data/pems/releases/arrays_2019/2019-12-08",
+   "sha256": "9673f68a5e34366873bba9d783b9f1dc407b84b9ec25c023f9daa009f2663c25",
+   "bytes": 105337,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-09",
+   "path": "data/pems/releases/arrays_2019/2019-12-09",
+   "sha256": "713a6f3d43386d779fcf6eaf522d29f56a67ef6060d494763adf4071bc79b5e1",
+   "bytes": 104746,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-10",
+   "path": "data/pems/releases/arrays_2019/2019-12-10",
+   "sha256": "45447eac1844c86bff512f45f20aa3858e02ee6029b31abf12915624a1950574",
+   "bytes": 104479,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-11",
+   "path": "data/pems/releases/arrays_2019/2019-12-11",
+   "sha256": "dccf6587a0f7ade414c77e770d50f1dfb96b02b32b57d4cc7deb7144d63e59eb",
+   "bytes": 105186,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-12",
+   "path": "data/pems/releases/arrays_2019/2019-12-12",
+   "sha256": "cbc2d4775354bdffb1abca164277a6e71e6b77c5c0a386d2dc8aa7226666741e",
+   "bytes": 99831,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-13",
+   "path": "data/pems/releases/arrays_2019/2019-12-13",
+   "sha256": "915f60c46165ded588cdb54e9fb8adc260329c4354fece60aaae0fc91bbffc12",
+   "bytes": 96970,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-14",
+   "path": "data/pems/releases/arrays_2019/2019-12-14",
+   "sha256": "5a1981d0796feb1a7d61879dfc2b56e7e12e8f151154f1d3d398758244866116",
+   "bytes": 97145,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-15",
+   "path": "data/pems/releases/arrays_2019/2019-12-15",
+   "sha256": "ef0188a21b4a2fc661b8abb761a8e071991284e8bdfdac84aaa913fc2e4fa1ba",
+   "bytes": 97101,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-16",
+   "path": "data/pems/releases/arrays_2019/2019-12-16",
+   "sha256": "559454148057d3db9cb704d110887085e3da37048776c45d026cf71ec9bc586d",
+   "bytes": 97244,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-17",
+   "path": "data/pems/releases/arrays_2019/2019-12-17",
+   "sha256": "a524296b26483342a157a76cbd7432c4473566c5aefbaebd62e3003aa1c0fbdf",
+   "bytes": 95928,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-18",
+   "path": "data/pems/releases/arrays_2019/2019-12-18",
+   "sha256": "2fff906314d2f5fc57fa42a66beb3dde3d5277dc2a08a12aea2ed0124cad82be",
+   "bytes": 95109,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-19",
+   "path": "data/pems/releases/arrays_2019/2019-12-19",
+   "sha256": "c28190f12501ac65123fd3ef16deb1972d7bc8b6a7e467fb0276ec03e743ca4f",
+   "bytes": 100887,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-20",
+   "path": "data/pems/releases/arrays_2019/2019-12-20",
+   "sha256": "a697521557d080eee155b087cb86123026bff50fc7e78af724a79fc2c4678479",
+   "bytes": 102034,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-21",
+   "path": "data/pems/releases/arrays_2019/2019-12-21",
+   "sha256": "521947a1f8b920aa76d2fd3ee62d430de45078674626cd2f3c750dfbe711acec",
+   "bytes": 100793,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-22",
+   "path": "data/pems/releases/arrays_2019/2019-12-22",
+   "sha256": "7e599060eb88ebafdb7995f248a659c2539fa09ae40637178ef92455787d101a",
+   "bytes": 100811,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-23",
+   "path": "data/pems/releases/arrays_2019/2019-12-23",
+   "sha256": "e1d992dc7e4e2885e21a008dbe7149ba0a3cf362f69598c8077149e8d7024aad",
+   "bytes": 99516,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-24",
+   "path": "data/pems/releases/arrays_2019/2019-12-24",
+   "sha256": "753aa05f505be34eeb311722944e43002bf33c177eb5aedb2763641f06184b25",
+   "bytes": 100093,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-25",
+   "path": "data/pems/releases/arrays_2019/2019-12-25",
+   "sha256": "b3da56f8be8ad4c6ec964735bb7a69fb9ac4a574ae307bb769a0575e77ff69e6",
+   "bytes": 100329,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-26",
+   "path": "data/pems/releases/arrays_2019/2019-12-26",
+   "sha256": "75bb0c577bea7738bfb40ef92c1d5561ce4c13e46e797f1670cd13569e73f2af",
+   "bytes": 101451,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-27",
+   "path": "data/pems/releases/arrays_2019/2019-12-27",
+   "sha256": "70c183d2bacd2c90fa6112616ce36e55c681ba822355838db4a1175a26e22d32",
+   "bytes": 100985,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-28",
+   "path": "data/pems/releases/arrays_2019/2019-12-28",
+   "sha256": "1c0a42d6c8bb8f4462e953d37657a63c2d5e81449ef793926caf508a740c07ab",
+   "bytes": 101472,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-29",
+   "path": "data/pems/releases/arrays_2019/2019-12-29",
+   "sha256": "d207acfc8f278ee30bc6f08f4778cf792a29a6d6ef8553d38aeba85f8a5183cf",
+   "bytes": 73957,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-30",
+   "path": "data/pems/releases/arrays_2019/2019-12-30",
+   "sha256": "313cd227e9a807e411175762b78c6d3de5f9a268a97e271b949cd71024c5fc17",
+   "bytes": 98624,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  {
+   "day": "2019-12-31",
+   "path": "data/pems/releases/arrays_2019/2019-12-31",
+   "sha256": "6296dff53bae618393321fadcac74ad0d52356472e79053c3d8f2801662348a4",
+   "bytes": 68044,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  }
+ ]
+}

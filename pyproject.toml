@@ -1,0 +1,30 @@
+[project]
+name = "glotr"
+version = "0.1.0"
+description = "Global-Token Reconstruction with Residual Transfer for prolonged traffic-sensor outages"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "torch==2.12.0",
+  "torch-geometric==2.8.0.post1",
+  "numpy==2.4.4",
+]
+
+[build-system]
+requires = ["pdm-backend==2.4.9"]
+build-backend = "pdm.backend"
+
+[tool.pdm.build]
+package-dir = "."
+includes = [
+  "models/",
+  "scripts/",
+  "training/",
+  "evaluation/",
+  "representations/",
+  "losses/",
+  "physics/",
+]
+excludes = ["**/__pycache__/", "**/*.pyc", "data/", "reviews/", "img/"]
+
+[tool.pytest.ini_options]
+testpaths = []

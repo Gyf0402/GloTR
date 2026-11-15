@@ -1,0 +1,11 @@
+# Byte-exact checkout matters: the pipeline verifies SHA256 of the frozen
+# artifacts under data/ and reviews/. Any end-of-line conversion changes those
+# digests, so disable it globally.
+* -text
+
+# Local staging of raw PeMS archives and derived bulk data
+data/pems/census/
+data/pems/evidence/
+data/pems/processing/
+data/pems/releases/partition_v1/station_versions.json
+raw/

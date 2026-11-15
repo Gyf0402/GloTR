@@ -1,0 +1,2083 @@
+{
+  "status": "frozen_before_repaired_rttc_real_run",
+  "method": "modified RTTC stable adapter",
+  "source": {
+    "official_commit": "4d4420132d30ea56111209879bedcd20b7a4906f",
+    "official_source_modified": false,
+    "adapter": "reviews\\2026-09-19\\ai_handoff_diagnosis_20260919T051738Z\\tools\\rttc_stable.py"
+  },
+  "pins": {
+    "release": {
+      "path": "reviews/2026-09-12/data_release_final/QO_FORMAL_RELEASE.json",
+      "sha256": "87e8ab9f882c14397b473f120152a12c1d56e288a18a5c332c2c873418254f6a"
+    },
+    "roster": {
+      "path": "reviews/2026-09-12/formal_mask_bank/EPISODE_ROSTER_NON_TEST.json",
+      "sha256": "cb38dca7027a8bc087290b01cf61e6f6f2550ddbc2f2a4f4a92b807e8813bbee"
+    },
+    "array_manifest": {
+      "path": "reviews/2026-09-12/data_release_final/ARRAY_SOURCE_MANIFEST.json",
+      "sha256": "289b4a81775afb417f7bb11457cd46083393b838a1b8eee916a4e9237c828595"
+    },
+    "u_manifest": {
+      "path": "data/pems/releases/partition_v1/permanent_u.json",
+      "sha256": "7228cff899c1cf22cb82af56171f4ada63b1a3b61dce821cca64b08917dbb07a"
+    },
+    "basis": {
+      "path": "runs/qo_basis_only_20260910_verified/basis.pt",
+      "sha256": "4ee2f134fc3f1bfe6137fec004192c2d9ea0a335fa2a5c9ec5df5ebd87c73adf"
+    }
+  },
+  "code_sha256": {
+    "reviews\\2026-09-21\\rttc_repair\\rttc_real.py": "5bb8efd852352cc9a3ef60a6347c11b012eedc350e362f512b8d2a4a273d7623",
+    "training\\current_release_student_data.py": "d2b5e79f21c55f509c6bd291bbdca1b8a72a16ce47e91edc72119a38e9f1b35c",
+    "training\\real_qo_loader.py": "823ee4bf1e14eff72e970a74e7b12ff6035cc8bc6e91c51c0c853054ebf982f4",
+    "reviews\\2026-09-19\\ai_handoff_diagnosis_20260919T051738Z\\tools\\rttc_stable.py": "5cf7d05bbda8f9e4d795bd52acaf4afe191a407490b67eb69bc907bc7b1f39c8",
+    "reviews\\2026-09-21\\rttc_repair\\rttc_resumable.py": "614bad5b6cbb573b1566f0f21c221a40db444bba8909699e84501b2a7fbf8b39",
+    "reviews\\2026-09-21\\rttc_repair\\rttc_guard_12g.py": "9c4ba0a1a06beacbead552ce33e470c8b3744bb96b50ebfe1595cd2f2a39b37b",
+    "reviews\\2026-09-21\\rttc_repair\\rttc_pipeline.py": "db07b8210bf0cdf23fe14f6acc3f7ea36b4e592bfea1fffd1e0534738e3c0ba9",
+    "reviews\\2026-09-20\\baseline_takeover\\real_run.py": "6af2a760d3840a0dd565eaad41603b36739bd6461ffca581367acb2383e40bcf",
+    "reviews\\2026-09-19\\ai_handoff_diagnosis_20260919T051738Z\\tools\\rttc_pelt.py": "404b1463e64882a2eeb216247eee4f473a1300e9c12733a9fde396bd60e2b821",
+    "reviews\\2026-09-19\\ai_handoff_diagnosis_20260919T051738Z\\tools\\rttc_glue.py": "463b8d9a1f36642147c2875a021fbb019a13516d3bdc2455295cfaf16fa0979b",
+    "external\\rttc\\rttc\\dataset.py": "53a9af838630ced4f227a9704632c87e244eec50f8ccc173113b3751c0bea0c6",
+    "external\\rttc\\rttc\\metrics.py": "3cf910bd4263e90f58d7e29ede4a8b72847ee358cdf1db9c8334f0d2f73eac30",
+    "external\\rttc\\rttc\\miscs.py": "b283b665ac1c5aa320468a7ddc6bda0e656b76d4a0cc2edbaa16b527a8651753",
+    "external\\rttc\\rttc\\missing.py": "477fe4e3c2f6b222c66af34fa7232c053b6979a280ce2e087d9360b62e8ed719",
+    "external\\rttc\\rttc\\quickload.py": "b88146b52f7e0bd5d63f08e61a1458cb0e05f0e2e13b355fccc9c63116183763",
+    "external\\rttc\\rttc\\utils.py": "49be1703e8fec417fe7a96035a4904a659547e5838bb457349418afc8ae41083",
+    "external\\rttc\\rttc\\baseline\\bgcp.py": "c39ec5695dfb1f4e3a9465e43f71736591be06587fbe652f091462b3fda201e5",
+    "external\\rttc\\rttc\\baseline\\bpmf.py": "9979b2ab9eeb14d1a8af64f464db023692d322285243e677902a6382a1dafaa1",
+    "external\\rttc\\rttc\\baseline\\halrtc.py": "ae3ec1be64028f0ba278a1a5e91fec2247bfc234f804476737f0dee45fb7ffc9",
+    "external\\rttc\\rttc\\baseline\\latc.py": "b5b0740ad84bd6e47632d726df0ab3b45fa3aa88b1e5e31f53e32d23ea962818",
+    "external\\rttc\\rttc\\baseline\\lrtc_tnn.py": "cfc83e676899500710c0f1cd2a0dd29c45e5c900b50b88c50a662724822fe734",
+    "external\\rttc\\rttc\\baseline\\lrtc_tspn.py": "9a75af871711debfb6552b8b6b3777a1b81ed46ec09f0cb0a998d433b00685d6",
+    "external\\rttc\\rttc\\baseline\\mean.py": "d3c1d1cc663c1a6d1bd944e7858c717d76a154bf619516f5a96ed7fa53a8fdb7",
+    "external\\rttc\\rttc\\baseline\\trmf.py": "22499cb4d6e73f9e5b6810d0103e6077905176deb2513b5415071945a9f9f4c6",
+    "external\\rttc\\rttc\\baseline\\__init__.py": "d0fc4616fd29b86f8ed0e21e45a3ca0ed6930f9ad0650ba0e007516d14660162",
+    "external\\rttc\\rttc\\model\\rttc.py": "87d93627cb90e36e06420dabb5912e327443196d7fd823a5298998e08baa93f3",
+    "external\\rttc\\rttc\\model\\__init__.py": "4ce5c557327c9aaa020633e46a47c0ee8e3bac9be2d49b656d2effff8bd38fc2"
+  },
+  "station_order": [
+    "773437",
+    "718126",
+    "717355",
+    "773537",
+    "717350",
+    "718125",
+    "717342",
+    "717339",
+    "773522",
+    "716253",
+    "717337",
+    "717330",
+    "773490",
+    "773474",
+    "718124",
+    "717324",
+    "773422",
+    "716241",
+    "767723",
+    "773458"
+  ],
+  "episodes": {
+    "train": [
+      {
+        "episode_id": "ep|train|7|716241|54",
+        "mask_id": "mask|train|7|716241|54",
+        "station_id": "716241",
+        "start_day": "2019-02-24",
+        "duration_days": 7,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "0664b13590efa2f4f94177f9520f3d88129ea7c8c18938df36f29e01dad0a4e7",
+        "scoring_sha256": "1103da4e41f0a4ea65615b6551dd8ff36f08bb480e8e3f0eadcfd63bc18e0c54",
+        "reference_sha256": "f1f6c7be4f866f36307f51fe7f17f8d00693b94ef3f12985709742e277a88280"
+      },
+      {
+        "episode_id": "ep|train|7|717324|3",
+        "mask_id": "mask|train|7|717324|3",
+        "station_id": "717324",
+        "start_day": "2019-01-04",
+        "duration_days": 7,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "057a01ef0b59bd463f1a4e247f4853472665e3e5158d57f4310b6951f316620e",
+        "scoring_sha256": "1f4363bb124d44e1fb90ef313fb34684d40b927f34195203ff796348f4d9ce22",
+        "reference_sha256": "fdb1000de6f8c616a7b9cc8d1c2dd7510bcda3ef159bdf2c1506223c08fe932f"
+      },
+      {
+        "episode_id": "ep|train|7|717330|143",
+        "mask_id": "mask|train|7|717330|143",
+        "station_id": "717330",
+        "start_day": "2019-05-24",
+        "duration_days": 7,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "2db28830808fc06baba2ad200921e0d04b3cb8cd6ab46413c75f4729d6258671",
+        "scoring_sha256": "5fd4577e4ba9b3cd9c3b8a5eb730c8319ea07a7233fc09796ae2d4bdf5e5f0d7",
+        "reference_sha256": "ac6cddc64c90470d8f2fd07547c7470a4e9574f5e2386cef66e2ff664e298c0e"
+      },
+      {
+        "episode_id": "ep|train|7|717330|85",
+        "mask_id": "mask|train|7|717330|85",
+        "station_id": "717330",
+        "start_day": "2019-03-27",
+        "duration_days": 7,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "54e18846d5901f1e7bfa96881f768589dc5be6f98f203ec770687dda6ae0b0e7",
+        "scoring_sha256": "909ab88cce35ccf3a245980f65748c45f624414fb027ab98c14f7c7906e62d04",
+        "reference_sha256": "273d1da2cac1f70dffe305e64834046a22dab5414571390c464b6ab5a2b27adb"
+      },
+      {
+        "episode_id": "ep|train|7|717337|57",
+        "mask_id": "mask|train|7|717337|57",
+        "station_id": "717337",
+        "start_day": "2019-02-27",
+        "duration_days": 7,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "254f7a868962d90e9e74765a7fef05287df3d271495981d9ea8fc5478e265f5e",
+        "scoring_sha256": "420381213ab589b2d86676f575de9be926120216751681d5600da24e2cc2a696",
+        "reference_sha256": "d22bdeec2f0ca07cd0b434f1ccd75caa319961457064ef2f27406275cfb62cb9"
+      },
+      {
+        "episode_id": "ep|train|7|717342|3",
+        "mask_id": "mask|train|7|717342|3",
+        "station_id": "717342",
+        "start_day": "2019-01-04",
+        "duration_days": 7,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "057a01ef0b59bd463f1a4e247f4853472665e3e5158d57f4310b6951f316620e",
+        "scoring_sha256": "315c1908e26369bf6c0521cb71e51d85d086ec74f3639ae6277ce9797367849a",
+        "reference_sha256": "9d4da45edecb5d9d40064a8d0202fd26accbc5ceb78875faa85be8162a799ae2"
+      },
+      {
+        "episode_id": "ep|train|7|717350|82",
+        "mask_id": "mask|train|7|717350|82",
+        "station_id": "717350",
+        "start_day": "2019-03-24",
+        "duration_days": 7,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "558f3f9325999471d6c14de74bcea7105a0f641ad3862a1438ea93ee5182f7ce",
+        "scoring_sha256": "54840c92073ae4012c3464bab1cebe54d0fee3adfd423e21a19725976b66bf98",
+        "reference_sha256": "efb9079e86944da09322527e79c969e23840f96a08467bccf5ab2d025f92027b"
+      },
+      {
+        "episode_id": "ep|train|7|717355|143",
+        "mask_id": "mask|train|7|717355|143",
+        "station_id": "717355",
+        "start_day": "2019-05-24",
+        "duration_days": 7,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "2db28830808fc06baba2ad200921e0d04b3cb8cd6ab46413c75f4729d6258671",
+        "scoring_sha256": "bb92ea91ec59a5d0b852a43d2a82c4b886d069115715c20359653d56c4947063",
+        "reference_sha256": "bee59a2e15878b6043498c02683c71f44a40271f7bfa33bcd2946a900b38e489"
+      },
+      {
+        "episode_id": "ep|train|7|767723|195",
+        "mask_id": "mask|train|7|767723|195",
+        "station_id": "767723",
+        "start_day": "2019-07-15",
+        "duration_days": 7,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "4f3d2db42fb7821c419ed2a00536f5c5fa3c408172ebf870d2f6eaa71d9f4a33",
+        "scoring_sha256": "aeb83ad381f484364a2de79a3aa8270984f3f82f7420db0ef83c0e56fb771f00",
+        "reference_sha256": "2dadde2afa62ce71f202d39869f8b1850a189a606d74d339961758afe8a06561"
+      },
+      {
+        "episode_id": "ep|train|7|773458|16",
+        "mask_id": "mask|train|7|773458|16",
+        "station_id": "773458",
+        "start_day": "2019-01-17",
+        "duration_days": 7,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "4db266b902ed382b487270b32cb0b1903e5caeb71a885f2877c98a02602522a3",
+        "scoring_sha256": "ace0d8f05adad6324f6eae8e276327f96831387064a02bd6a839db9e39259e18",
+        "reference_sha256": "57e9f39de00d71d261d4bfa93b286d31d8e8f408d699ded0642cfe1bda18b084"
+      },
+      {
+        "episode_id": "ep|train|14|717324|117",
+        "mask_id": "mask|train|14|717324|117",
+        "station_id": "717324",
+        "start_day": "2019-04-28",
+        "duration_days": 14,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "e9da2bd77db2080d049df9bd1dc76bd03cf211c860d98f39f603ec6330bdc86b",
+        "scoring_sha256": "cae8e6f9b304a0d23c3771d973cd87fc2f6c8c79515140b097836f4eea2b704f",
+        "reference_sha256": "4f6d9bc215ed7dc7dfdf4708fc3c3a8a9edea2c665687417415ad6dd7cd3fb7f"
+      },
+      {
+        "episode_id": "ep|train|14|717324|143",
+        "mask_id": "mask|train|14|717324|143",
+        "station_id": "717324",
+        "start_day": "2019-05-24",
+        "duration_days": 14,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "3d47359af16dab400c9263b10ce72f377d1d896c65f5abaf606a12e584012182",
+        "scoring_sha256": "91da783f56fb396c9c0f019c24dfe48bc22e6f10a75cf0f590186478390fb654",
+        "reference_sha256": "2a9b10ed658c963b7203010888d97f4449421ff06cac7fe721821ae242547660"
+      },
+      {
+        "episode_id": "ep|train|14|717324|3",
+        "mask_id": "mask|train|14|717324|3",
+        "station_id": "717324",
+        "start_day": "2019-01-04",
+        "duration_days": 14,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "3c6077b1e9f045986a60b450b590bbbb3d660ec019ee1e2604468ec43fa13f56",
+        "scoring_sha256": "baf04e907e36f5bdd8e942a6855c2c3a0fb5b9f3ad0f72dd8fcb450fc9026b17",
+        "reference_sha256": "aa36781aad827d620fea3cb744d87a26eb1c2c3aa74cb8ed6892e9c3ca035566"
+      },
+      {
+        "episode_id": "ep|train|14|717324|92",
+        "mask_id": "mask|train|14|717324|92",
+        "station_id": "717324",
+        "start_day": "2019-04-03",
+        "duration_days": 14,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "b78537060b710fd70a8a0604220dbff54740d807bff68a62db6158e8aaab5699",
+        "scoring_sha256": "3be0f7e3423dc878c2bdd8a5b1a7865211f450c817427f2012911b86da22d7bf",
+        "reference_sha256": "65d7ab71c9d7a23d7fde4402313268eab07cb574f3b8d9334c3668bb19ec52f5"
+      },
+      {
+        "episode_id": "ep|train|14|717339|143",
+        "mask_id": "mask|train|14|717339|143",
+        "station_id": "717339",
+        "start_day": "2019-05-24",
+        "duration_days": 14,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "3d47359af16dab400c9263b10ce72f377d1d896c65f5abaf606a12e584012182",
+        "scoring_sha256": "71ee035ea0a3a9f9d26501811f52315b2da89682d54970817f2c0039421f2a85",
+        "reference_sha256": "365f0e57a07de6e60032cc8e7aaf060ff47527d753511bd8f1eeaf4b8475658c"
+      },
+      {
+        "episode_id": "ep|train|14|717339|195",
+        "mask_id": "mask|train|14|717339|195",
+        "station_id": "717339",
+        "start_day": "2019-07-15",
+        "duration_days": 14,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "e531a6651e5ed957d55c56023305a87baa887f1597a766e72a3a1c71c76a29f6",
+        "scoring_sha256": "52a7756312854a6e1ef0f17027761d7ba509085ee5ab905a09e61dc385f286e6",
+        "reference_sha256": "85265991c1ccab15411e2c1450c698c15cb3675e54a23411e114aacdf9f2e33e"
+      },
+      {
+        "episode_id": "ep|train|14|717350|119",
+        "mask_id": "mask|train|14|717350|119",
+        "station_id": "717350",
+        "start_day": "2019-04-30",
+        "duration_days": 14,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "7865358f0f9d2ec68f5e204ea51744b6e09af40b1f1073d8ee4c33dd39250821",
+        "scoring_sha256": "74d6842b9cbf343dacf973159c7a09d1059543cd1ba7bfb0f5ca01400adbefdc",
+        "reference_sha256": "885d5e9825d46dc53baa23d6b071a7a0ee77c4cec3a2c96322555e723c151e9c"
+      },
+      {
+        "episode_id": "ep|train|14|717350|82",
+        "mask_id": "mask|train|14|717350|82",
+        "station_id": "717350",
+        "start_day": "2019-03-24",
+        "duration_days": 14,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "4904520ba54cb2acda1dc4ace1e3cd5206a5ce867a955dac9bcd45549ce375c7",
+        "scoring_sha256": "e53105908e3c5ed86552d31d1f29096a357ae04ab12bb0c4616310fee4a8a5b1",
+        "reference_sha256": "01b2bd409bf63404333bdfc9bad210e0f70416ee5f34b8389e98a35a211937ec"
+      },
+      {
+        "episode_id": "ep|train|14|718124|117",
+        "mask_id": "mask|train|14|718124|117",
+        "station_id": "718124",
+        "start_day": "2019-04-28",
+        "duration_days": 14,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "e9da2bd77db2080d049df9bd1dc76bd03cf211c860d98f39f603ec6330bdc86b",
+        "scoring_sha256": "9578be8b5624236174560821653d629293869a80e6f2138df467d03b98eb2d3e",
+        "reference_sha256": "f632425d23f00a6d0280405a758a5ae98c5891bb783583d22e2e6ffc53bd91f3"
+      },
+      {
+        "episode_id": "ep|train|14|718124|40",
+        "mask_id": "mask|train|14|718124|40",
+        "station_id": "718124",
+        "start_day": "2019-02-10",
+        "duration_days": 14,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "c67dda825d193cca8041e78e7f147ce190995549edd166312a04daf4a34ff0d8",
+        "scoring_sha256": "ffcf9eede025970c28928feaed0dd55aa550785d0a1b84c5d97ea790a65ba35f",
+        "reference_sha256": "61e4f0b2a9b22026922c5c13e3b68bcb350e282a150c8eed9e3b08d0f1888f08"
+      },
+      {
+        "episode_id": "ep|train|28|716241|143",
+        "mask_id": "mask|train|28|716241|143",
+        "station_id": "716241",
+        "start_day": "2019-05-24",
+        "duration_days": 28,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "b120fb81fe7d84285a96d88a9c09f13cb2d65c9c89e58258a112cc4a9c8d6c2a",
+        "scoring_sha256": "618ecd7f02fc8bd8228cabe5c6201c15c0bf908f1a90b6cb1d0ed623bd32c682",
+        "reference_sha256": "92a96abea289c92651af977732831bd1cbdaa5b822d353c2512e641cdafa6189"
+      },
+      {
+        "episode_id": "ep|train|28|716253|72",
+        "mask_id": "mask|train|28|716253|72",
+        "station_id": "716253",
+        "start_day": "2019-03-14",
+        "duration_days": 28,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "10cb4a02baa03f8638b7466dd29cea05a135fc6dcb36808dde388450d92559cc",
+        "scoring_sha256": "ad68baaf750723d97710bf9a561f21a3c5656dfd6d3cfc27b4700695615d544e",
+        "reference_sha256": "a50e431501c81786328552580f67b490f06d47299d74d593bc3aa1fa6d5e27a5"
+      },
+      {
+        "episode_id": "ep|train|28|717339|143",
+        "mask_id": "mask|train|28|717339|143",
+        "station_id": "717339",
+        "start_day": "2019-05-24",
+        "duration_days": 28,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "b120fb81fe7d84285a96d88a9c09f13cb2d65c9c89e58258a112cc4a9c8d6c2a",
+        "scoring_sha256": "d7c3bc879959d4a651610f72128158ca9b277f143f25956a8b747e25e59ab209",
+        "reference_sha256": "89d8c97301c716b26bfe75646218b99fa3498fcd5e79b415a3e46f16a31b67ef"
+      },
+      {
+        "episode_id": "ep|train|28|717339|72",
+        "mask_id": "mask|train|28|717339|72",
+        "station_id": "717339",
+        "start_day": "2019-03-14",
+        "duration_days": 28,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "10cb4a02baa03f8638b7466dd29cea05a135fc6dcb36808dde388450d92559cc",
+        "scoring_sha256": "d225879ee9b5e057005d841a2225a85c85290424bbce4845cd71b828168f7c6e",
+        "reference_sha256": "d146126e0fd1575845b5a41b721fdd3be19200cc02b838682b401ab44c2148db"
+      },
+      {
+        "episode_id": "ep|train|28|717342|143",
+        "mask_id": "mask|train|28|717342|143",
+        "station_id": "717342",
+        "start_day": "2019-05-24",
+        "duration_days": 28,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "b120fb81fe7d84285a96d88a9c09f13cb2d65c9c89e58258a112cc4a9c8d6c2a",
+        "scoring_sha256": "ca6fa25de5836f1295ccb654a6837ebf9186b2fc676451656f834ea7486e8025",
+        "reference_sha256": "04d1c8d1d0b82fed5e799df80fbde7109ad5e74b79519f8c8de99b171a39c515"
+      },
+      {
+        "episode_id": "ep|train|28|718124|72",
+        "mask_id": "mask|train|28|718124|72",
+        "station_id": "718124",
+        "start_day": "2019-03-14",
+        "duration_days": 28,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "10cb4a02baa03f8638b7466dd29cea05a135fc6dcb36808dde388450d92559cc",
+        "scoring_sha256": "14a00ab96412208ffc5f4486b8da6294adbbc04f83fd3ae0435342e932412e94",
+        "reference_sha256": "2df1c7d4eed2f32d9318bcc5b284dcf9e2f2ef28f3f915a463896e122063064f"
+      },
+      {
+        "episode_id": "ep|train|28|767723|143",
+        "mask_id": "mask|train|28|767723|143",
+        "station_id": "767723",
+        "start_day": "2019-05-24",
+        "duration_days": 28,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "b120fb81fe7d84285a96d88a9c09f13cb2d65c9c89e58258a112cc4a9c8d6c2a",
+        "scoring_sha256": "618ecd7f02fc8bd8228cabe5c6201c15c0bf908f1a90b6cb1d0ed623bd32c682",
+        "reference_sha256": "74370b3290c89ce57db02457419fb29c62decedc2da0c97288ceca436a8a2219"
+      },
+      {
+        "episode_id": "ep|train|28|773437|143",
+        "mask_id": "mask|train|28|773437|143",
+        "station_id": "773437",
+        "start_day": "2019-05-24",
+        "duration_days": 28,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "b120fb81fe7d84285a96d88a9c09f13cb2d65c9c89e58258a112cc4a9c8d6c2a",
+        "scoring_sha256": "4c1b3d807baba8eacf7db3dca831f74f298063922e1768c85abe1099ad778b27",
+        "reference_sha256": "784b72805c1ab486473622da9c08deee5e8bbaa6bfd6a8f3293a9cf498526ba8"
+      },
+      {
+        "episode_id": "ep|train|28|773458|143",
+        "mask_id": "mask|train|28|773458|143",
+        "station_id": "773458",
+        "start_day": "2019-05-24",
+        "duration_days": 28,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "b120fb81fe7d84285a96d88a9c09f13cb2d65c9c89e58258a112cc4a9c8d6c2a",
+        "scoring_sha256": "c587d25a7ba72f9c362c0714cdcf5492fc19af4c337430b8b058a240776f55e6",
+        "reference_sha256": "0ddd1e75221da01a2f70b4b1fa26c343e9840f1cadd3bfbbb70c77724f27fc1e"
+      },
+      {
+        "episode_id": "ep|train|28|773474|72",
+        "mask_id": "mask|train|28|773474|72",
+        "station_id": "773474",
+        "start_day": "2019-03-14",
+        "duration_days": 28,
+        "split": "train",
+        "protocol": "K",
+        "input_sha256": "10cb4a02baa03f8638b7466dd29cea05a135fc6dcb36808dde388450d92559cc",
+        "scoring_sha256": "e44701bf221264afe2c284b7d5e268569cb2568d6837c81b6211929298b639be",
+        "reference_sha256": "1e5f2fbefc4d24c2482b5b24c632bdb5911a421e67c4c641a0a47866b0bc376f"
+      }
+    ],
+    "selection": [
+      {
+        "episode_id": "ep|selection|7|716241|228",
+        "mask_id": "mask|selection|7|716241|228",
+        "station_id": "716241",
+        "start_day": "2019-08-17",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "a136cf87e11a319dfe572f39f121c7f852fdd4d526c840ed1a8dc19a154ff377",
+        "scoring_sha256": "430ff728baf51632e8feabf94b2a9f80b135ebc371abbec63a1e6ab3d19eeffc",
+        "reference_sha256": "5933564f80d0fbc388911f0f3babe356c68e62b112a8dac7dcee86a365b4eed1"
+      },
+      {
+        "episode_id": "ep|selection|7|716241|248",
+        "mask_id": "mask|selection|7|716241|248",
+        "station_id": "716241",
+        "start_day": "2019-09-06",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "791f382ec930ddcf8a217d20b784dcfef7671ebaa3664c6ae6d4f1549ba687aa",
+        "scoring_sha256": "25c52fc4fd3cee0a7eccf9dcba7c3eeb18d67a72ab4ce253f600c3d2823da509",
+        "reference_sha256": "85cc9bf44055679e2cbf9cfb174ec45eb8622cdb041180e0820d19b58d295e69"
+      },
+      {
+        "episode_id": "ep|selection|7|716241|261",
+        "mask_id": "mask|selection|7|716241|261",
+        "station_id": "716241",
+        "start_day": "2019-09-19",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "9e1af0d557d10bf5cf20a7d2df48788754cd2520404861e744dd46af850af853",
+        "scoring_sha256": "6711426e2a5e47d6005e8773726959c7d62e114ca7667e1af97271fbba7a1ab7",
+        "reference_sha256": "530da3b0163eba6f55c45e01bc26e7ebfeb2edbae9f720a64af6a2f30ba460a5"
+      },
+      {
+        "episode_id": "ep|selection|7|716253|228",
+        "mask_id": "mask|selection|7|716253|228",
+        "station_id": "716253",
+        "start_day": "2019-08-17",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "a136cf87e11a319dfe572f39f121c7f852fdd4d526c840ed1a8dc19a154ff377",
+        "scoring_sha256": "6cbe40a11b2ef3978ea7dc3a2057fb11813255064a98d97d858fcd08fc734932",
+        "reference_sha256": "b864c9f17a50779d72427c4bc6798b5631741d3960bdddcaa2700cef7b435d90"
+      },
+      {
+        "episode_id": "ep|selection|7|716253|253",
+        "mask_id": "mask|selection|7|716253|253",
+        "station_id": "716253",
+        "start_day": "2019-09-11",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "8baae8c4f5abd1d6802812d1999adf66bffa894a432e0fd3e32e5f9f4306945f",
+        "scoring_sha256": "c62a38132c25f81833bed89d0391a6c58376cf0564f188ec69e05fd856b81f5d",
+        "reference_sha256": "884f7508fe343aa57e57ec69a3302565bca28b973a6537346cfae64a0359d903"
+      },
+      {
+        "episode_id": "ep|selection|7|717324|228",
+        "mask_id": "mask|selection|7|717324|228",
+        "station_id": "717324",
+        "start_day": "2019-08-17",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "a136cf87e11a319dfe572f39f121c7f852fdd4d526c840ed1a8dc19a154ff377",
+        "scoring_sha256": "ee7ad5bbc87f33bb18de04928ea5380d1c7b30342e7a2c99dae3eaf02daefe61",
+        "reference_sha256": "2f9aa3ec834645756473d224121d5ef8929fbe87bca285ce8d619e63a9f5ca23"
+      },
+      {
+        "episode_id": "ep|selection|7|717324|248",
+        "mask_id": "mask|selection|7|717324|248",
+        "station_id": "717324",
+        "start_day": "2019-09-06",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "791f382ec930ddcf8a217d20b784dcfef7671ebaa3664c6ae6d4f1549ba687aa",
+        "scoring_sha256": "023fc29e1563be36449814fe982edbaea6506baddb60db627d5da168377b2789",
+        "reference_sha256": "e4bd76ba5e0c060de03d06d5b3f02b142c00283be145ba9b692f0874f4b96f06"
+      },
+      {
+        "episode_id": "ep|selection|7|717324|261",
+        "mask_id": "mask|selection|7|717324|261",
+        "station_id": "717324",
+        "start_day": "2019-09-19",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "9e1af0d557d10bf5cf20a7d2df48788754cd2520404861e744dd46af850af853",
+        "scoring_sha256": "eb44456a187c62447f158b69fac0579cdc3e8b059761f460844ea77bc0d6be06",
+        "reference_sha256": "e6833a249359c01c238fa0529164e515172b6585f895eadf89c35c21cef9bc4e"
+      },
+      {
+        "episode_id": "ep|selection|7|717330|228",
+        "mask_id": "mask|selection|7|717330|228",
+        "station_id": "717330",
+        "start_day": "2019-08-17",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "a136cf87e11a319dfe572f39f121c7f852fdd4d526c840ed1a8dc19a154ff377",
+        "scoring_sha256": "8502cac6f6162b2b834b57ff5bd12b15f8777839298b617d5aa10b8732545108",
+        "reference_sha256": "771189265e0b697525aa4300552cbf4529456da9bcc5b609f7dd2aa8bbce5a2a"
+      },
+      {
+        "episode_id": "ep|selection|7|717330|248",
+        "mask_id": "mask|selection|7|717330|248",
+        "station_id": "717330",
+        "start_day": "2019-09-06",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "791f382ec930ddcf8a217d20b784dcfef7671ebaa3664c6ae6d4f1549ba687aa",
+        "scoring_sha256": "e229a846fdfacce92565d2c9a8f3207deacd9b47cce287844f1283c9b66142af",
+        "reference_sha256": "4058c9d12d2c44093554bd8f616afb83da48de830225b559a40057dffffdd7b2"
+      },
+      {
+        "episode_id": "ep|selection|7|717330|261",
+        "mask_id": "mask|selection|7|717330|261",
+        "station_id": "717330",
+        "start_day": "2019-09-19",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "9e1af0d557d10bf5cf20a7d2df48788754cd2520404861e744dd46af850af853",
+        "scoring_sha256": "c2c9aec785bd328cb5b1ec8f77580c9bd19300a874faa9c79ec39e48a470de74",
+        "reference_sha256": "d5ea02dbf9a208713bc85ed3ce1a6a4ea9266b61748ba8e4a20b1e98a88e2cf8"
+      },
+      {
+        "episode_id": "ep|selection|7|717339|228",
+        "mask_id": "mask|selection|7|717339|228",
+        "station_id": "717339",
+        "start_day": "2019-08-17",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "a136cf87e11a319dfe572f39f121c7f852fdd4d526c840ed1a8dc19a154ff377",
+        "scoring_sha256": "8502cac6f6162b2b834b57ff5bd12b15f8777839298b617d5aa10b8732545108",
+        "reference_sha256": "d707f829956c2433a11d50147e0899a7f87053fdc926188d284be97be17249e4"
+      },
+      {
+        "episode_id": "ep|selection|7|717339|248",
+        "mask_id": "mask|selection|7|717339|248",
+        "station_id": "717339",
+        "start_day": "2019-09-06",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "791f382ec930ddcf8a217d20b784dcfef7671ebaa3664c6ae6d4f1549ba687aa",
+        "scoring_sha256": "6f0f875a48bab5268a8b15a22d1551c20106a12bc557db4d0dca44385b88212b",
+        "reference_sha256": "59b5a60fa75961b4cee2ec3b9a921024f981e3446d6a2a22b717e3e8f6072a18"
+      },
+      {
+        "episode_id": "ep|selection|7|717339|261",
+        "mask_id": "mask|selection|7|717339|261",
+        "station_id": "717339",
+        "start_day": "2019-09-19",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "9e1af0d557d10bf5cf20a7d2df48788754cd2520404861e744dd46af850af853",
+        "scoring_sha256": "75bd45465f7243e4a2f0895f3f3d6f58fb780ac447fe0128ffa39ca0ba088a1c",
+        "reference_sha256": "b0780f77106e83748c1378a94467db1872d8f7d64fe2c64d1804911a9d8d4f5d"
+      },
+      {
+        "episode_id": "ep|selection|7|717342|228",
+        "mask_id": "mask|selection|7|717342|228",
+        "station_id": "717342",
+        "start_day": "2019-08-17",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "a136cf87e11a319dfe572f39f121c7f852fdd4d526c840ed1a8dc19a154ff377",
+        "scoring_sha256": "8502cac6f6162b2b834b57ff5bd12b15f8777839298b617d5aa10b8732545108",
+        "reference_sha256": "e28e9cee8e4a49c4a7e7079066e255c3975267c5a52afd755e3ac124bcaaf9e0"
+      },
+      {
+        "episode_id": "ep|selection|7|717342|248",
+        "mask_id": "mask|selection|7|717342|248",
+        "station_id": "717342",
+        "start_day": "2019-09-06",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "791f382ec930ddcf8a217d20b784dcfef7671ebaa3664c6ae6d4f1549ba687aa",
+        "scoring_sha256": "6f0f875a48bab5268a8b15a22d1551c20106a12bc557db4d0dca44385b88212b",
+        "reference_sha256": "02a208bc4ad529eebae250ce1523c5341809bc6d5cb2fcf5039ba13a1b0f6dc3"
+      },
+      {
+        "episode_id": "ep|selection|7|717342|261",
+        "mask_id": "mask|selection|7|717342|261",
+        "station_id": "717342",
+        "start_day": "2019-09-19",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "9e1af0d557d10bf5cf20a7d2df48788754cd2520404861e744dd46af850af853",
+        "scoring_sha256": "362fa6a6467cb415050248927cc96d61d8ad941eee6d3e987e9dfee3bcaca33e",
+        "reference_sha256": "ec08800caf5cf2734ecf12995282b9d3a2a0e1a6646035f46b73f85234a6f4b4"
+      },
+      {
+        "episode_id": "ep|selection|7|717350|262",
+        "mask_id": "mask|selection|7|717350|262",
+        "station_id": "717350",
+        "start_day": "2019-09-20",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "c4440c3dd8bdcdfdf4ce4817e9d5bb065b9d96c00f3746247e37de1ee3552fc8",
+        "scoring_sha256": "918ff67833a4c1a645e89ec8e57461baf16d0a2f7c23db9f9171718a1ef5718e",
+        "reference_sha256": "fadd3f18b3e53b21f5510a90a1d2ac4b00566c637494dc4cfef7c8371c363616"
+      },
+      {
+        "episode_id": "ep|selection|7|717355|228",
+        "mask_id": "mask|selection|7|717355|228",
+        "station_id": "717355",
+        "start_day": "2019-08-17",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "a136cf87e11a319dfe572f39f121c7f852fdd4d526c840ed1a8dc19a154ff377",
+        "scoring_sha256": "84aee3003f1c171b92a046f91c6f940efaa20762b573c814a47300c0af88c772",
+        "reference_sha256": "2ea2566105a58600f2b7045767747d9a9b8f0cb15a2d9cdf7a61164d6a2edb3d"
+      },
+      {
+        "episode_id": "ep|selection|7|717355|248",
+        "mask_id": "mask|selection|7|717355|248",
+        "station_id": "717355",
+        "start_day": "2019-09-06",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "791f382ec930ddcf8a217d20b784dcfef7671ebaa3664c6ae6d4f1549ba687aa",
+        "scoring_sha256": "25c52fc4fd3cee0a7eccf9dcba7c3eeb18d67a72ab4ce253f600c3d2823da509",
+        "reference_sha256": "82ebf562e71881a0107bd0796800478ab4d7146b6cd550709ae2d8931d12835b"
+      },
+      {
+        "episode_id": "ep|selection|7|717355|261",
+        "mask_id": "mask|selection|7|717355|261",
+        "station_id": "717355",
+        "start_day": "2019-09-19",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "9e1af0d557d10bf5cf20a7d2df48788754cd2520404861e744dd46af850af853",
+        "scoring_sha256": "e8d99bebc27398e03bda79917dfc7b710a43158569737a848dfaaed2f3e59975",
+        "reference_sha256": "601d0ab218bd1fe89a864a7d445fec08fa0889aee086109c79ca9faf0cbe8b04"
+      },
+      {
+        "episode_id": "ep|selection|7|718124|228",
+        "mask_id": "mask|selection|7|718124|228",
+        "station_id": "718124",
+        "start_day": "2019-08-17",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "a136cf87e11a319dfe572f39f121c7f852fdd4d526c840ed1a8dc19a154ff377",
+        "scoring_sha256": "e0a4b3b0344bff99ba08f892643f5080d14268ef3920ec13d1febdea451ca719",
+        "reference_sha256": "4064b956b61577e5617d8dacaede3e426f302ebf37e2cc6de4b595e27bf65dbf"
+      },
+      {
+        "episode_id": "ep|selection|7|718124|248",
+        "mask_id": "mask|selection|7|718124|248",
+        "station_id": "718124",
+        "start_day": "2019-09-06",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "791f382ec930ddcf8a217d20b784dcfef7671ebaa3664c6ae6d4f1549ba687aa",
+        "scoring_sha256": "023fc29e1563be36449814fe982edbaea6506baddb60db627d5da168377b2789",
+        "reference_sha256": "7b67625ba5e6b5e20cae85562d436ce90bd1f12f9e6baea7dd1d40a751e1f5df"
+      },
+      {
+        "episode_id": "ep|selection|7|718124|261",
+        "mask_id": "mask|selection|7|718124|261",
+        "station_id": "718124",
+        "start_day": "2019-09-19",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "9e1af0d557d10bf5cf20a7d2df48788754cd2520404861e744dd46af850af853",
+        "scoring_sha256": "eb44456a187c62447f158b69fac0579cdc3e8b059761f460844ea77bc0d6be06",
+        "reference_sha256": "026e88542c21055b0eea02deb970a962b310db08188cb46b5e921ead40cc0caa"
+      },
+      {
+        "episode_id": "ep|selection|7|767723|228",
+        "mask_id": "mask|selection|7|767723|228",
+        "station_id": "767723",
+        "start_day": "2019-08-17",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "a136cf87e11a319dfe572f39f121c7f852fdd4d526c840ed1a8dc19a154ff377",
+        "scoring_sha256": "430ff728baf51632e8feabf94b2a9f80b135ebc371abbec63a1e6ab3d19eeffc",
+        "reference_sha256": "be2efa2fe8fdc032a263f17bf326f3ea7deb8b151892dc0abeac2f16d5726a74"
+      },
+      {
+        "episode_id": "ep|selection|7|767723|257",
+        "mask_id": "mask|selection|7|767723|257",
+        "station_id": "767723",
+        "start_day": "2019-09-15",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "32ff35945f8335e89f3c6d3b21e6b35ff67f86998a870029e056c5ebca424cdf",
+        "scoring_sha256": "69b622c4257329c9cf93053ea444fb29baf029fef142dcf385604bacd57f50e3",
+        "reference_sha256": "c24e3a7c0c74bad33a5ed6f53a12dc5cea942e9d227aed4ca2d5548a7f828d4a"
+      },
+      {
+        "episode_id": "ep|selection|7|773458|228",
+        "mask_id": "mask|selection|7|773458|228",
+        "station_id": "773458",
+        "start_day": "2019-08-17",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "a136cf87e11a319dfe572f39f121c7f852fdd4d526c840ed1a8dc19a154ff377",
+        "scoring_sha256": "84aee3003f1c171b92a046f91c6f940efaa20762b573c814a47300c0af88c772",
+        "reference_sha256": "2572ce78cc79ff2643d248ee62886afacd4466847d867ba61ff4a62e97bea072"
+      },
+      {
+        "episode_id": "ep|selection|7|773458|248",
+        "mask_id": "mask|selection|7|773458|248",
+        "station_id": "773458",
+        "start_day": "2019-09-06",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "791f382ec930ddcf8a217d20b784dcfef7671ebaa3664c6ae6d4f1549ba687aa",
+        "scoring_sha256": "347f20cc67e34c57ee9188f6939ac7f98442a5101abafd2895a80a5a94fc691b",
+        "reference_sha256": "02874c48217870b2e4f339c4e7a049a1b5f16596e9616b4f9f647e2f3a38c7ac"
+      },
+      {
+        "episode_id": "ep|selection|7|773458|261",
+        "mask_id": "mask|selection|7|773458|261",
+        "station_id": "773458",
+        "start_day": "2019-09-19",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "9e1af0d557d10bf5cf20a7d2df48788754cd2520404861e744dd46af850af853",
+        "scoring_sha256": "e515726a3dfa027c371593495399df8da3a47d3c404b576ea8862baf5f81c651",
+        "reference_sha256": "425161693c28c456f5af63653eb262f6397ed97cb8efc295cbca7c01c7ac4182"
+      },
+      {
+        "episode_id": "ep|selection|7|773474|228",
+        "mask_id": "mask|selection|7|773474|228",
+        "station_id": "773474",
+        "start_day": "2019-08-17",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "a136cf87e11a319dfe572f39f121c7f852fdd4d526c840ed1a8dc19a154ff377",
+        "scoring_sha256": "f568a239c8fcdef75d64aa86524e461376db6062563a01cd4357e8bf3dc83fc5",
+        "reference_sha256": "b21a92732641b1dfae4406c5f7661fb65fb1f3bbfa5b27262b5a69e16bcb6a3c"
+      },
+      {
+        "episode_id": "ep|selection|7|773474|248",
+        "mask_id": "mask|selection|7|773474|248",
+        "station_id": "773474",
+        "start_day": "2019-09-06",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "791f382ec930ddcf8a217d20b784dcfef7671ebaa3664c6ae6d4f1549ba687aa",
+        "scoring_sha256": "6ba65e0aedd6b6ed54fdfc67db07ae3b4a93592862180c23ace1868731c2cf46",
+        "reference_sha256": "a8ac8f1ebb8ccf110da03444e40248e7167489d1be453e82b795f66714845301"
+      },
+      {
+        "episode_id": "ep|selection|7|773474|261",
+        "mask_id": "mask|selection|7|773474|261",
+        "station_id": "773474",
+        "start_day": "2019-09-19",
+        "duration_days": 7,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "9e1af0d557d10bf5cf20a7d2df48788754cd2520404861e744dd46af850af853",
+        "scoring_sha256": "8fcdb10adeb336d7c31cdc7bb9dbb0d9ecbc4d6ddc9791d02698bcd4d4d9cc38",
+        "reference_sha256": "b8b17a248039db5d4c114ee0fb3f5838ab6d0257c0e135bde5dcad945db8ea80"
+      },
+      {
+        "episode_id": "ep|selection|14|716241|248",
+        "mask_id": "mask|selection|14|716241|248",
+        "station_id": "716241",
+        "start_day": "2019-09-06",
+        "duration_days": 14,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "20d4f2e97b20050bf100f643d52a812ec4ec29960b04c15116965f09214961c2",
+        "scoring_sha256": "28f12127660cb17611a94bc64aad198a0af5950403223003dc5ab8553d18b015",
+        "reference_sha256": "bfd6ee7d78b7466c92a7dcca9555b4c597ea25cd646ce341686c12123fb6aaa2"
+      },
+      {
+        "episode_id": "ep|selection|14|716253|253",
+        "mask_id": "mask|selection|14|716253|253",
+        "station_id": "716253",
+        "start_day": "2019-09-11",
+        "duration_days": 14,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "02f6f0366b41001cc1bedf477bdec531c699d5b7ff155081d2d28ec718e4d797",
+        "scoring_sha256": "373155a76e29e03c7733c7106fa8b58b2f72117ccf3d465b53559d4c3e4c7b95",
+        "reference_sha256": "860a0c40747761b06a7dbf457d1bde413d97c898309ac871f80bbb1b32499800"
+      },
+      {
+        "episode_id": "ep|selection|14|717324|248",
+        "mask_id": "mask|selection|14|717324|248",
+        "station_id": "717324",
+        "start_day": "2019-09-06",
+        "duration_days": 14,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "20d4f2e97b20050bf100f643d52a812ec4ec29960b04c15116965f09214961c2",
+        "scoring_sha256": "9782b7a4a5a2a2168b25988d28ff411ac31a82b921361c5fab71043496d0fa14",
+        "reference_sha256": "4c7a44feaf89eed70d5ed8b3c08d358ac08647866e7b531d998293dab802d599"
+      },
+      {
+        "episode_id": "ep|selection|14|717330|248",
+        "mask_id": "mask|selection|14|717330|248",
+        "station_id": "717330",
+        "start_day": "2019-09-06",
+        "duration_days": 14,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "20d4f2e97b20050bf100f643d52a812ec4ec29960b04c15116965f09214961c2",
+        "scoring_sha256": "58ee7352975bf06092591cf8dbdd07e1ae0e222989c5dcbcad0f8246affda7cb",
+        "reference_sha256": "795c65e5da0724f53b568e56730914a5b8a804485fce747a600e0428b2b7da61"
+      },
+      {
+        "episode_id": "ep|selection|14|717339|248",
+        "mask_id": "mask|selection|14|717339|248",
+        "station_id": "717339",
+        "start_day": "2019-09-06",
+        "duration_days": 14,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "20d4f2e97b20050bf100f643d52a812ec4ec29960b04c15116965f09214961c2",
+        "scoring_sha256": "56d7df2cb2c7b38a9c9cdc1eb7b4f61e0096958140380868d96a86fb118ed3fa",
+        "reference_sha256": "757cf4aefe6ca339af83bd1458c8e4042ad84aa6695743f443109f696f52a21b"
+      },
+      {
+        "episode_id": "ep|selection|14|717342|248",
+        "mask_id": "mask|selection|14|717342|248",
+        "station_id": "717342",
+        "start_day": "2019-09-06",
+        "duration_days": 14,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "20d4f2e97b20050bf100f643d52a812ec4ec29960b04c15116965f09214961c2",
+        "scoring_sha256": "56d7df2cb2c7b38a9c9cdc1eb7b4f61e0096958140380868d96a86fb118ed3fa",
+        "reference_sha256": "305886967bcfba006223f835a0bb16c49ed789de616348f5755a793cdfeb4241"
+      },
+      {
+        "episode_id": "ep|selection|14|717355|248",
+        "mask_id": "mask|selection|14|717355|248",
+        "station_id": "717355",
+        "start_day": "2019-09-06",
+        "duration_days": 14,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "20d4f2e97b20050bf100f643d52a812ec4ec29960b04c15116965f09214961c2",
+        "scoring_sha256": "28f12127660cb17611a94bc64aad198a0af5950403223003dc5ab8553d18b015",
+        "reference_sha256": "eb6ca7f5c727734713b2a59db0d6314d822b39f725024ccf355f242cdbf005c7"
+      },
+      {
+        "episode_id": "ep|selection|14|718124|248",
+        "mask_id": "mask|selection|14|718124|248",
+        "station_id": "718124",
+        "start_day": "2019-09-06",
+        "duration_days": 14,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "20d4f2e97b20050bf100f643d52a812ec4ec29960b04c15116965f09214961c2",
+        "scoring_sha256": "9782b7a4a5a2a2168b25988d28ff411ac31a82b921361c5fab71043496d0fa14",
+        "reference_sha256": "a2f85129a13ba86601f05627525acb3efddb2d3232f744a87623f45fad9512e5"
+      },
+      {
+        "episode_id": "ep|selection|14|773458|248",
+        "mask_id": "mask|selection|14|773458|248",
+        "station_id": "773458",
+        "start_day": "2019-09-06",
+        "duration_days": 14,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "20d4f2e97b20050bf100f643d52a812ec4ec29960b04c15116965f09214961c2",
+        "scoring_sha256": "11ed3c8d8f895e725c069523c71012f08bf19ed13ca4014e77b70d7003e147b5",
+        "reference_sha256": "3835a34a0a9e98b3fb56e587fe40affaa1cbccc8c29effef1061ffa22a481ba5"
+      },
+      {
+        "episode_id": "ep|selection|14|773474|248",
+        "mask_id": "mask|selection|14|773474|248",
+        "station_id": "773474",
+        "start_day": "2019-09-06",
+        "duration_days": 14,
+        "split": "selection",
+        "protocol": "K",
+        "input_sha256": "20d4f2e97b20050bf100f643d52a812ec4ec29960b04c15116965f09214961c2",
+        "scoring_sha256": "6985269613d3319d178a821498e445544dd2d5569468c895b22857b50a86f7e9",
+        "reference_sha256": "a5e6f0777ee41344b5f41dcf4b17bef3763017ed021fbbfa353c0c5d46054d75"
+      }
+    ]
+  },
+  "source_arrays": {
+    "train": [
+      {
+        "day": "2019-01-01",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-01\\arrays.npz",
+        "sha256": "e6a95636047ddd15a6065d3a2da811b1f41a9faa5bd88cfd4368793e9f94f634"
+      },
+      {
+        "day": "2019-01-02",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-02\\arrays.npz",
+        "sha256": "b1318e1107cbdd1c11eba548753e64cad9ff8ddfc64b19643019f8abe79a4b4f"
+      },
+      {
+        "day": "2019-01-03",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-03\\arrays.npz",
+        "sha256": "45040388087b4264e17c1dceece2e96628471410e89da47be15d830e688cb6b6"
+      },
+      {
+        "day": "2019-01-04",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-04\\arrays.npz",
+        "sha256": "4b1a4cf7882b511132e6bd6c88f2b6dbacb1cf93620b8c96ca539a51dc3ff62c"
+      },
+      {
+        "day": "2019-01-05",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-05\\arrays.npz",
+        "sha256": "2f0a478ccab3790d6f14a8aa85fca80fd27b3c1bea263ab12ea7f8b57e073297"
+      },
+      {
+        "day": "2019-01-06",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-06\\arrays.npz",
+        "sha256": "510de3fadc1cb7754f9f4e408e5b20cbb74a5dab770ad7ab8f2e360995720e2c"
+      },
+      {
+        "day": "2019-01-07",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-07\\arrays.npz",
+        "sha256": "3d6f95e823bd4123f40455a39d39890793c4e8ebd42b58faf50dfa27d2230af7"
+      },
+      {
+        "day": "2019-01-08",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-08\\arrays.npz",
+        "sha256": "10df4e4149a705212593902df99120f71079d8ae116437d203d71fe31fa5b79a"
+      },
+      {
+        "day": "2019-01-09",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-09\\arrays.npz",
+        "sha256": "225ebfeebaf5d80dcd432540da82738b53d6787938c67ffdefb8f036340f5acb"
+      },
+      {
+        "day": "2019-01-10",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-10\\arrays.npz",
+        "sha256": "a85948371d4020575a671474b8c7557e0ca8d311091738248e0487d2ac32a231"
+      },
+      {
+        "day": "2019-01-11",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-11\\arrays.npz",
+        "sha256": "a38e7cee2523b4faaa759a83a722da9a006469de7dc033c809a2bb3f28f85e8b"
+      },
+      {
+        "day": "2019-01-12",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-12\\arrays.npz",
+        "sha256": "9b60d4a0cc6551f4d91fc9af3943473a178100fb3dbabae039956694fd6db626"
+      },
+      {
+        "day": "2019-01-13",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-13\\arrays.npz",
+        "sha256": "812909a241787256e34ab38d662db71a90478f4fbb3f9d38a867cec1240f511f"
+      },
+      {
+        "day": "2019-01-14",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-14\\arrays.npz",
+        "sha256": "8de8b755fbc47d4f4bcf498d56955fa3b80b0bfd68d3c4e3d4be85a80817ea48"
+      },
+      {
+        "day": "2019-01-15",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-15\\arrays.npz",
+        "sha256": "3ba96b91b5d69aef3f029b02b585b9022fbaed008981fabd5b0f16eaf5c0f465"
+      },
+      {
+        "day": "2019-01-16",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-16\\arrays.npz",
+        "sha256": "54d302c56bfd8506226d0392fabb500a694bcdaef7f098f2cff15517e5879812"
+      },
+      {
+        "day": "2019-01-17",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-17\\arrays.npz",
+        "sha256": "cdb31eb74cd604f4c025b3478b3355b42328a8b74907aa7d8b0a4a51263bb7b0"
+      },
+      {
+        "day": "2019-01-18",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-18\\arrays.npz",
+        "sha256": "3cf707ff9162d901ac1e0e682927eac2fd4f99801f92c282daaedfd94882e49a"
+      },
+      {
+        "day": "2019-01-19",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-19\\arrays.npz",
+        "sha256": "c8ca69b9433da42e40605271a0252a5bdef8f2bd6e222fda439ce09845d977ca"
+      },
+      {
+        "day": "2019-01-20",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-20\\arrays.npz",
+        "sha256": "ed5f3838b02c0447bb7824742f3ffedbf5f6732b7daa4790e92d1357cf4fbc0b"
+      },
+      {
+        "day": "2019-01-21",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-21\\arrays.npz",
+        "sha256": "0ff46c93a0762458096f820862c30f0c9286f4f0dfc570dde603819f5414b92c"
+      },
+      {
+        "day": "2019-01-22",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-22\\arrays.npz",
+        "sha256": "e4ec52c4be0026eb2a22b193d07507f3bc4a5cc321ad846919dea430d800296a"
+      },
+      {
+        "day": "2019-01-23",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-23\\arrays.npz",
+        "sha256": "588fd5b6f933e6ce270d4a5b9a49d7ac91001aa63774eba445729499c39d57d7"
+      },
+      {
+        "day": "2019-01-24",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-24\\arrays.npz",
+        "sha256": "01b75d2fb70cd007131d70588eb8860a9d6e8dca3eb65ae4c5244a727b53db06"
+      },
+      {
+        "day": "2019-01-25",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-25\\arrays.npz",
+        "sha256": "f9519c74034dd6c75b667224cc6d13baf256bec1d75910323b84510d9922bace"
+      },
+      {
+        "day": "2019-01-26",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-01-26\\arrays.npz",
+        "sha256": "c697958ff2a38071f5886ad8491ed513b33fd8626132f8f31bc28310f2a64af2"
+      },
+      {
+        "day": "2019-02-07",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-02-07\\arrays.npz",
+        "sha256": "7f5eb19aeecfc0eace5a158c6a0baf6f7e5b19d452fd715b43c7343ea8eff64f"
+      },
+      {
+        "day": "2019-02-08",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-02-08\\arrays.npz",
+        "sha256": "c5ddcb84e236a05c43b151efb6aaa902d6a2da0a9d080aacdc10a4c01da0664a"
+      },
+      {
+        "day": "2019-02-09",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-02-09\\arrays.npz",
+        "sha256": "41118d060c6f5c017b3fb17f8bf408cbb1583fb255bc47e55a6fcc75756f82b8"
+      },
+      {
+        "day": "2019-02-10",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-02-10\\arrays.npz",
+        "sha256": "c5bc97a25e343721eb356936fd61d0aae6b936c1eb3e4bb698f6803b315a409e"
+      },
+      {
+        "day": "2019-02-11",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-02-11\\arrays.npz",
+        "sha256": "d8cd6d1ab96e2f4e1278c3f37cadcd1a4a105fc0d4c18b448735f815d2d640ab"
+      },
+      {
+        "day": "2019-02-12",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-02-12\\arrays.npz",
+        "sha256": "a4611dba6930c2c9dd6335431cea1e2d6a1b1ab3ac0f745c3c011950309ad1ff"
+      },
+      {
+        "day": "2019-02-13",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-02-13\\arrays.npz",
+        "sha256": "db6b305cdd5708d7e6f7c265c8dc6914620ecc502f1b074b478812aac20afd56"
+      },
+      {
+        "day": "2019-02-14",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-02-14\\arrays.npz",
+        "sha256": "5748826e6835521e21efd38924a3e8f441c6ff428f5f5bee6bfec5d89ad4918a"
+      },
+      {
+        "day": "2019-02-15",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-02-15\\arrays.npz",
+        "sha256": "b552858c482a062e72f9d015b6840cc37fd9327ba1d2f4b4e31309ba29aecedd"
+      },
+      {
+        "day": "2019-02-16",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-02-16\\arrays.npz",
+        "sha256": "eb6b45143e6a09cb4760361887606f18a081a50fe884785105f8e6e9d3f2292f"
+      },
+      {
+        "day": "2019-02-17",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-02-17\\arrays.npz",
+        "sha256": "0609dab5ded504555939e3e3e97df8c3c44be20b209a0b7534a6f4da3354684d"
+      },
+      {
+        "day": "2019-02-18",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-02-18\\arrays.npz",
+        "sha256": "2eda8f1a3a5386b99ba9d6d9236fc58aa99bd937c0cf663605765f326caf76bc"
+      },
+      {
+        "day": "2019-02-19",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-02-19\\arrays.npz",
+        "sha256": "83f3868893ac591a93c20f389681e2cab387c5573e6893eb5e1a1a72f0a93c08"
+      },
+      {
+        "day": "2019-02-20",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-02-20\\arrays.npz",
+        "sha256": "557bb03024ce8cbe4f9c7b3f6f1bb0fc39820bf5ec2dba8661cd526b19341bd1"
+      },
+      {
+        "day": "2019-02-21",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-02-21\\arrays.npz",
+        "sha256": "3f79516b2dec8b6c8178dbcf5ce5181bac954a98bbef038b508c1b6c7b1b39dd"
+      },
+      {
+        "day": "2019-02-22",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-02-22\\arrays.npz",
+        "sha256": "e151e2dcdc72b2365d189823d4312289880fbf8b0aeeb98a31bd6569c78d5e74"
+      },
+      {
+        "day": "2019-02-23",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-02-23\\arrays.npz",
+        "sha256": "f76db086656ab7449f41c4bccf81fe25beebcb3ad420611538ad0b856f474b89"
+      },
+      {
+        "day": "2019-02-24",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-02-24\\arrays.npz",
+        "sha256": "70507487d8a9289ddc31b336cf822832b4b1afeec1fd6c170292c18d08d85873"
+      },
+      {
+        "day": "2019-02-25",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-02-25\\arrays.npz",
+        "sha256": "f29830bc5e5c9f1da7f6dea0bba7c1f90065b8610bcaf0c0c7c8ccfa161e3100"
+      },
+      {
+        "day": "2019-02-26",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-02-26\\arrays.npz",
+        "sha256": "922ec9f7076536f3fd4384774f14952c17465ec66d999e2198936b26c321ce05"
+      },
+      {
+        "day": "2019-02-27",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-02-27\\arrays.npz",
+        "sha256": "a60fd477e5fb937b896fe8d7a2e44fb5d26991c9b0274faa7f72f9fd344de4bf"
+      },
+      {
+        "day": "2019-02-28",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-02-28\\arrays.npz",
+        "sha256": "5a89db1f068c3cd40d09707f806352f9e68fbde0ea76f59ef488452ebc342218"
+      },
+      {
+        "day": "2019-03-01",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-01\\arrays.npz",
+        "sha256": "cce831cd470e29da56f7161798a4d2877c9286609b5f7151703ad210952d2ba8"
+      },
+      {
+        "day": "2019-03-02",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-02\\arrays.npz",
+        "sha256": "cc47910efdbada3a7d2f8325ed1df47bfd62398da2064dbeca4581c0e5794dc6"
+      },
+      {
+        "day": "2019-03-03",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-03\\arrays.npz",
+        "sha256": "d8082a9cf2cadd883ffa9579b4d01d2d57f109dd69007cd5e6ba2bd78fbe396f"
+      },
+      {
+        "day": "2019-03-04",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-04\\arrays.npz",
+        "sha256": "8b286e6f89b5b1c3b90d77a4c0d0c8b243a0ec73455590b4f0793cd0ef80c317"
+      },
+      {
+        "day": "2019-03-05",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-05\\arrays.npz",
+        "sha256": "947cc60078d4465d3ae3c4c0f2910545953bec175b4278429db96949812c4113"
+      },
+      {
+        "day": "2019-03-06",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-06\\arrays.npz",
+        "sha256": "d5dc0f2bad45ce66621cc40d5e7920755a84038457b1f0bba4e5c8b364260ec5"
+      },
+      {
+        "day": "2019-03-07",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-07\\arrays.npz",
+        "sha256": "3e9ee8e7428de579973e68db82bf627880362791ef8767dbf21667e9ea5c51ae"
+      },
+      {
+        "day": "2019-03-08",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-08\\arrays.npz",
+        "sha256": "5ad62bb9569740a7b339300eba389bca3247dee100962d59369ba6816cdefa16"
+      },
+      {
+        "day": "2019-03-11",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-11\\arrays.npz",
+        "sha256": "fad219e3004b4380d2bdd867ffe6549eaef482617f2eeee49b4c03bb538646a8"
+      },
+      {
+        "day": "2019-03-12",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-12\\arrays.npz",
+        "sha256": "3bb55b700c8dae0b11eb9a0759f5e6628b4a778efd2d9b6d1a7e09304023b624"
+      },
+      {
+        "day": "2019-03-13",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-13\\arrays.npz",
+        "sha256": "46eed3a13620e39c4ce25cfcfd43bdf2c07cf2b3e15a44bdb1dc31b8ea8a048d"
+      },
+      {
+        "day": "2019-03-14",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-14\\arrays.npz",
+        "sha256": "f4fbb0a304053fdb81cf09756410b3a9ad8561a08af829f3037b3f77c08f25f9"
+      },
+      {
+        "day": "2019-03-15",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-15\\arrays.npz",
+        "sha256": "71f01fdb2ac863d7e11488d4f56f32f54a5ab00fbccc4d14b64de9cc67bc70b1"
+      },
+      {
+        "day": "2019-03-16",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-16\\arrays.npz",
+        "sha256": "80a3772e755fa6bbdcfb16933add5fbc3df8c768d396a8a86123cad3a07e01b0"
+      },
+      {
+        "day": "2019-03-17",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-17\\arrays.npz",
+        "sha256": "71baaefb412653e8beb9be693f5e939e8ac3049b4a067f31ac7a78671955af2c"
+      },
+      {
+        "day": "2019-03-18",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-18\\arrays.npz",
+        "sha256": "a0f5caac83bdf699ff54d65bd990aa0eb5f33b58279c3552f496d777264f7670"
+      },
+      {
+        "day": "2019-03-19",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-19\\arrays.npz",
+        "sha256": "9e68093dc3e174c86d5ce93dfc1eeac34ad7d4734528a8d21208e494f3eba584"
+      },
+      {
+        "day": "2019-03-20",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-20\\arrays.npz",
+        "sha256": "aa0b1d0e1899eeb0f21d0e091ec80c3745f95297f0251c448145b0898dfbeeb9"
+      },
+      {
+        "day": "2019-03-21",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-21\\arrays.npz",
+        "sha256": "47021d4d00f617cd3719884d51b31e2d6b0935c21db587dd1db88da78a9f3f80"
+      },
+      {
+        "day": "2019-03-22",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-22\\arrays.npz",
+        "sha256": "3cd7b313faef5d7cf52fb1effe47a3ec73955f98dcee58338bcc974c7179dab2"
+      },
+      {
+        "day": "2019-03-23",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-23\\arrays.npz",
+        "sha256": "225b3ac38ea8d4fb0a1a1b17b129dec2319f169480d8918e0abcdc6e8f1faae8"
+      },
+      {
+        "day": "2019-03-24",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-24\\arrays.npz",
+        "sha256": "ff9c841c8c0d94e56fa554408dcafe28d25af88ebd1f78fcce687f084f198139"
+      },
+      {
+        "day": "2019-03-25",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-25\\arrays.npz",
+        "sha256": "b7d6c191d91c3b0a2d9d2c112cd8878dd15581d4817be26a3e2f7792cb974f7e"
+      },
+      {
+        "day": "2019-03-26",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-26\\arrays.npz",
+        "sha256": "12392d2b5f879c05b679554300fdf1bef60b6247c2a78df1b9a3158fc80cb696"
+      },
+      {
+        "day": "2019-03-27",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-27\\arrays.npz",
+        "sha256": "24ea4fde6fdb0e9deeae71fe88375605e35e679bbb97527ac88cb9aa94d8d865"
+      },
+      {
+        "day": "2019-03-28",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-28\\arrays.npz",
+        "sha256": "750bf543df3f0b9f377e56f74861c2e89b432ea47e09452c6f961ca19748373b"
+      },
+      {
+        "day": "2019-03-29",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-29\\arrays.npz",
+        "sha256": "e69526f393c474afc23d4fb1bbaa596108ed84940474546e83981a8d394680f5"
+      },
+      {
+        "day": "2019-03-30",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-30\\arrays.npz",
+        "sha256": "646ebe2e61b4a52086d390bb5da2fe2bd1972e2b2a2cd5cc1e29968a62680e95"
+      },
+      {
+        "day": "2019-03-31",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-03-31\\arrays.npz",
+        "sha256": "eb7aee1b2e55b918ebf6f46d40391b2b083eb16530a0069e2ade02accb1ecb0b"
+      },
+      {
+        "day": "2019-04-01",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-01\\arrays.npz",
+        "sha256": "60f97680809531c919de03bc6f9b5ae911628961aaeb2edcabbc7e1a3aed687b"
+      },
+      {
+        "day": "2019-04-02",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-02\\arrays.npz",
+        "sha256": "7eb6c9a751e77d9a359e64c90d7b4dbacc948d9c546c05d81092e9f3d4d42c1d"
+      },
+      {
+        "day": "2019-04-03",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-03\\arrays.npz",
+        "sha256": "a2aa3dc92cf20ed29f93522917d626e0a9488678391176ba2c7da72f41c1fb9e"
+      },
+      {
+        "day": "2019-04-04",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-04\\arrays.npz",
+        "sha256": "28cb70d2375bb84e65cf53ecd0a9601b5b5df47a263bf9c0eba92516f9bda362"
+      },
+      {
+        "day": "2019-04-05",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-05\\arrays.npz",
+        "sha256": "432d86ef27ab06ad3bed447cece1ba98b28ad6399bb19dab8af89b4fcdb55dab"
+      },
+      {
+        "day": "2019-04-06",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-06\\arrays.npz",
+        "sha256": "14d5599df8c74a5719597544a856c7d5b22e6bde73281939078914dd76aafdca"
+      },
+      {
+        "day": "2019-04-07",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-07\\arrays.npz",
+        "sha256": "6669a4a14a5e6f674250b5567699466c2b679258abcb2b01eb0c03f05d5d789a"
+      },
+      {
+        "day": "2019-04-08",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-08\\arrays.npz",
+        "sha256": "60cf152084e1da6cce6083f02df0d0bac56d98cd8b8b0196a0d95149790d4d18"
+      },
+      {
+        "day": "2019-04-09",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-09\\arrays.npz",
+        "sha256": "d6d04b7a00719567e6c534d4cd003bac330cf9cc4d6c8d8a161f49f6f326c583"
+      },
+      {
+        "day": "2019-04-10",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-10\\arrays.npz",
+        "sha256": "686cd97e2b735e3776fe9f8c2a3b8d404d220cd59d942eb05eb216853b87e880"
+      },
+      {
+        "day": "2019-04-11",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-11\\arrays.npz",
+        "sha256": "cc0fb9786e6bb8321878c773fa280c6ee073558359e27773b906e6b211ecd1d6"
+      },
+      {
+        "day": "2019-04-12",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-12\\arrays.npz",
+        "sha256": "d904dacf5b7748afdf346a7281859a404cb2611a962d03fd95dc8122957099fd"
+      },
+      {
+        "day": "2019-04-13",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-13\\arrays.npz",
+        "sha256": "3bf1d16a969320eab123e3e8ed476484fb55404a2233c5faa886f916a6bc0348"
+      },
+      {
+        "day": "2019-04-14",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-14\\arrays.npz",
+        "sha256": "023eabea31ab984b5bc1e215a9c0e6b7a1b663e3cccf0f1aec0cbf6231c82f94"
+      },
+      {
+        "day": "2019-04-15",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-15\\arrays.npz",
+        "sha256": "3378e38cdd1228dcb61ce902d7529f26be1db46fb19a945871d45db7467cd13a"
+      },
+      {
+        "day": "2019-04-16",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-16\\arrays.npz",
+        "sha256": "3f6c0005563de7aab973fef7b14faee4841df1185226f947f558db2d713cd2b1"
+      },
+      {
+        "day": "2019-04-17",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-17\\arrays.npz",
+        "sha256": "f2b08492566f37cb8d1968af9f731d069d03a67a2c4607606100948b745d4f3b"
+      },
+      {
+        "day": "2019-04-18",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-18\\arrays.npz",
+        "sha256": "d6b44ded35ab6b6c8a688eda2423320f2eabe8374de15a3008097cfa314b87f5"
+      },
+      {
+        "day": "2019-04-19",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-19\\arrays.npz",
+        "sha256": "9fcee6c73253ff0ee1f7953b38f2d11a3b9b62213a2121766758781f400743fd"
+      },
+      {
+        "day": "2019-04-25",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-25\\arrays.npz",
+        "sha256": "ff443bcb41b7f4e57d47ab691b90fadf7189f961ac13101790e856991f2595ae"
+      },
+      {
+        "day": "2019-04-26",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-26\\arrays.npz",
+        "sha256": "5b1892a7bbf9547ef08106e6dbc92c2c6a4637d39091fd62ad7f66867e1b059c"
+      },
+      {
+        "day": "2019-04-27",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-27\\arrays.npz",
+        "sha256": "e8a13f835f63ea143b96c777b2409b3d259e6246b4b74a70797e8abde2d0a1b9"
+      },
+      {
+        "day": "2019-04-28",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-28\\arrays.npz",
+        "sha256": "8263713c415f8472e4dff1b114abb243eeed7fff29402894612f25f3bdc4cd53"
+      },
+      {
+        "day": "2019-04-29",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-29\\arrays.npz",
+        "sha256": "8f1bc719bc040f8f5c4eeec95513d34bcc90ed2c742ea9b4da74ab9bcb04a34d"
+      },
+      {
+        "day": "2019-04-30",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-04-30\\arrays.npz",
+        "sha256": "9f5fcb4aa26569ebcfc74ae3a7b21dea37e644d5c813aefb147f1ac8c02dced8"
+      },
+      {
+        "day": "2019-05-01",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-01\\arrays.npz",
+        "sha256": "5fbb5bf1be1773328deeaac2236424acd38b460b2e06a67e6bdaa502fc709c29"
+      },
+      {
+        "day": "2019-05-02",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-02\\arrays.npz",
+        "sha256": "de60e687df21108b5c8400fde34138af57870019771ad942495e8c71ddaab39d"
+      },
+      {
+        "day": "2019-05-03",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-03\\arrays.npz",
+        "sha256": "9fedc8361f1941724a89f466fd1f21371821be01d58f34c89907f77b9b0ffc93"
+      },
+      {
+        "day": "2019-05-04",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-04\\arrays.npz",
+        "sha256": "0b5ace3a47142f7791939157e25738ec54eadaf057d08438478af95388db98f5"
+      },
+      {
+        "day": "2019-05-05",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-05\\arrays.npz",
+        "sha256": "57b5844ca85fcdeb0b9da18085c9238b4eaa511971ea5ead35237e56eb04a728"
+      },
+      {
+        "day": "2019-05-06",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-06\\arrays.npz",
+        "sha256": "c87c02e21259d5a56c0c4597f341333a43b6b2247e5c1c182a4c391dc473148c"
+      },
+      {
+        "day": "2019-05-07",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-07\\arrays.npz",
+        "sha256": "0b09b74d9353f18a75a9307de2e6d66d681fdf8252a33daacba365e9095e27f8"
+      },
+      {
+        "day": "2019-05-08",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-08\\arrays.npz",
+        "sha256": "11185c43c239aaf80e9f6067c637954c1bd307e6d7128c8a60cdff6486ce3051"
+      },
+      {
+        "day": "2019-05-09",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-09\\arrays.npz",
+        "sha256": "c272401bcc54e95c0b0fb5293c15c6e682faba1f99a1ffea81594fe782d2a7bd"
+      },
+      {
+        "day": "2019-05-10",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-10\\arrays.npz",
+        "sha256": "7dc3db3d92a2113a2dda08eb2583225e90923cf80e08d5cc217d22bce878b0cb"
+      },
+      {
+        "day": "2019-05-11",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-11\\arrays.npz",
+        "sha256": "b35cd55daafe493a28a6a5ab451656342d7b8d5747072194dcfb4db3ae8cd705"
+      },
+      {
+        "day": "2019-05-12",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-12\\arrays.npz",
+        "sha256": "34acf608f65ab55e0d87be536266a8a38b8531a71df361bdf6738b60d0d750ef"
+      },
+      {
+        "day": "2019-05-13",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-13\\arrays.npz",
+        "sha256": "0d2fc7fba2f1379750450cf8cbf18d7c279498aa1817ccb9c5cdd3ab6058f1d9"
+      },
+      {
+        "day": "2019-05-14",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-14\\arrays.npz",
+        "sha256": "a4b300a00937119d1f56733edafb01387c3cd77dbcd97207663c2593b89e5b8f"
+      },
+      {
+        "day": "2019-05-15",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-15\\arrays.npz",
+        "sha256": "1f76d6d24b151bbaf3853fbbecf9da98121ce7dd4c1d76477293a6afba544a10"
+      },
+      {
+        "day": "2019-05-16",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-16\\arrays.npz",
+        "sha256": "08998815e895abea5940ad293d4bc8b75a181321c06ac574517d1653d463a817"
+      },
+      {
+        "day": "2019-05-21",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-21\\arrays.npz",
+        "sha256": "928fa4fb4b1fabafafd1cc6506a21dcd4a372268fabbdb808df7e09805cdab17"
+      },
+      {
+        "day": "2019-05-22",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-22\\arrays.npz",
+        "sha256": "7277379361b64d2eab8d95602e25f11a1b70aa7ca88a239036776b2d816ac3bf"
+      },
+      {
+        "day": "2019-05-23",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-23\\arrays.npz",
+        "sha256": "9c415e442bae0e0c9f5836b3fd7c2652e722c3497ce15359a12942aef862f951"
+      },
+      {
+        "day": "2019-05-24",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-24\\arrays.npz",
+        "sha256": "5079b84a49618fa67111bc41bdc59a85d843bdc5a169cf71b1b74b612fc40e05"
+      },
+      {
+        "day": "2019-05-25",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-25\\arrays.npz",
+        "sha256": "58edbb4c2c327e265947f56aa4536f5c5328da2437f8857b1cac338f05f958a0"
+      },
+      {
+        "day": "2019-05-26",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-26\\arrays.npz",
+        "sha256": "38fe5284fd1169c5f43c3d285713481321dd265694e07bf781612df65dcf7455"
+      },
+      {
+        "day": "2019-05-27",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-27\\arrays.npz",
+        "sha256": "6c2a3a84556d8d700fc7fc310c2ff34847527410260b2d38f1c90279afe15ae5"
+      },
+      {
+        "day": "2019-05-28",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-28\\arrays.npz",
+        "sha256": "4a3cd394cf834a0418a796b073e8d4940f34f23d58ab205299a88aa60f6d2098"
+      },
+      {
+        "day": "2019-05-29",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-29\\arrays.npz",
+        "sha256": "44d51c0f13a6805da547b49e56fed513d6a8dbc83ffde5fbdee623baf2dd1b4a"
+      },
+      {
+        "day": "2019-05-30",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-30\\arrays.npz",
+        "sha256": "f90e0e03cf51b1d24bd2bc67272c54685cddd0a2539702a7fb71e900e251f2e4"
+      },
+      {
+        "day": "2019-05-31",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-05-31\\arrays.npz",
+        "sha256": "9e6810ebadf95a66c751ad92fcac0d214cd9c18f74a350066c724efc388250a6"
+      },
+      {
+        "day": "2019-06-01",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-06-01\\arrays.npz",
+        "sha256": "ea301d004dee4c466cce06250caed9d35519d922c021545bbd39a109bfdec94b"
+      },
+      {
+        "day": "2019-06-02",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-06-02\\arrays.npz",
+        "sha256": "e03097c8a1ef602de08ccac6b698a2f43f6bbd6326295dae7b8c4c0c04e30174"
+      },
+      {
+        "day": "2019-06-03",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-06-03\\arrays.npz",
+        "sha256": "c4d1830be56c66037c69f23ec3045d5d6f38599223cf8c2ae710e569e4a27d3a"
+      },
+      {
+        "day": "2019-06-04",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-06-04\\arrays.npz",
+        "sha256": "97aeb88d02ff97ca68393538f0b5c31af5bac90f8a8150b340206dca1afb4172"
+      },
+      {
+        "day": "2019-06-05",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-06-05\\arrays.npz",
+        "sha256": "c369bf8022fecfb5bbff365b96bdbdfc3dca48920f6354bc4aec06b0d8e3abc1"
+      },
+      {
+        "day": "2019-06-06",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-06-06\\arrays.npz",
+        "sha256": "ae3a57055c76ad23f9ca5cb543f0ecc6d81f85a08fd9248c15f3fce213844d6d"
+      },
+      {
+        "day": "2019-06-07",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-06-07\\arrays.npz",
+        "sha256": "9703496ae91ac467f15564b966850b9e5550c9c5d7389b4665a1d46a2f8f1345"
+      },
+      {
+        "day": "2019-06-08",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-06-08\\arrays.npz",
+        "sha256": "8b7fe8fe62cebae8c147020213ea8b816268fcb8195a65168c9686093888e0c1"
+      },
+      {
+        "day": "2019-06-09",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-06-09\\arrays.npz",
+        "sha256": "88d089ddb7cc8866fecb60cb38c8b1a96a83a0be08f205dec0e54f2eb1b0af91"
+      },
+      {
+        "day": "2019-06-10",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-06-10\\arrays.npz",
+        "sha256": "24c4592d9231ad3c4f516ce8859242e7969a6fdc00d7edd33b20b32dfdd8b65e"
+      },
+      {
+        "day": "2019-06-11",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-06-11\\arrays.npz",
+        "sha256": "e9730864c8178044c35f4f34470db8d70bbc3680193935898cab9bfb9190548c"
+      },
+      {
+        "day": "2019-06-12",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-06-12\\arrays.npz",
+        "sha256": "aee0edfb24ee3c7376174e0987493bfaa3991f3ec954ab9512413c2177ec17ff"
+      },
+      {
+        "day": "2019-06-13",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-06-13\\arrays.npz",
+        "sha256": "0d12004dc400c0d9c0c58f79b6d44efb9de7bddd8b7590bc03d872e627b64b4e"
+      },
+      {
+        "day": "2019-06-14",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-06-14\\arrays.npz",
+        "sha256": "242dff8630dc28de1fcc8dde147f37c1972c0f3d69b464400db086a58d19b55d"
+      },
+      {
+        "day": "2019-06-15",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-06-15\\arrays.npz",
+        "sha256": "b4be229de2a4409daaa5c640b357457806f1910775b4953b47f162d1b7e91175"
+      },
+      {
+        "day": "2019-06-16",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-06-16\\arrays.npz",
+        "sha256": "c7571fe501c2537f97ca876be8b0913a16e69568734478efd97e44cc993772c3"
+      },
+      {
+        "day": "2019-06-17",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-06-17\\arrays.npz",
+        "sha256": "f820bb736923af61ae79c0157f92aa9cf976537c6a8db5a76c9364cb0eeff6a6"
+      },
+      {
+        "day": "2019-06-18",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-06-18\\arrays.npz",
+        "sha256": "63bb18a0c4e2bf184117d506a7b65cf8505d964f0f90bc3aae8a0351ca70011d"
+      },
+      {
+        "day": "2019-06-19",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-06-19\\arrays.npz",
+        "sha256": "37d133c2b86b0a19d2e1aee8e33eace6d6ccb9cc8c37626c72bd7b37a9b2238b"
+      },
+      {
+        "day": "2019-06-20",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-06-20\\arrays.npz",
+        "sha256": "28aebf05ab5d8387038d1653df10b7df32f97df5924d6821e287e27b8aaa18c5"
+      },
+      {
+        "day": "2019-06-21",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-06-21\\arrays.npz",
+        "sha256": "5a34fc1ff5175e2ef5b04a66c0316a5a96b0cea0ada8dde039af1758caede276"
+      },
+      {
+        "day": "2019-06-22",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-06-22\\arrays.npz",
+        "sha256": "3787922cc58b54f5154c1300481f2d5ba9e83f03e27f0128becd6242882a0b8b"
+      },
+      {
+        "day": "2019-06-23",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-06-23\\arrays.npz",
+        "sha256": "78d1cfd26059d2b5b52f005e9919afff0dc5fbec0c9f8c64cca5e6d48a662619"
+      },
+      {
+        "day": "2019-07-12",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-07-12\\arrays.npz",
+        "sha256": "85c54d538030da754457516f8da88675898115725dc42f0e0ad5668e7ac5b048"
+      },
+      {
+        "day": "2019-07-13",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-07-13\\arrays.npz",
+        "sha256": "5397a645f745ef3b6fed435c7fdbe04a536eef0a270a1319162caacd62f3eabe"
+      },
+      {
+        "day": "2019-07-14",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-07-14\\arrays.npz",
+        "sha256": "8b35a4c78bfd91ec0a8fa9b7005f75bc12e7787650d51d7a12f352778b3b6e42"
+      },
+      {
+        "day": "2019-07-15",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-07-15\\arrays.npz",
+        "sha256": "113df786fa80e4188f43f56710fcabc7aba4106f07e0b355932452a56b5dcf52"
+      },
+      {
+        "day": "2019-07-16",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-07-16\\arrays.npz",
+        "sha256": "9808344e3389687f2c385309468d64011a56ee681afff139a21d6bf25826cb27"
+      },
+      {
+        "day": "2019-07-17",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-07-17\\arrays.npz",
+        "sha256": "ab1fdf9d69033bcd64961595276bc252412b28fdb6b24f1fa980df705c6d8fbd"
+      },
+      {
+        "day": "2019-07-18",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-07-18\\arrays.npz",
+        "sha256": "4e29a16d1c2d9f7d9ea16695c41d93ba83e335e91191357db4d888e1da771ac7"
+      },
+      {
+        "day": "2019-07-19",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-07-19\\arrays.npz",
+        "sha256": "6a5d95bfae4be27340472a9d129d436c3fc00e20671817e02ce25070cd553994"
+      },
+      {
+        "day": "2019-07-20",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-07-20\\arrays.npz",
+        "sha256": "0b5cc2a1a5a0f3aaddfcc0573c1f065d86a53fc82f087fecd54496446a474f43"
+      },
+      {
+        "day": "2019-07-21",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-07-21\\arrays.npz",
+        "sha256": "10d9afdc16f1eb31d94f129c15f016a387dbada66b58d88a2dea14b441bce1fe"
+      },
+      {
+        "day": "2019-07-22",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-07-22\\arrays.npz",
+        "sha256": "50c470b1a339e6ceb5436848cca9ee3fda107baff750228e4ff2f8b5cac5540b"
+      },
+      {
+        "day": "2019-07-23",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-07-23\\arrays.npz",
+        "sha256": "bec456cbeb20fcba4c39ce9e1d45409d37b016a4995064ddf9833d05c1ba7ce7"
+      },
+      {
+        "day": "2019-07-24",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-07-24\\arrays.npz",
+        "sha256": "3b1df1ce0949bd885fe01a31e3eb2a0256f2aaa137ad1271a51d0aaf76610b02"
+      },
+      {
+        "day": "2019-07-25",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-07-25\\arrays.npz",
+        "sha256": "6736dbaa1fac225ff875d7405c07d5a61e96df7d5b46f3d4ceb2aef484bcf413"
+      },
+      {
+        "day": "2019-07-26",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-07-26\\arrays.npz",
+        "sha256": "fc09ebd011df8d5bc37153c799c814638ff5c7fcb95af85a08b72150838eeae9"
+      },
+      {
+        "day": "2019-07-27",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-07-27\\arrays.npz",
+        "sha256": "85440d81c6cf9bcaa0a9a7683f5090fced9ca838d4e8eb66b2cc3f103597529b"
+      },
+      {
+        "day": "2019-07-28",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-07-28\\arrays.npz",
+        "sha256": "9b825aead80c440c32196d5a4def2b2c348712bf6d85532c6b8b90aaf9fb3cbd"
+      },
+      {
+        "day": "2019-07-29",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-07-29\\arrays.npz",
+        "sha256": "38b9b653acd332dcdcc0936befb64b0a5fa8a122815a29da8a7e2829ea45e2ee"
+      },
+      {
+        "day": "2019-07-30",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-07-30\\arrays.npz",
+        "sha256": "f0a55bbf853a15ac915b1e871f7592d441326f4643643452fef941689c417954"
+      },
+      {
+        "day": "2019-07-31",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-07-31\\arrays.npz",
+        "sha256": "548ac7107d55c07bfc026b07fbb7b8855d41144abf58eccbe6dc9393cafebfec"
+      }
+    ],
+    "selection": [
+      {
+        "day": "2019-08-14",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-08-14\\arrays.npz",
+        "sha256": "464ecdb22c7fa17306123cceb89a075ca7da32a14251d7383a08fc421484afad"
+      },
+      {
+        "day": "2019-08-15",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-08-15\\arrays.npz",
+        "sha256": "d6fe3bae7659025af59a31e33ccb83718f7f01c498e51929146f1bb529fba5d6"
+      },
+      {
+        "day": "2019-08-16",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-08-16\\arrays.npz",
+        "sha256": "6afb8d7c6a160b638353d42408591559a13a1f6418702f4cb1d1e079b8fc2841"
+      },
+      {
+        "day": "2019-08-17",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-08-17\\arrays.npz",
+        "sha256": "6c2c351d2efbcbf65e41486996692ab027d1c7914fb4bf4736efa34fbb0333bd"
+      },
+      {
+        "day": "2019-08-18",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-08-18\\arrays.npz",
+        "sha256": "ad6679ce490a72c5bd70dfa2c07fd5cce69b965fd43d1e3ea895aa9da70035a3"
+      },
+      {
+        "day": "2019-08-19",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-08-19\\arrays.npz",
+        "sha256": "d48bff981824111d5f34c90d78f51714f7bf4197a7b4ed3fce75bf0344299f7a"
+      },
+      {
+        "day": "2019-08-20",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-08-20\\arrays.npz",
+        "sha256": "602a026fe57314f29bfc97d736547f260c37ebfb82de93737b4f520dd46bf0c2"
+      },
+      {
+        "day": "2019-08-21",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-08-21\\arrays.npz",
+        "sha256": "79092a7ee517e3d3e62425e79b0846b139b2087dee02653b4b3d28688e1e41b0"
+      },
+      {
+        "day": "2019-08-22",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-08-22\\arrays.npz",
+        "sha256": "1b207d22aef8ffd85ffd01a70cb02bf754f2b9fd451d5380b6ee51103355ada5"
+      },
+      {
+        "day": "2019-08-23",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-08-23\\arrays.npz",
+        "sha256": "aeefbabb482762ed215c607a0b91fa8476a550022007edadffd60d364340fcad"
+      },
+      {
+        "day": "2019-08-24",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-08-24\\arrays.npz",
+        "sha256": "233dad400a24394860dc991a3cbf6a48613c7ebf01afb345e11de976e985828f"
+      },
+      {
+        "day": "2019-08-25",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-08-25\\arrays.npz",
+        "sha256": "8529163de7eb805796c40e81c50eab2a61ec7b743725629a8a26631c4604e6d3"
+      },
+      {
+        "day": "2019-08-26",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-08-26\\arrays.npz",
+        "sha256": "ebccf90a24c6ba46cbb365dd3801a880383c3cf47d01e97109a3ef66696d82db"
+      },
+      {
+        "day": "2019-09-03",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-03\\arrays.npz",
+        "sha256": "53a26e7c7e47fb0083da36761fc386c6d14abaedda5af70f23d09a5d57fe1993"
+      },
+      {
+        "day": "2019-09-04",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-04\\arrays.npz",
+        "sha256": "682cf52c4391dacd2944637bcf504cadcf3913d8cf839d073cbd7014eee42ad2"
+      },
+      {
+        "day": "2019-09-05",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-05\\arrays.npz",
+        "sha256": "f6a76e4053264ca26c38c53d0f503ac7864b18b5cda07f43d2be8b91e9984f70"
+      },
+      {
+        "day": "2019-09-06",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-06\\arrays.npz",
+        "sha256": "709961095fa3fc0609a2baeb6c479077f363df5c6b6da4d7995f064747487e32"
+      },
+      {
+        "day": "2019-09-07",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-07\\arrays.npz",
+        "sha256": "79e5b5a53f38602864a4b896e8b49fce092ea4b3050fa4396401b46d6257e36f"
+      },
+      {
+        "day": "2019-09-08",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-08\\arrays.npz",
+        "sha256": "73ebee70769513f1f133b9b4dd08fc668be32ff47fc38e424f2e19799b2b1efa"
+      },
+      {
+        "day": "2019-09-09",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-09\\arrays.npz",
+        "sha256": "9a9d91e3f796416565a393fe60f5ae257a68ee9cfe1f98ec72b6fff26d06ab79"
+      },
+      {
+        "day": "2019-09-10",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-10\\arrays.npz",
+        "sha256": "e94007079c966bc8aab4f1a8c634056ce3ed4cc8ee0d76dfb3172d63b4d18e21"
+      },
+      {
+        "day": "2019-09-11",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-11\\arrays.npz",
+        "sha256": "f5ef4856d2df7f1a5d157a205512b799da57fc1cbdbdc10c9910c987f297b35b"
+      },
+      {
+        "day": "2019-09-12",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-12\\arrays.npz",
+        "sha256": "7e0e6cfff58196a715a208e976e6ad9325415468e25654ef0df5cd32740441ab"
+      },
+      {
+        "day": "2019-09-13",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-13\\arrays.npz",
+        "sha256": "17343a18ae5f126fd5a79c182d713e02d29815ea8463e667b4366b48eb4c3f41"
+      },
+      {
+        "day": "2019-09-14",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-14\\arrays.npz",
+        "sha256": "ee0061ce0010625296e4f3cb8c2a1597293f181dce0bc6ecda9736d86ba35f0c"
+      },
+      {
+        "day": "2019-09-15",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-15\\arrays.npz",
+        "sha256": "700fe69f1eb1ba82b3d5b0b5a7ea1f4c39869d8ea657c79e0323e1ced9d12825"
+      },
+      {
+        "day": "2019-09-16",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-16\\arrays.npz",
+        "sha256": "aa49c737961fad366b1af13e48c157f97c81115e5301e73b3b70f2e2f98c66e0"
+      },
+      {
+        "day": "2019-09-17",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-17\\arrays.npz",
+        "sha256": "5548dc7e6ce8ff52f99338b35720caa0073f9daf09024b280d855ab61bdcaa61"
+      },
+      {
+        "day": "2019-09-18",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-18\\arrays.npz",
+        "sha256": "cad653bb6c87119843b20c2f2b6c045b902089e7bce05f89613c12bbd7b3d986"
+      },
+      {
+        "day": "2019-09-19",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-19\\arrays.npz",
+        "sha256": "527461eef30bc4900955a740f4e3d56fd824fe38b080abf5e14aef502c7221db"
+      },
+      {
+        "day": "2019-09-20",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-20\\arrays.npz",
+        "sha256": "65dd062e0ddd401ac5da64af839fc6a78e92970292a58f04d1dc3e8ed8bedd12"
+      },
+      {
+        "day": "2019-09-21",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-21\\arrays.npz",
+        "sha256": "c53a2ec72a906d46b1fc1f6748b783bd624ff95153389f7b7a9d2b781ddec3fa"
+      },
+      {
+        "day": "2019-09-22",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-22\\arrays.npz",
+        "sha256": "a8c1ab019180c5422f272769820154ec4a3a8f383d5cd6b67e8d2c2cc12a22dd"
+      },
+      {
+        "day": "2019-09-23",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-23\\arrays.npz",
+        "sha256": "d4d5b2810c4898e3bca54515198d32af0f0c4b2a6b13a3c4da3c76dc51518f09"
+      },
+      {
+        "day": "2019-09-24",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-24\\arrays.npz",
+        "sha256": "13e943306de4950301b185742fd4390e4e20e245a78555a567fb752f896b1f81"
+      },
+      {
+        "day": "2019-09-25",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-25\\arrays.npz",
+        "sha256": "1be557098e978c16facaa41f5343eb6a9aafca6941432c75e63a45cf72d07a04"
+      },
+      {
+        "day": "2019-09-26",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-26\\arrays.npz",
+        "sha256": "39b17ddaca898429c6e990ac906bdd17c8972a73a866b5fdde8e27688f95cefa"
+      },
+      {
+        "day": "2019-09-27",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-27\\arrays.npz",
+        "sha256": "a1fbc01c58fabda8f707c221639446b7016938dfacce9f8ad8754fbe33df908f"
+      },
+      {
+        "day": "2019-09-28",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-28\\arrays.npz",
+        "sha256": "c00b3cf07f45a7d2dd46b5a077571898c5023ac167e42c486b247e8c8e08c530"
+      },
+      {
+        "day": "2019-09-29",
+        "path": "E:\\TrafficImputationData\\PeMS_D7_2019\\processing\\source_labels_v1\\2019-09-29\\arrays.npz",
+        "sha256": "12d756ecafb369730bf04030c648c68633ab11293a177646867d58dd4d704fc2"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "mu": 0.001,
+      "lam": 0.01,
+      "rho": 0.01
+    },
+    {
+      "mu": 0.001,
+      "lam": 0.001,
+      "rho": 0.01
+    },
+    {
+      "mu": 0.001,
+      "lam": 0.01,
+      "rho": 0.001
+    }
+  ],
+  "selection_parameter_rule": "For each channel: mean episode slot NRMSE within station, then mean stations equally; objective mean(q,o); tie candidate index. Secondary comparison: profile NRMSE station macro.",
+  "fixed": {
+    "xi": 1.0,
+    "gamma": 0.01,
+    "max_iter": 250,
+    "warm_iter": 20,
+    "epsilon": 0.0001,
+    "incre": 0.05,
+    "seed": 42,
+    "ranks": "[20, ceil(days/7), 5, 20]",
+    "dtype": "float64",
+    "channels": [
+      "q",
+      "o"
+    ]
+  },
+  "limits": {
+    "threads": 4,
+    "process_rss_gib": 12,
+    "launch_available_gib": 10,
+    "runtime_available_floor_gib": 4,
+    "wall_s": 7200,
+    "wall_scope": "each separate candidate or Selection stage; resumable per-episode checkpoints"
+  },
+  "allowed_roles": [
+    "train",
+    "selection"
+  ],
+  "closed_roles": [
+    "calibration",
+    "test"
+  ],
+  "formal_evidence": false,
+  "authorization": "User explicitly requested starting repaired RTTC comparison on 2026-09-21; Train selection and 42 Selection only",
+  "scales": {
+    "values": [
+      6264.0,
+      0.2128549963235855
+    ],
+    "source": "runs/qo_basis_only_20260910_verified/basis.pt",
+    "field": "summary.scale_q95_minus_q05",
+    "cast": "float32 matching frozen student then float64"
+  },
+  "revision": {
+    "parent_plan_sha256": "f828263bc04e6ef9ef21521a02af6c6c360720ee895f6af1be7c01f1152b6d5c",
+    "reason": "fix station weighting and archive predictions before Selection; no v5 scores reused",
+    "created": 1789970140.43552
+  }
+}

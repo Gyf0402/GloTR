@@ -1,0 +1,53 @@
+{
+ "status": "frozen",
+ "primary_clock": "fixed_UTC_minus_8",
+ "sensitivity_clock": "America/Los_Angeles",
+ "output_root": "data/pems/releases/arrays_2019",
+ "roles": {
+  "train": [
+   "2019-01-01",
+   "2019-08-07"
+  ],
+  "selection": [
+   "2019-08-08",
+   "2019-09-30"
+  ],
+  "calibration": [
+   "2019-10-01",
+   "2019-11-06"
+  ],
+  "test": [
+   "2019-11-07",
+   "2019-12-31"
+  ]
+ },
+ "u_manifest": "data/pems/releases/partition_v1/permanent_u.json",
+ "array_manifest": {
+  "path": "reviews/2026-09-12/data_release_final/ARRAY_SOURCE_MANIFEST.json",
+  "sha256": "ad3286ec3c43be79cbb81bd9a3bf3cc260e232b9aa7ad5ff234d9b225da78a63"
+ },
+ "clock_decision": {
+  "path": "reviews/2026-09-12/data_release_final/CLOCK_DECISION_DRAFT.json",
+  "sha256": "1f14cfa27f76ccdf4872230f5bf54a1cdeb85bd677deeaeb69d758904e72eed0"
+ },
+ "station_version_decision": {
+  "path": "reviews/2026-09-12/data_release_final/STATION_VERSION_DECISION_DRAFT.json",
+  "sha256": "a1fdc7211abf60250fd97ddabd307bb966e904521ae81c20e2ca627703148ce4"
+ },
+ "permanent_u_sha256": "7228cff899c1cf22cb82af56171f4ada63b1a3b61dce821cca64b08917dbb07a",
+ "candidate_binding": {
+  "path": "reviews/2026-09-10/QO_RELEASE_BINDING_CANDIDATE.json",
+  "sha256": "7a726c137bf5e1aa1c81e39930d6c0a48777a5ececb3aeed696e0401eb32db1c"
+ },
+ "required_before_freeze": [
+  "confirm the clock and station-version decisions and set both statuses to frozen",
+  "set this file's status to frozen",
+  "pin this file's SHA-256 as the template release_sha256"
+ ],
+ "freeze_note": "conditional model-calendar freeze; source_clock_verified remains false",
+ "corridor_crop": {
+  "stations": 20,
+  "applied_to": "array_manifest day files only",
+  "original_output_root_was_absolute": true
+ }
+}

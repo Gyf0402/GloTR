@@ -1,0 +1,610 @@
+{
+  "status": "frozen_before_g80_independent_confirmation",
+  "work_order": {
+    "rel": "reviews/2026-09-25/NEXT_G80_INDEPENDENT_CONFIRMATION_PLAN.md",
+    "path": "reviews/2026-09-25/NEXT_G80_INDEPENDENT_CONFIRMATION_PLAN.md",
+    "sha256": "c38a41c6cf0102a91cfc00468d13b0b1a8c4c78b1b04765ef8daefc91edb823a"
+  },
+  "label": "sealed-set single-model confirmation (G80)",
+  "authorization": {
+    "calibration_opened": true,
+    "granted_by": "user, 2026-09-25 chat confirmation: open all 31 graph-compatible Protocol-K Calibration episodes; dual acceptance gates; Test stays closed",
+    "test_opened": false
+  },
+  "primary_model": {
+    "identity": "G80 exploratory continuation checkpoint (global_control)",
+    "checkpoint": {
+      "path": "reviews/2026-09-24/sparse_neighbor_context_full_v1/global_control.pt",
+      "sha256": "d60e585ca94793aa903c5dda5c5306393e2bb20acc138c97393f8ddf20785659"
+    },
+    "loading": "GlobalTokenProfile(dropout=.1).eval(); state_dict from checkpoint['model']; strict"
+  },
+  "reference_model": {
+    "identity": "G40 retained checkpoint (raw_values)",
+    "checkpoint": {
+      "path": "reviews/2026-09-24/sparse_global_token_full_v1/raw_values.pt",
+      "sha256": "c4adb3dbc6ed0968860546372daaf5e042249f271ddbafbf0fb8d4e737f80332"
+    },
+    "role": "frozen reference arm for paired deltas; not a selection mechanism (plan section 0/1.1)"
+  },
+  "rttc": {
+    "included": false,
+    "reason": "plan section 1.2: only on explicit need; none given",
+    "frozen_reference": {
+      "plan": "reviews/2026-09-21/rttc_repair/rttc_real_v7/plan.json",
+      "candidate": 0
+    }
+  },
+  "sealed_set": {
+    "role": "calibration",
+    "selection_rule": "all roster episodes with split=calibration, protocol=K, target in frozen 20-station graph, duration in {7,14}; no sampling",
+    "count": 31,
+    "episodes": [
+      {
+        "episode_id": "ep|calibration|14|716241|287",
+        "mask_id": "mask|calibration|14|716241|287",
+        "station_id": "716241",
+        "duration_days": 14,
+        "start_day": "2019-10-15",
+        "support_group": null,
+        "input_sha256": "b7b0906b94c12fc5b5beadf37579097102cc91b0712c6e04fc7a18694d9c7a0c",
+        "scoring_sha256": "066aec5adbba7b9e5085ddea555a9b5a4d92034029655ad5e72f97882546c815"
+      },
+      {
+        "episode_id": "ep|calibration|14|716253|276",
+        "mask_id": "mask|calibration|14|716253|276",
+        "station_id": "716253",
+        "duration_days": 14,
+        "start_day": "2019-10-04",
+        "support_group": null,
+        "input_sha256": "49b50e1363dd6960437cd0775568aed1974fb27cb81e6264da995f64ee5c7cd7",
+        "scoring_sha256": "60827fb95a9643a74fd1164cd94d2aa2ce4b628182d4b3db3306e7b80eff49c8"
+      },
+      {
+        "episode_id": "ep|calibration|14|717324|276",
+        "mask_id": "mask|calibration|14|717324|276",
+        "station_id": "717324",
+        "duration_days": 14,
+        "start_day": "2019-10-04",
+        "support_group": null,
+        "input_sha256": "49b50e1363dd6960437cd0775568aed1974fb27cb81e6264da995f64ee5c7cd7",
+        "scoring_sha256": "575e3fc3f01c40c9908543839b7362c7f4ef1b99750d50ef97b34c3dde69b565"
+      },
+      {
+        "episode_id": "ep|calibration|14|717330|276",
+        "mask_id": "mask|calibration|14|717330|276",
+        "station_id": "717330",
+        "duration_days": 14,
+        "start_day": "2019-10-04",
+        "support_group": null,
+        "input_sha256": "49b50e1363dd6960437cd0775568aed1974fb27cb81e6264da995f64ee5c7cd7",
+        "scoring_sha256": "b5a79a8cf01025e89ac8a85d69e07f25e236807cb22c17bcda255155be872d06"
+      },
+      {
+        "episode_id": "ep|calibration|14|717339|276",
+        "mask_id": "mask|calibration|14|717339|276",
+        "station_id": "717339",
+        "duration_days": 14,
+        "start_day": "2019-10-04",
+        "support_group": null,
+        "input_sha256": "49b50e1363dd6960437cd0775568aed1974fb27cb81e6264da995f64ee5c7cd7",
+        "scoring_sha256": "e4df2a1ed92a31cbfa7a3ae38bc53e637f8a803252050ad5a4af99dab530adba"
+      },
+      {
+        "episode_id": "ep|calibration|14|717342|276",
+        "mask_id": "mask|calibration|14|717342|276",
+        "station_id": "717342",
+        "duration_days": 14,
+        "start_day": "2019-10-04",
+        "support_group": null,
+        "input_sha256": "49b50e1363dd6960437cd0775568aed1974fb27cb81e6264da995f64ee5c7cd7",
+        "scoring_sha256": "3ae83d81c8c5df43facdeacf76cf9c3b725093b7e46eccaddafb8f8a539bbefc"
+      },
+      {
+        "episode_id": "ep|calibration|14|717350|277",
+        "mask_id": "mask|calibration|14|717350|277",
+        "station_id": "717350",
+        "duration_days": 14,
+        "start_day": "2019-10-05",
+        "support_group": null,
+        "input_sha256": "8f8d7fe28a5f6425e5c1b54ae5764dbf4ef1b904e6d667b83d6b33a55c9021ad",
+        "scoring_sha256": "7518c71cc16157caf37f58e58b47f8717248501dd0e46617b6a6cf76f8686c84"
+      },
+      {
+        "episode_id": "ep|calibration|14|717355|287",
+        "mask_id": "mask|calibration|14|717355|287",
+        "station_id": "717355",
+        "duration_days": 14,
+        "start_day": "2019-10-15",
+        "support_group": null,
+        "input_sha256": "b7b0906b94c12fc5b5beadf37579097102cc91b0712c6e04fc7a18694d9c7a0c",
+        "scoring_sha256": "0ca03d31c4010e7720a9e40f4db2ecd8c48ebf235109bda40c4c7189cfd689a9"
+      },
+      {
+        "episode_id": "ep|calibration|14|718124|285",
+        "mask_id": "mask|calibration|14|718124|285",
+        "station_id": "718124",
+        "duration_days": 14,
+        "start_day": "2019-10-13",
+        "support_group": null,
+        "input_sha256": "c656d2a4393b661d535c1097a518f69342decae23419584068835cab16d3df11",
+        "scoring_sha256": "6098627d8a10ec1f96951e8d0fb217e6db6a5c7c14cc4e82d90375a589201e58"
+      },
+      {
+        "episode_id": "ep|calibration|14|767723|287",
+        "mask_id": "mask|calibration|14|767723|287",
+        "station_id": "767723",
+        "duration_days": 14,
+        "start_day": "2019-10-15",
+        "support_group": null,
+        "input_sha256": "b7b0906b94c12fc5b5beadf37579097102cc91b0712c6e04fc7a18694d9c7a0c",
+        "scoring_sha256": "066aec5adbba7b9e5085ddea555a9b5a4d92034029655ad5e72f97882546c815"
+      },
+      {
+        "episode_id": "ep|calibration|14|773458|287",
+        "mask_id": "mask|calibration|14|773458|287",
+        "station_id": "773458",
+        "duration_days": 14,
+        "start_day": "2019-10-15",
+        "support_group": null,
+        "input_sha256": "b7b0906b94c12fc5b5beadf37579097102cc91b0712c6e04fc7a18694d9c7a0c",
+        "scoring_sha256": "fac0f0c0b544af9393df09d012bef9e56db6b4c0aacda42d40970ee3b76bfd8c"
+      },
+      {
+        "episode_id": "ep|calibration|14|773474|276",
+        "mask_id": "mask|calibration|14|773474|276",
+        "station_id": "773474",
+        "duration_days": 14,
+        "start_day": "2019-10-04",
+        "support_group": null,
+        "input_sha256": "49b50e1363dd6960437cd0775568aed1974fb27cb81e6264da995f64ee5c7cd7",
+        "scoring_sha256": "9d1aa8d6037842b95a568f809ea7480c509c43b71daef55787c3134878cdd636"
+      },
+      {
+        "episode_id": "ep|calibration|7|716241|287",
+        "mask_id": "mask|calibration|7|716241|287",
+        "station_id": "716241",
+        "duration_days": 7,
+        "start_day": "2019-10-15",
+        "support_group": null,
+        "input_sha256": "b9296bf6e19af9125136af157718f3f65b7eabc8a2e0ae2e924971e0df79d23a",
+        "scoring_sha256": "0bcf4d11ddb927c51c87d97fc3c4993bd3475a9779dffa1f3383fde4a638eaae"
+      },
+      {
+        "episode_id": "ep|calibration|7|716253|276",
+        "mask_id": "mask|calibration|7|716253|276",
+        "station_id": "716253",
+        "duration_days": 7,
+        "start_day": "2019-10-04",
+        "support_group": null,
+        "input_sha256": "2a6305efba1befb528a9252c4b98c6771a8b8b23a862f50497ea3d54436bcd57",
+        "scoring_sha256": "1e77a94465dd526e3c823f7420ba3b702b7fa852253097c67f5eaac82949adc7"
+      },
+      {
+        "episode_id": "ep|calibration|7|716253|289",
+        "mask_id": "mask|calibration|7|716253|289",
+        "station_id": "716253",
+        "duration_days": 7,
+        "start_day": "2019-10-17",
+        "support_group": null,
+        "input_sha256": "17c0568a2bdd6b60b2ff77debdca0e6ce05af04a51101dbed59c5df2d30d79d2",
+        "scoring_sha256": "8c1ceac2c952ddebdf1f8dcbaad3f822d9ad64f49e9ccc96f5bc694b1a37238c"
+      },
+      {
+        "episode_id": "ep|calibration|7|717324|276",
+        "mask_id": "mask|calibration|7|717324|276",
+        "station_id": "717324",
+        "duration_days": 7,
+        "start_day": "2019-10-04",
+        "support_group": null,
+        "input_sha256": "2a6305efba1befb528a9252c4b98c6771a8b8b23a862f50497ea3d54436bcd57",
+        "scoring_sha256": "1ff8e80e2421f6e2793aa56c0572134bf79ac73b22580f3df455a57f3bce6ca8"
+      },
+      {
+        "episode_id": "ep|calibration|7|717324|289",
+        "mask_id": "mask|calibration|7|717324|289",
+        "station_id": "717324",
+        "duration_days": 7,
+        "start_day": "2019-10-17",
+        "support_group": null,
+        "input_sha256": "17c0568a2bdd6b60b2ff77debdca0e6ce05af04a51101dbed59c5df2d30d79d2",
+        "scoring_sha256": "f593dd6f1a6a9ec4d358d69067dcf6bc3a19037f1c2414d0cc89c5e87957cc91"
+      },
+      {
+        "episode_id": "ep|calibration|7|717330|276",
+        "mask_id": "mask|calibration|7|717330|276",
+        "station_id": "717330",
+        "duration_days": 7,
+        "start_day": "2019-10-04",
+        "support_group": null,
+        "input_sha256": "2a6305efba1befb528a9252c4b98c6771a8b8b23a862f50497ea3d54436bcd57",
+        "scoring_sha256": "89e25f01a54b4e28ead90a16eaa5df2b0b48c22eafe6336c387f6df1b1244dd8"
+      },
+      {
+        "episode_id": "ep|calibration|7|717330|289",
+        "mask_id": "mask|calibration|7|717330|289",
+        "station_id": "717330",
+        "duration_days": 7,
+        "start_day": "2019-10-17",
+        "support_group": null,
+        "input_sha256": "17c0568a2bdd6b60b2ff77debdca0e6ce05af04a51101dbed59c5df2d30d79d2",
+        "scoring_sha256": "12c3f584ba0c65d3732ff71ea0489750b4e76dd28a619cb2bb08c9f3e6c9401c"
+      },
+      {
+        "episode_id": "ep|calibration|7|717339|276",
+        "mask_id": "mask|calibration|7|717339|276",
+        "station_id": "717339",
+        "duration_days": 7,
+        "start_day": "2019-10-04",
+        "support_group": null,
+        "input_sha256": "2a6305efba1befb528a9252c4b98c6771a8b8b23a862f50497ea3d54436bcd57",
+        "scoring_sha256": "41157e8a9c51eab190036212f2c402cc68d767567fdba353764a4c03aea7b9bd"
+      },
+      {
+        "episode_id": "ep|calibration|7|717339|289",
+        "mask_id": "mask|calibration|7|717339|289",
+        "station_id": "717339",
+        "duration_days": 7,
+        "start_day": "2019-10-17",
+        "support_group": null,
+        "input_sha256": "17c0568a2bdd6b60b2ff77debdca0e6ce05af04a51101dbed59c5df2d30d79d2",
+        "scoring_sha256": "8c1ceac2c952ddebdf1f8dcbaad3f822d9ad64f49e9ccc96f5bc694b1a37238c"
+      },
+      {
+        "episode_id": "ep|calibration|7|717342|276",
+        "mask_id": "mask|calibration|7|717342|276",
+        "station_id": "717342",
+        "duration_days": 7,
+        "start_day": "2019-10-04",
+        "support_group": null,
+        "input_sha256": "2a6305efba1befb528a9252c4b98c6771a8b8b23a862f50497ea3d54436bcd57",
+        "scoring_sha256": "da2f2d60c8b0c2013132d1fd085f7374de64a218b14321b39e89a46b803ce501"
+      },
+      {
+        "episode_id": "ep|calibration|7|717342|289",
+        "mask_id": "mask|calibration|7|717342|289",
+        "station_id": "717342",
+        "duration_days": 7,
+        "start_day": "2019-10-17",
+        "support_group": null,
+        "input_sha256": "17c0568a2bdd6b60b2ff77debdca0e6ce05af04a51101dbed59c5df2d30d79d2",
+        "scoring_sha256": "7311c1a0e1743aa6666e36e1f276e3d941a773247cf595e80fbbf4b3a067d217"
+      },
+      {
+        "episode_id": "ep|calibration|7|717350|277",
+        "mask_id": "mask|calibration|7|717350|277",
+        "station_id": "717350",
+        "duration_days": 7,
+        "start_day": "2019-10-05",
+        "support_group": null,
+        "input_sha256": "a3d3b1d31c74e2567963014fa5578bdf54d79f84996c4499d79d15c72eaf89dd",
+        "scoring_sha256": "7c657e20a8c3b7811476a3ac0cb2fabd515c05b09570f71869e3d9b45b8363e5"
+      },
+      {
+        "episode_id": "ep|calibration|7|717355|287",
+        "mask_id": "mask|calibration|7|717355|287",
+        "station_id": "717355",
+        "duration_days": 7,
+        "start_day": "2019-10-15",
+        "support_group": null,
+        "input_sha256": "b9296bf6e19af9125136af157718f3f65b7eabc8a2e0ae2e924971e0df79d23a",
+        "scoring_sha256": "8d59ae7b1239169171824c15e91f1b9d2bcfe3afc9603470cbe8f77328820611"
+      },
+      {
+        "episode_id": "ep|calibration|7|718124|285",
+        "mask_id": "mask|calibration|7|718124|285",
+        "station_id": "718124",
+        "duration_days": 7,
+        "start_day": "2019-10-13",
+        "support_group": null,
+        "input_sha256": "d532ae7669d9b8266473d40423278b6a15b67493363c40dbfa70e145a59fa9b8",
+        "scoring_sha256": "119819d100e350440f234d4d41775a1ab70f474215de4a8e8540cdb2d4b18f41"
+      },
+      {
+        "episode_id": "ep|calibration|7|767723|287",
+        "mask_id": "mask|calibration|7|767723|287",
+        "station_id": "767723",
+        "duration_days": 7,
+        "start_day": "2019-10-15",
+        "support_group": null,
+        "input_sha256": "b9296bf6e19af9125136af157718f3f65b7eabc8a2e0ae2e924971e0df79d23a",
+        "scoring_sha256": "0bcf4d11ddb927c51c87d97fc3c4993bd3475a9779dffa1f3383fde4a638eaae"
+      },
+      {
+        "episode_id": "ep|calibration|7|773458|287",
+        "mask_id": "mask|calibration|7|773458|287",
+        "station_id": "773458",
+        "duration_days": 7,
+        "start_day": "2019-10-15",
+        "support_group": null,
+        "input_sha256": "b9296bf6e19af9125136af157718f3f65b7eabc8a2e0ae2e924971e0df79d23a",
+        "scoring_sha256": "8d59ae7b1239169171824c15e91f1b9d2bcfe3afc9603470cbe8f77328820611"
+      },
+      {
+        "episode_id": "ep|calibration|7|773474|276",
+        "mask_id": "mask|calibration|7|773474|276",
+        "station_id": "773474",
+        "duration_days": 7,
+        "start_day": "2019-10-04",
+        "support_group": null,
+        "input_sha256": "2a6305efba1befb528a9252c4b98c6771a8b8b23a862f50497ea3d54436bcd57",
+        "scoring_sha256": "3feb6dd27edf573044440ed4b9f5475125d47aaf8c9ed9403e26c98174ec0153"
+      },
+      {
+        "episode_id": "ep|calibration|7|773474|289",
+        "mask_id": "mask|calibration|7|773474|289",
+        "station_id": "773474",
+        "duration_days": 7,
+        "start_day": "2019-10-17",
+        "support_group": null,
+        "input_sha256": "17c0568a2bdd6b60b2ff77debdca0e6ce05af04a51101dbed59c5df2d30d79d2",
+        "scoring_sha256": "108bc02fd1fd6542a7a4fc117c147f81f60ad8a579af80e1853c8ad49f050f9d"
+      },
+      {
+        "episode_id": "ep|calibration|7|773522|293",
+        "mask_id": "mask|calibration|7|773522|293",
+        "station_id": "773522",
+        "duration_days": 7,
+        "start_day": "2019-10-21",
+        "support_group": null,
+        "input_sha256": "f9f8a8a28627b5177609acef75b0a1f0001649ded5f3ab108ba216c29e817dcf",
+        "scoring_sha256": "36998d7ddaeef1718df749f3f2b0cb0236e267edad3f0256e5c4bcb59a1da4da"
+      }
+    ],
+    "episode_ids": [
+      "ep|calibration|14|716241|287",
+      "ep|calibration|14|716253|276",
+      "ep|calibration|14|717324|276",
+      "ep|calibration|14|717330|276",
+      "ep|calibration|14|717339|276",
+      "ep|calibration|14|717342|276",
+      "ep|calibration|14|717350|277",
+      "ep|calibration|14|717355|287",
+      "ep|calibration|14|718124|285",
+      "ep|calibration|14|767723|287",
+      "ep|calibration|14|773458|287",
+      "ep|calibration|14|773474|276",
+      "ep|calibration|7|716241|287",
+      "ep|calibration|7|716253|276",
+      "ep|calibration|7|716253|289",
+      "ep|calibration|7|717324|276",
+      "ep|calibration|7|717324|289",
+      "ep|calibration|7|717330|276",
+      "ep|calibration|7|717330|289",
+      "ep|calibration|7|717339|276",
+      "ep|calibration|7|717339|289",
+      "ep|calibration|7|717342|276",
+      "ep|calibration|7|717342|289",
+      "ep|calibration|7|717350|277",
+      "ep|calibration|7|717355|287",
+      "ep|calibration|7|718124|285",
+      "ep|calibration|7|767723|287",
+      "ep|calibration|7|773458|287",
+      "ep|calibration|7|773474|276",
+      "ep|calibration|7|773474|289",
+      "ep|calibration|7|773522|293"
+    ],
+    "station_order": [
+      "773437",
+      "718126",
+      "717355",
+      "773537",
+      "717350",
+      "718125",
+      "717342",
+      "717339",
+      "773522",
+      "716253",
+      "717337",
+      "717330",
+      "773490",
+      "773474",
+      "718124",
+      "717324",
+      "773422",
+      "716241",
+      "767723",
+      "773458"
+    ],
+    "source_days": [
+      "2019-10-01",
+      "2019-10-02",
+      "2019-10-03",
+      "2019-10-04",
+      "2019-10-05",
+      "2019-10-06",
+      "2019-10-07",
+      "2019-10-08",
+      "2019-10-09",
+      "2019-10-10",
+      "2019-10-11",
+      "2019-10-12",
+      "2019-10-13",
+      "2019-10-14",
+      "2019-10-15",
+      "2019-10-16",
+      "2019-10-17",
+      "2019-10-18",
+      "2019-10-19",
+      "2019-10-20",
+      "2019-10-21",
+      "2019-10-22",
+      "2019-10-23",
+      "2019-10-24",
+      "2019-10-25",
+      "2019-10-26",
+      "2019-10-27",
+      "2019-10-28",
+      "2019-10-29",
+      "2019-10-30",
+      "2019-10-31"
+    ],
+    "note": "support groups do not exist for Calibration (roster group field is null); stratification uses duration and station"
+  },
+  "intersection_checks": {
+    "train_prepared_268": {
+      "count": 0,
+      "ids": []
+    },
+    "train_validation_58": {
+      "count": 0,
+      "ids": []
+    },
+    "rttc_tuning_30": {
+      "count": 0,
+      "ids": []
+    },
+    "selection_prepared_42": {
+      "count": 0,
+      "ids": []
+    },
+    "prev_comparison_58": {
+      "count": 0,
+      "ids": []
+    }
+  },
+  "exposure_note": "G80/G40 were fitted on Train episodes; the sealed set shares no episode, day or station-outage mask with any training, selection or exploration set",
+  "scales": {
+    "values": [
+      6240.0,
+      0.21276629999999888
+    ],
+    "source": "reviews/2026-09-23/optimization_v1/stage3_run_v1/result.json"
+  },
+  "absolute_gate": {
+    "derivation": "G40 retained Train-validation sensor_macro (q NRMSE 0.06663567495460694, o NRMSE 0.13766778750488393, q MAE 317.843216411884, o MAE 0.015928389633504243) x 1.05 transport margin; frozen before scoring",
+    "q_profile_macro_nrmse_max": 0.06996745870233728,
+    "o_profile_macro_nrmse_max": 0.1445511768801281,
+    "q_raw_mae_max": 333.7353772324782,
+    "o_raw_mae_max": 0.016724809115179456,
+    "max_failed_cases": 0,
+    "visible_inputs_intact_required": true
+  },
+  "relative_rule": {
+    "definition": "sealed-set paired G80 vs G40: q sensor-macro profile NRMSE relative reduction >= 0.05 AND o sensor-macro profile NRMSE not worse than G40 (user-directed continuation rule)",
+    "q_relative_reduction_min": 0.05,
+    "o_not_worse_required": true
+  },
+  "stratification": {
+    "duration": [
+      7,
+      14
+    ],
+    "station": "per-station means",
+    "support_groups": "not applicable for Calibration"
+  },
+  "bootstrap": {
+    "unit": "station",
+    "resamples": 10000,
+    "seed": 20260925
+  },
+  "limits": {
+    "threads": 4,
+    "process_rss_gib": 12,
+    "launch_available_gib": 10,
+    "runtime_available_floor_gib": 4,
+    "wall_s": 3600
+  },
+  "access_log": "access.jsonl",
+  "stop_conditions": [
+    "input SHA mismatch",
+    "sealed-set intersection nonempty",
+    "role boundary violation",
+    "mask/coordinate misalignment",
+    "nonfinite output",
+    "resource limit exceeded",
+    "verifier inconsistency",
+    "any failed case"
+  ],
+  "failure_handling": "stop the formal run on first failure; record the case; never drop cases to fix aggregates",
+  "environment": {
+    "python": "3.12.13",
+    "torch": "2.12.0+cu132",
+    "numpy": "2.4.4",
+    "cuda_device": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+    "deterministic_algorithms": true
+  },
+  "closed_roles": [
+    "test"
+  ],
+  "input_pins": {
+    "work_order": {
+      "path": "reviews/2026-09-25/NEXT_G80_INDEPENDENT_CONFIRMATION_PLAN.md",
+      "sha256": "c38a41c6cf0102a91cfc00468d13b0b1a8c4c78b1b04765ef8daefc91edb823a"
+    },
+    "g40_checkpoint": {
+      "path": "reviews/2026-09-24/sparse_global_token_full_v1/raw_values.pt",
+      "sha256": "c4adb3dbc6ed0968860546372daaf5e042249f271ddbafbf0fb8d4e737f80332"
+    },
+    "g80_checkpoint": {
+      "path": "reviews/2026-09-24/sparse_neighbor_context_full_v1/global_control.pt",
+      "sha256": "d60e585ca94793aa903c5dda5c5306393e2bb20acc138c97393f8ddf20785659"
+    },
+    "split": {
+      "path": "reviews/2026-09-23/optimization_v1/split.json",
+      "sha256": "7dd2d8a170c3e0d9e8710888ced50ca2638a9c1cc95a33d5e9a214b2992e789e"
+    },
+    "stage3_result": {
+      "path": "reviews/2026-09-23/optimization_v1/stage3_run_v1/result.json",
+      "sha256": "21864f1313d6ade9a8483375a049e7a94a54bd7e66c1165560d5fddfc4941eda"
+    },
+    "stage3_basis": {
+      "path": "reviews/2026-09-23/optimization_v1/stage3_run_v1/basis.pt",
+      "sha256": "79c0f3e4f3cd04138b0b86126609fd56578108c9fb0ae20a209e05d237891e9f"
+    },
+    "stage3_mu": {
+      "path": "reviews/2026-09-23/optimization_v1/stage3_run_v1/mu.pt",
+      "sha256": "ec4e8fa8ee2a51c37ed4a6e39f59af88d6ac57adae54558148ca5d15020fe7fe"
+    },
+    "stage4_core": {
+      "path": "reviews/2026-09-23/optimization_v1/stage4_run_v1/core/student.pt",
+      "sha256": "261ef98f7371f1a5c8d4f8883f94d8fb8a39d3acd121f1f80d99cdaae09c7ce5"
+    },
+    "stage4_result": {
+      "path": "reviews/2026-09-23/optimization_v1/stage4_run_v1/result.json",
+      "sha256": "75fb83873b0fed427173ff8bf2b0ff72bfb4f9474375a631603302790087a87e"
+    },
+    "release": {
+      "path": "reviews/2026-09-12/data_release_final/QO_FORMAL_RELEASE.json",
+      "sha256": "87e8ab9f882c14397b473f120152a12c1d56e288a18a5c332c2c873418254f6a"
+    },
+    "graph": {
+      "path": "data/pems/graphs/qo_pilot_v1/release_v1/graph.json",
+      "sha256": "6373d9a58173b4e828fced08b57f944a1ba78ac8733125e1ee100c2f5a034eb4"
+    },
+    "roster": {
+      "path": "reviews/2026-09-12/formal_mask_bank/EPISODE_ROSTER_NON_TEST.json",
+      "sha256": "cb38dca7027a8bc087290b01cf61e6f6f2550ddbc2f2a4f4a92b807e8813bbee"
+    },
+    "train_registration_v2": {
+      "path": "runs/current_student_train_preparation_v2/registration.json",
+      "sha256": "3389153b1644a260ee12a97d325522d4356462e8576989216b5bb005e009f90b"
+    },
+    "prev_comparison_plan": {
+      "path": "reviews/2026-09-25/global80_rttc_init_v1/plan.json",
+      "sha256": "cd69eb033ef7afdc45a8265e90336a5ead7b0f4988912f12ab574cb2115f7832"
+    },
+    "prev_comparison_result": {
+      "path": "reviews/2026-09-25/global80_rttc_init_v1/result.json",
+      "sha256": "1ef266cba4ba55c918224ace0d728172da25f5e343cf700bf6b20c79b1c82636"
+    }
+  },
+  "code_sha256": {
+    "scripts/run_g80_independent_confirmation.py": "1f0998811ab82c0e373589d20f579ed5c1441d974dcbf2c90c9229756e6cf78e",
+    "scripts/fit_sparse_neighbor_context.py": "67f0a25ff50ab27551c2c1b709d1610a57fb14466cdfd05667dcff88677da84a",
+    "scripts/fit_sparse_global_tokens.py": "fc085782abee74d00116420af9945df221f4560e384ffd6b2f03dcd86f82d522",
+    "scripts/fit_profile_residual_candidate.py": "b1a39e7e7a028ac63b6f3ab5262ac015bb76b4f7b34458a53576fb3f1151332c",
+    "models/sparse_global_tokens.py": "a203b4de778d28ca8afdbe92fa6181f78240cfb9a75a181a193ec923c834f51c",
+    "models/sparse_neighbor_context.py": "aac5757116cba25044acff9588ba41fdea90d9ff01327a3530aa3f5c057ade02",
+    "models/sparse_observation_profile.py": "34fc1dbc4e5cfede96056f900b06ad60cea26581d8819b23ced8bb64c0d951b1",
+    "training/current_release_student_data.py": "d2b5e79f21c55f509c6bd291bbdca1b8a72a16ce47e91edc72119a38e9f1b35c",
+    "training/pilot_data.py": "37e206de6c5f961732851f611105f165fa4f911d6257e722be54b9d178bf2794",
+    "training/pilot_engine.py": "da149fab8b4cc0d3f8120c9c981f0122d90b454d09f9560809805a5a1e8d595c",
+    "training/real_student_adapter.py": "3a6f1afc0759104ae592cd8be4046bc238efaa6c047dec7ac2f634ea8b0a1c4a",
+    "training/qo_attributes.py": "b1ed33359a609cb498cb626e7f89c46502bf16e7d85a21f5a8f3e4eb0ab7ddc1",
+    "representations/basis.py": "65db708c8055930f0b364dda03ce04feab65163d22bda6396f235d54de95038b",
+    "models/film_rgnn.py": "07105a639a6a5bcdd47f2744b40b3c81fc7ff46bd0d5ad6c43901b28fbcd576e",
+    "reviews/2026-09-21/rttc_repair/rttc_real.py": "5bb8efd852352cc9a3ef60a6347c11b012eedc350e362f512b8d2a4a273d7623",
+    "reviews/2026-09-19/ai_handoff_diagnosis_20260919T051738Z/tools/rttc_stable.py": "5cf7d05bbda8f9e4d795bd52acaf4afe191a407490b67eb69bc907bc7b1f39c8"
+  }
+}

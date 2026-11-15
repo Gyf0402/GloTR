@@ -1,0 +1,599 @@
+{
+  "purpose": "A6 selection set (Selection 42); frozen before any A6 training",
+  "derivation_rule": "split == 'selection' AND station_id in graph.station_order AND full span inside the release's selection role bounds",
+  "release_role_bounds": [
+    "2019-08-08",
+    "2019-09-30"
+  ],
+  "inputs": {
+    "roster": {
+      "path": "reviews/2026-09-12/formal_mask_bank/EPISODE_ROSTER_NON_TEST.json",
+      "sha256": "cb38dca7027a8bc087290b01cf61e6f6f2550ddbc2f2a4f4a92b807e8813bbee"
+    },
+    "graph": {
+      "path": "data/pems/graphs/qo_pilot_v1/release_v1/graph.json",
+      "sha256": "6373d9a58173b4e828fced08b57f944a1ba78ac8733125e1ee100c2f5a034eb4"
+    },
+    "release": {
+      "path": "reviews/2026-09-12/data_release_final/QO_FORMAL_RELEASE.json",
+      "sha256": "87e8ab9f882c14397b473f120152a12c1d56e288a18a5c332c2c873418254f6a"
+    }
+  },
+  "n_cases": 42,
+  "n_duration_7": 32,
+  "n_duration_14": 10,
+  "stations": [
+    "716241",
+    "716253",
+    "717324",
+    "717330",
+    "717339",
+    "717342",
+    "717350",
+    "717355",
+    "718124",
+    "767723",
+    "773458",
+    "773474"
+  ],
+  "start_days": [
+    "2019-08-17",
+    "2019-09-06",
+    "2019-09-11",
+    "2019-09-15",
+    "2019-09-19",
+    "2019-09-20"
+  ],
+  "episode_id_sha256": "e4bc1b61dd74585204902553611ee3303fb6e975ad80c3be60dd068eb847b3b5",
+  "episode_ids_in_order": [
+    "ep|selection|7|716241|228",
+    "ep|selection|7|716241|248",
+    "ep|selection|7|716241|261",
+    "ep|selection|7|716253|228",
+    "ep|selection|7|716253|253",
+    "ep|selection|7|717324|228",
+    "ep|selection|7|717324|248",
+    "ep|selection|7|717324|261",
+    "ep|selection|7|717330|228",
+    "ep|selection|7|717330|248",
+    "ep|selection|7|717330|261",
+    "ep|selection|7|717339|228",
+    "ep|selection|7|717339|248",
+    "ep|selection|7|717339|261",
+    "ep|selection|7|717342|228",
+    "ep|selection|7|717342|248",
+    "ep|selection|7|717342|261",
+    "ep|selection|7|717350|262",
+    "ep|selection|7|717355|228",
+    "ep|selection|7|717355|248",
+    "ep|selection|7|717355|261",
+    "ep|selection|7|718124|228",
+    "ep|selection|7|718124|248",
+    "ep|selection|7|718124|261",
+    "ep|selection|7|767723|228",
+    "ep|selection|7|767723|257",
+    "ep|selection|7|773458|228",
+    "ep|selection|7|773458|248",
+    "ep|selection|7|773458|261",
+    "ep|selection|7|773474|228",
+    "ep|selection|7|773474|248",
+    "ep|selection|7|773474|261",
+    "ep|selection|14|716241|248",
+    "ep|selection|14|716253|253",
+    "ep|selection|14|717324|248",
+    "ep|selection|14|717330|248",
+    "ep|selection|14|717339|248",
+    "ep|selection|14|717342|248",
+    "ep|selection|14|717355|248",
+    "ep|selection|14|718124|248",
+    "ep|selection|14|773458|248",
+    "ep|selection|14|773474|248"
+  ],
+  "episodes": [
+    {
+      "episode_id": "ep|selection|7|716241|228",
+      "mask_id": "mask|selection|7|716241|228",
+      "station_id": "716241",
+      "start_day": "2019-08-17",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-08-14",
+        "2019-08-26"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|716241|248",
+      "mask_id": "mask|selection|7|716241|248",
+      "station_id": "716241",
+      "start_day": "2019-09-06",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-03",
+        "2019-09-15"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|716241|261",
+      "mask_id": "mask|selection|7|716241|261",
+      "station_id": "716241",
+      "start_day": "2019-09-19",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-16",
+        "2019-09-28"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|716253|228",
+      "mask_id": "mask|selection|7|716253|228",
+      "station_id": "716253",
+      "start_day": "2019-08-17",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-08-14",
+        "2019-08-26"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|716253|253",
+      "mask_id": "mask|selection|7|716253|253",
+      "station_id": "716253",
+      "start_day": "2019-09-11",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-08",
+        "2019-09-20"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|717324|228",
+      "mask_id": "mask|selection|7|717324|228",
+      "station_id": "717324",
+      "start_day": "2019-08-17",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-08-14",
+        "2019-08-26"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|717324|248",
+      "mask_id": "mask|selection|7|717324|248",
+      "station_id": "717324",
+      "start_day": "2019-09-06",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-03",
+        "2019-09-15"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|717324|261",
+      "mask_id": "mask|selection|7|717324|261",
+      "station_id": "717324",
+      "start_day": "2019-09-19",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-16",
+        "2019-09-28"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|717330|228",
+      "mask_id": "mask|selection|7|717330|228",
+      "station_id": "717330",
+      "start_day": "2019-08-17",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-08-14",
+        "2019-08-26"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|717330|248",
+      "mask_id": "mask|selection|7|717330|248",
+      "station_id": "717330",
+      "start_day": "2019-09-06",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-03",
+        "2019-09-15"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|717330|261",
+      "mask_id": "mask|selection|7|717330|261",
+      "station_id": "717330",
+      "start_day": "2019-09-19",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-16",
+        "2019-09-28"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|717339|228",
+      "mask_id": "mask|selection|7|717339|228",
+      "station_id": "717339",
+      "start_day": "2019-08-17",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-08-14",
+        "2019-08-26"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|717339|248",
+      "mask_id": "mask|selection|7|717339|248",
+      "station_id": "717339",
+      "start_day": "2019-09-06",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-03",
+        "2019-09-15"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|717339|261",
+      "mask_id": "mask|selection|7|717339|261",
+      "station_id": "717339",
+      "start_day": "2019-09-19",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-16",
+        "2019-09-28"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|717342|228",
+      "mask_id": "mask|selection|7|717342|228",
+      "station_id": "717342",
+      "start_day": "2019-08-17",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-08-14",
+        "2019-08-26"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|717342|248",
+      "mask_id": "mask|selection|7|717342|248",
+      "station_id": "717342",
+      "start_day": "2019-09-06",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-03",
+        "2019-09-15"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|717342|261",
+      "mask_id": "mask|selection|7|717342|261",
+      "station_id": "717342",
+      "start_day": "2019-09-19",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-16",
+        "2019-09-28"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|717350|262",
+      "mask_id": "mask|selection|7|717350|262",
+      "station_id": "717350",
+      "start_day": "2019-09-20",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-17",
+        "2019-09-29"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|717355|228",
+      "mask_id": "mask|selection|7|717355|228",
+      "station_id": "717355",
+      "start_day": "2019-08-17",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-08-14",
+        "2019-08-26"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|717355|248",
+      "mask_id": "mask|selection|7|717355|248",
+      "station_id": "717355",
+      "start_day": "2019-09-06",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-03",
+        "2019-09-15"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|717355|261",
+      "mask_id": "mask|selection|7|717355|261",
+      "station_id": "717355",
+      "start_day": "2019-09-19",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-16",
+        "2019-09-28"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|718124|228",
+      "mask_id": "mask|selection|7|718124|228",
+      "station_id": "718124",
+      "start_day": "2019-08-17",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-08-14",
+        "2019-08-26"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|718124|248",
+      "mask_id": "mask|selection|7|718124|248",
+      "station_id": "718124",
+      "start_day": "2019-09-06",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-03",
+        "2019-09-15"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|718124|261",
+      "mask_id": "mask|selection|7|718124|261",
+      "station_id": "718124",
+      "start_day": "2019-09-19",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-16",
+        "2019-09-28"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|767723|228",
+      "mask_id": "mask|selection|7|767723|228",
+      "station_id": "767723",
+      "start_day": "2019-08-17",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-08-14",
+        "2019-08-26"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|767723|257",
+      "mask_id": "mask|selection|7|767723|257",
+      "station_id": "767723",
+      "start_day": "2019-09-15",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-12",
+        "2019-09-24"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|773458|228",
+      "mask_id": "mask|selection|7|773458|228",
+      "station_id": "773458",
+      "start_day": "2019-08-17",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-08-14",
+        "2019-08-26"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|773458|248",
+      "mask_id": "mask|selection|7|773458|248",
+      "station_id": "773458",
+      "start_day": "2019-09-06",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-03",
+        "2019-09-15"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|773458|261",
+      "mask_id": "mask|selection|7|773458|261",
+      "station_id": "773458",
+      "start_day": "2019-09-19",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-16",
+        "2019-09-28"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|773474|228",
+      "mask_id": "mask|selection|7|773474|228",
+      "station_id": "773474",
+      "start_day": "2019-08-17",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-08-14",
+        "2019-08-26"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|773474|248",
+      "mask_id": "mask|selection|7|773474|248",
+      "station_id": "773474",
+      "start_day": "2019-09-06",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-03",
+        "2019-09-15"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|7|773474|261",
+      "mask_id": "mask|selection|7|773474|261",
+      "station_id": "773474",
+      "start_day": "2019-09-19",
+      "duration_days": 7,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-16",
+        "2019-09-28"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|14|716241|248",
+      "mask_id": "mask|selection|14|716241|248",
+      "station_id": "716241",
+      "start_day": "2019-09-06",
+      "duration_days": 14,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-03",
+        "2019-09-22"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|14|716253|253",
+      "mask_id": "mask|selection|14|716253|253",
+      "station_id": "716253",
+      "start_day": "2019-09-11",
+      "duration_days": 14,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-08",
+        "2019-09-27"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|14|717324|248",
+      "mask_id": "mask|selection|14|717324|248",
+      "station_id": "717324",
+      "start_day": "2019-09-06",
+      "duration_days": 14,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-03",
+        "2019-09-22"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|14|717330|248",
+      "mask_id": "mask|selection|14|717330|248",
+      "station_id": "717330",
+      "start_day": "2019-09-06",
+      "duration_days": 14,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-03",
+        "2019-09-22"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|14|717339|248",
+      "mask_id": "mask|selection|14|717339|248",
+      "station_id": "717339",
+      "start_day": "2019-09-06",
+      "duration_days": 14,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-03",
+        "2019-09-22"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|14|717342|248",
+      "mask_id": "mask|selection|14|717342|248",
+      "station_id": "717342",
+      "start_day": "2019-09-06",
+      "duration_days": 14,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-03",
+        "2019-09-22"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|14|717355|248",
+      "mask_id": "mask|selection|14|717355|248",
+      "station_id": "717355",
+      "start_day": "2019-09-06",
+      "duration_days": 14,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-03",
+        "2019-09-22"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|14|718124|248",
+      "mask_id": "mask|selection|14|718124|248",
+      "station_id": "718124",
+      "start_day": "2019-09-06",
+      "duration_days": 14,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-03",
+        "2019-09-22"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|14|773458|248",
+      "mask_id": "mask|selection|14|773458|248",
+      "station_id": "773458",
+      "start_day": "2019-09-06",
+      "duration_days": 14,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-03",
+        "2019-09-22"
+      ]
+    },
+    {
+      "episode_id": "ep|selection|14|773474|248",
+      "mask_id": "mask|selection|14|773474|248",
+      "station_id": "773474",
+      "start_day": "2019-09-06",
+      "duration_days": 14,
+      "g80_test_role": "selection",
+      "window": [
+        "2019-09-03",
+        "2019-09-22"
+      ]
+    }
+  ],
+  "exposure_note": "Selection was already used for the G80 selection stage; this is a post-exposure selection set, not a blind holdout"
+}

@@ -1,0 +1,1702 @@
+{
+ "queue": "test_21",
+ "duration": 7,
+ "buffer": 3,
+ "target_density_min": 0.5,
+ "max_offset_weeks": 6,
+ "role_band": [
+  "2019-11-07",
+  "2019-12-31"
+ ],
+ "registered_whitelist_span": [
+  "2019-11-27",
+  "2019-12-28"
+ ],
+ "n_registered_whitelist_days": 32,
+ "n_days_read_total": 42,
+ "days_outside_whitelist": [
+  "2019-11-07",
+  "2019-11-08",
+  "2019-11-09",
+  "2019-11-10",
+  "2019-11-11",
+  "2019-11-12",
+  "2019-11-13",
+  "2019-11-14",
+  "2019-11-15",
+  "2019-11-16",
+  "2019-11-17",
+  "2019-11-18",
+  "2019-11-19",
+  "2019-11-20",
+  "2019-11-21",
+  "2019-11-22",
+  "2019-11-23",
+  "2019-11-24",
+  "2019-11-25",
+  "2019-11-26"
+ ],
+ "n_days_outside_whitelist": 20,
+ "days_out_of_band_never_read": [
+  "2019-10-06",
+  "2019-10-07",
+  "2019-10-08",
+  "2019-10-09",
+  "2019-10-10",
+  "2019-10-11",
+  "2019-10-12",
+  "2019-10-13",
+  "2019-10-14",
+  "2019-10-15",
+  "2019-10-16",
+  "2019-10-17",
+  "2019-10-18",
+  "2019-10-19",
+  "2019-10-20",
+  "2019-10-21",
+  "2019-10-22",
+  "2019-10-23",
+  "2019-10-24",
+  "2019-10-25",
+  "2019-10-26",
+  "2019-10-27",
+  "2019-10-28",
+  "2019-10-29",
+  "2019-10-30",
+  "2019-10-31",
+  "2019-11-01",
+  "2019-11-02",
+  "2019-11-03",
+  "2019-11-04",
+  "2019-11-05",
+  "2019-11-06"
+ ],
+ "globally_dark_days_in_band": [
+  "2019-11-07",
+  "2019-11-08",
+  "2019-11-09",
+  "2019-11-10",
+  "2019-11-11",
+  "2019-11-12",
+  "2019-11-13",
+  "2019-11-14",
+  "2019-11-15",
+  "2019-11-16",
+  "2019-11-17",
+  "2019-11-18",
+  "2019-11-19",
+  "2019-11-20",
+  "2019-11-21",
+  "2019-11-22",
+  "2019-11-23",
+  "2019-11-24",
+  "2019-11-25",
+  "2019-11-26"
+ ],
+ "n_globally_dark_days_in_band": 20,
+ "chosen_offset_histogram": {
+  "0": 14,
+  "None": 7
+ },
+ "unavailable_cases": 7,
+ "cases_using_whitelist_external_days": 0,
+ "total_whitelist_external_day_uses": 0,
+ "rows": [
+  {
+   "episode_id": "ep|test|14|716241|345",
+   "target": "716241",
+   "duration_days": 14,
+   "start_day": "2019-12-12",
+   "candidates": [
+    {
+     "offset": 0,
+     "in_band": true,
+     "days_all_viable": true,
+     "target_density": 0.7103,
+     "window_start": "2019-11-29",
+     "window_end": "2019-12-11",
+     "days_outside_whitelist": 0
+    },
+    {
+     "offset": 1,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.7063,
+     "window_start": "2019-11-22",
+     "window_end": "2019-12-04",
+     "days_outside_whitelist": 5
+    },
+    {
+     "offset": 2,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-15",
+     "window_end": "2019-11-27",
+     "days_outside_whitelist": 12
+    },
+    {
+     "offset": 3,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-08",
+     "window_end": "2019-11-20",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 4,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-01",
+     "window_end": "2019-11-13",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 5,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-25",
+     "window_end": "2019-11-06",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 6,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-18",
+     "window_end": "2019-10-30",
+     "days_outside_whitelist": 13
+    }
+   ],
+   "chosen_offset": 0,
+   "chosen_window": [
+    "2019-11-29",
+    "2019-12-11"
+   ],
+   "chosen_days_outside_whitelist": 0
+  },
+  {
+   "episode_id": "ep|test|14|716253|345",
+   "target": "716253",
+   "duration_days": 14,
+   "start_day": "2019-12-12",
+   "candidates": [
+    {
+     "offset": 0,
+     "in_band": true,
+     "days_all_viable": true,
+     "target_density": 0.7098,
+     "window_start": "2019-11-29",
+     "window_end": "2019-12-11",
+     "days_outside_whitelist": 0
+    },
+    {
+     "offset": 1,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.7059,
+     "window_start": "2019-11-22",
+     "window_end": "2019-12-04",
+     "days_outside_whitelist": 5
+    },
+    {
+     "offset": 2,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-15",
+     "window_end": "2019-11-27",
+     "days_outside_whitelist": 12
+    },
+    {
+     "offset": 3,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-08",
+     "window_end": "2019-11-20",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 4,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-01",
+     "window_end": "2019-11-13",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 5,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-25",
+     "window_end": "2019-11-06",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 6,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-18",
+     "window_end": "2019-10-30",
+     "days_outside_whitelist": 13
+    }
+   ],
+   "chosen_offset": 0,
+   "chosen_window": [
+    "2019-11-29",
+    "2019-12-11"
+   ],
+   "chosen_days_outside_whitelist": 0
+  },
+  {
+   "episode_id": "ep|test|14|717324|333",
+   "target": "717324",
+   "duration_days": 14,
+   "start_day": "2019-11-30",
+   "candidates": [
+    {
+     "offset": 0,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-17",
+     "window_end": "2019-11-29",
+     "days_outside_whitelist": 10
+    },
+    {
+     "offset": 1,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-10",
+     "window_end": "2019-11-22",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 2,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-03",
+     "window_end": "2019-11-15",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 3,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-27",
+     "window_end": "2019-11-08",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 4,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-20",
+     "window_end": "2019-11-01",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 5,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-13",
+     "window_end": "2019-10-25",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 6,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-06",
+     "window_end": "2019-10-18",
+     "days_outside_whitelist": 13
+    }
+   ],
+   "chosen_offset": null,
+   "chosen_window": null,
+   "chosen_days_outside_whitelist": null
+  },
+  {
+   "episode_id": "ep|test|14|717330|333",
+   "target": "717330",
+   "duration_days": 14,
+   "start_day": "2019-11-30",
+   "candidates": [
+    {
+     "offset": 0,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-17",
+     "window_end": "2019-11-29",
+     "days_outside_whitelist": 10
+    },
+    {
+     "offset": 1,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-10",
+     "window_end": "2019-11-22",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 2,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-03",
+     "window_end": "2019-11-15",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 3,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-27",
+     "window_end": "2019-11-08",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 4,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-20",
+     "window_end": "2019-11-01",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 5,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-13",
+     "window_end": "2019-10-25",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 6,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-06",
+     "window_end": "2019-10-18",
+     "days_outside_whitelist": 13
+    }
+   ],
+   "chosen_offset": null,
+   "chosen_window": null,
+   "chosen_days_outside_whitelist": null
+  },
+  {
+   "episode_id": "ep|test|14|717342|345",
+   "target": "717342",
+   "duration_days": 14,
+   "start_day": "2019-12-12",
+   "candidates": [
+    {
+     "offset": 0,
+     "in_band": true,
+     "days_all_viable": true,
+     "target_density": 0.7098,
+     "window_start": "2019-11-29",
+     "window_end": "2019-12-11",
+     "days_outside_whitelist": 0
+    },
+    {
+     "offset": 1,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.7063,
+     "window_start": "2019-11-22",
+     "window_end": "2019-12-04",
+     "days_outside_whitelist": 5
+    },
+    {
+     "offset": 2,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-15",
+     "window_end": "2019-11-27",
+     "days_outside_whitelist": 12
+    },
+    {
+     "offset": 3,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-08",
+     "window_end": "2019-11-20",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 4,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-01",
+     "window_end": "2019-11-13",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 5,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-25",
+     "window_end": "2019-11-06",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 6,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-18",
+     "window_end": "2019-10-30",
+     "days_outside_whitelist": 13
+    }
+   ],
+   "chosen_offset": 0,
+   "chosen_window": [
+    "2019-11-29",
+    "2019-12-11"
+   ],
+   "chosen_days_outside_whitelist": 0
+  },
+  {
+   "episode_id": "ep|test|14|718124|333",
+   "target": "718124",
+   "duration_days": 14,
+   "start_day": "2019-11-30",
+   "candidates": [
+    {
+     "offset": 0,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-17",
+     "window_end": "2019-11-29",
+     "days_outside_whitelist": 10
+    },
+    {
+     "offset": 1,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-10",
+     "window_end": "2019-11-22",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 2,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-03",
+     "window_end": "2019-11-15",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 3,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-27",
+     "window_end": "2019-11-08",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 4,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-20",
+     "window_end": "2019-11-01",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 5,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-13",
+     "window_end": "2019-10-25",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 6,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-06",
+     "window_end": "2019-10-18",
+     "days_outside_whitelist": 13
+    }
+   ],
+   "chosen_offset": null,
+   "chosen_window": null,
+   "chosen_days_outside_whitelist": null
+  },
+  {
+   "episode_id": "ep|test|14|767723|345",
+   "target": "767723",
+   "duration_days": 14,
+   "start_day": "2019-12-12",
+   "candidates": [
+    {
+     "offset": 0,
+     "in_band": true,
+     "days_all_viable": true,
+     "target_density": 0.7103,
+     "window_start": "2019-11-29",
+     "window_end": "2019-12-11",
+     "days_outside_whitelist": 0
+    },
+    {
+     "offset": 1,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.7063,
+     "window_start": "2019-11-22",
+     "window_end": "2019-12-04",
+     "days_outside_whitelist": 5
+    },
+    {
+     "offset": 2,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-15",
+     "window_end": "2019-11-27",
+     "days_outside_whitelist": 12
+    },
+    {
+     "offset": 3,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-08",
+     "window_end": "2019-11-20",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 4,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-01",
+     "window_end": "2019-11-13",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 5,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-25",
+     "window_end": "2019-11-06",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 6,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-18",
+     "window_end": "2019-10-30",
+     "days_outside_whitelist": 13
+    }
+   ],
+   "chosen_offset": 0,
+   "chosen_window": [
+    "2019-11-29",
+    "2019-12-11"
+   ],
+   "chosen_days_outside_whitelist": 0
+  },
+  {
+   "episode_id": "ep|test|14|773458|345",
+   "target": "773458",
+   "duration_days": 14,
+   "start_day": "2019-12-12",
+   "candidates": [
+    {
+     "offset": 0,
+     "in_band": true,
+     "days_all_viable": true,
+     "target_density": 0.7103,
+     "window_start": "2019-11-29",
+     "window_end": "2019-12-11",
+     "days_outside_whitelist": 0
+    },
+    {
+     "offset": 1,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.7063,
+     "window_start": "2019-11-22",
+     "window_end": "2019-12-04",
+     "days_outside_whitelist": 5
+    },
+    {
+     "offset": 2,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-15",
+     "window_end": "2019-11-27",
+     "days_outside_whitelist": 12
+    },
+    {
+     "offset": 3,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-08",
+     "window_end": "2019-11-20",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 4,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-01",
+     "window_end": "2019-11-13",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 5,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-25",
+     "window_end": "2019-11-06",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 6,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-18",
+     "window_end": "2019-10-30",
+     "days_outside_whitelist": 13
+    }
+   ],
+   "chosen_offset": 0,
+   "chosen_window": [
+    "2019-11-29",
+    "2019-12-11"
+   ],
+   "chosen_days_outside_whitelist": 0
+  },
+  {
+   "episode_id": "ep|test|7|716241|345",
+   "target": "716241",
+   "duration_days": 7,
+   "start_day": "2019-12-12",
+   "candidates": [
+    {
+     "offset": 0,
+     "in_band": true,
+     "days_all_viable": true,
+     "target_density": 0.7103,
+     "window_start": "2019-11-29",
+     "window_end": "2019-12-11",
+     "days_outside_whitelist": 0
+    },
+    {
+     "offset": 1,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.7063,
+     "window_start": "2019-11-22",
+     "window_end": "2019-12-04",
+     "days_outside_whitelist": 5
+    },
+    {
+     "offset": 2,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-15",
+     "window_end": "2019-11-27",
+     "days_outside_whitelist": 12
+    },
+    {
+     "offset": 3,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-08",
+     "window_end": "2019-11-20",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 4,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-01",
+     "window_end": "2019-11-13",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 5,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-25",
+     "window_end": "2019-11-06",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 6,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-18",
+     "window_end": "2019-10-30",
+     "days_outside_whitelist": 13
+    }
+   ],
+   "chosen_offset": 0,
+   "chosen_window": [
+    "2019-11-29",
+    "2019-12-11"
+   ],
+   "chosen_days_outside_whitelist": 0
+  },
+  {
+   "episode_id": "ep|test|7|716253|345",
+   "target": "716253",
+   "duration_days": 7,
+   "start_day": "2019-12-12",
+   "candidates": [
+    {
+     "offset": 0,
+     "in_band": true,
+     "days_all_viable": true,
+     "target_density": 0.7098,
+     "window_start": "2019-11-29",
+     "window_end": "2019-12-11",
+     "days_outside_whitelist": 0
+    },
+    {
+     "offset": 1,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.7059,
+     "window_start": "2019-11-22",
+     "window_end": "2019-12-04",
+     "days_outside_whitelist": 5
+    },
+    {
+     "offset": 2,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-15",
+     "window_end": "2019-11-27",
+     "days_outside_whitelist": 12
+    },
+    {
+     "offset": 3,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-08",
+     "window_end": "2019-11-20",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 4,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-01",
+     "window_end": "2019-11-13",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 5,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-25",
+     "window_end": "2019-11-06",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 6,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-18",
+     "window_end": "2019-10-30",
+     "days_outside_whitelist": 13
+    }
+   ],
+   "chosen_offset": 0,
+   "chosen_window": [
+    "2019-11-29",
+    "2019-12-11"
+   ],
+   "chosen_days_outside_whitelist": 0
+  },
+  {
+   "episode_id": "ep|test|7|717324|333",
+   "target": "717324",
+   "duration_days": 7,
+   "start_day": "2019-11-30",
+   "candidates": [
+    {
+     "offset": 0,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-17",
+     "window_end": "2019-11-29",
+     "days_outside_whitelist": 10
+    },
+    {
+     "offset": 1,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-10",
+     "window_end": "2019-11-22",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 2,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-03",
+     "window_end": "2019-11-15",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 3,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-27",
+     "window_end": "2019-11-08",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 4,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-20",
+     "window_end": "2019-11-01",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 5,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-13",
+     "window_end": "2019-10-25",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 6,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-06",
+     "window_end": "2019-10-18",
+     "days_outside_whitelist": 13
+    }
+   ],
+   "chosen_offset": null,
+   "chosen_window": null,
+   "chosen_days_outside_whitelist": null
+  },
+  {
+   "episode_id": "ep|test|7|717324|346",
+   "target": "717324",
+   "duration_days": 7,
+   "start_day": "2019-12-13",
+   "candidates": [
+    {
+     "offset": 0,
+     "in_band": true,
+     "days_all_viable": true,
+     "target_density": 0.9916,
+     "window_start": "2019-11-30",
+     "window_end": "2019-12-12",
+     "days_outside_whitelist": 0
+    },
+    {
+     "offset": 1,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.8487,
+     "window_start": "2019-11-23",
+     "window_end": "2019-12-05",
+     "days_outside_whitelist": 4
+    },
+    {
+     "offset": 2,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-16",
+     "window_end": "2019-11-28",
+     "days_outside_whitelist": 11
+    },
+    {
+     "offset": 3,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-09",
+     "window_end": "2019-11-21",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 4,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-02",
+     "window_end": "2019-11-14",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 5,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-26",
+     "window_end": "2019-11-07",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 6,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-19",
+     "window_end": "2019-10-31",
+     "days_outside_whitelist": 13
+    }
+   ],
+   "chosen_offset": 0,
+   "chosen_window": [
+    "2019-11-30",
+    "2019-12-12"
+   ],
+   "chosen_days_outside_whitelist": 0
+  },
+  {
+   "episode_id": "ep|test|7|717330|333",
+   "target": "717330",
+   "duration_days": 7,
+   "start_day": "2019-11-30",
+   "candidates": [
+    {
+     "offset": 0,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-17",
+     "window_end": "2019-11-29",
+     "days_outside_whitelist": 10
+    },
+    {
+     "offset": 1,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-10",
+     "window_end": "2019-11-22",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 2,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-03",
+     "window_end": "2019-11-15",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 3,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-27",
+     "window_end": "2019-11-08",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 4,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-20",
+     "window_end": "2019-11-01",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 5,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-13",
+     "window_end": "2019-10-25",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 6,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-06",
+     "window_end": "2019-10-18",
+     "days_outside_whitelist": 13
+    }
+   ],
+   "chosen_offset": null,
+   "chosen_window": null,
+   "chosen_days_outside_whitelist": null
+  },
+  {
+   "episode_id": "ep|test|7|717330|346",
+   "target": "717330",
+   "duration_days": 7,
+   "start_day": "2019-12-13",
+   "candidates": [
+    {
+     "offset": 0,
+     "in_band": true,
+     "days_all_viable": true,
+     "target_density": 0.9916,
+     "window_start": "2019-11-30",
+     "window_end": "2019-12-12",
+     "days_outside_whitelist": 0
+    },
+    {
+     "offset": 1,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.8492,
+     "window_start": "2019-11-23",
+     "window_end": "2019-12-05",
+     "days_outside_whitelist": 4
+    },
+    {
+     "offset": 2,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-16",
+     "window_end": "2019-11-28",
+     "days_outside_whitelist": 11
+    },
+    {
+     "offset": 3,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-09",
+     "window_end": "2019-11-21",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 4,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-02",
+     "window_end": "2019-11-14",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 5,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-26",
+     "window_end": "2019-11-07",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 6,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-19",
+     "window_end": "2019-10-31",
+     "days_outside_whitelist": 13
+    }
+   ],
+   "chosen_offset": 0,
+   "chosen_window": [
+    "2019-11-30",
+    "2019-12-12"
+   ],
+   "chosen_days_outside_whitelist": 0
+  },
+  {
+   "episode_id": "ep|test|7|717342|345",
+   "target": "717342",
+   "duration_days": 7,
+   "start_day": "2019-12-12",
+   "candidates": [
+    {
+     "offset": 0,
+     "in_band": true,
+     "days_all_viable": true,
+     "target_density": 0.7098,
+     "window_start": "2019-11-29",
+     "window_end": "2019-12-11",
+     "days_outside_whitelist": 0
+    },
+    {
+     "offset": 1,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.7063,
+     "window_start": "2019-11-22",
+     "window_end": "2019-12-04",
+     "days_outside_whitelist": 5
+    },
+    {
+     "offset": 2,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-15",
+     "window_end": "2019-11-27",
+     "days_outside_whitelist": 12
+    },
+    {
+     "offset": 3,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-08",
+     "window_end": "2019-11-20",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 4,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-01",
+     "window_end": "2019-11-13",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 5,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-25",
+     "window_end": "2019-11-06",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 6,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-18",
+     "window_end": "2019-10-30",
+     "days_outside_whitelist": 13
+    }
+   ],
+   "chosen_offset": 0,
+   "chosen_window": [
+    "2019-11-29",
+    "2019-12-11"
+   ],
+   "chosen_days_outside_whitelist": 0
+  },
+  {
+   "episode_id": "ep|test|7|718124|333",
+   "target": "718124",
+   "duration_days": 7,
+   "start_day": "2019-11-30",
+   "candidates": [
+    {
+     "offset": 0,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-17",
+     "window_end": "2019-11-29",
+     "days_outside_whitelist": 10
+    },
+    {
+     "offset": 1,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-10",
+     "window_end": "2019-11-22",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 2,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-03",
+     "window_end": "2019-11-15",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 3,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-27",
+     "window_end": "2019-11-08",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 4,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-20",
+     "window_end": "2019-11-01",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 5,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-13",
+     "window_end": "2019-10-25",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 6,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-06",
+     "window_end": "2019-10-18",
+     "days_outside_whitelist": 13
+    }
+   ],
+   "chosen_offset": null,
+   "chosen_window": null,
+   "chosen_days_outside_whitelist": null
+  },
+  {
+   "episode_id": "ep|test|7|718124|346",
+   "target": "718124",
+   "duration_days": 7,
+   "start_day": "2019-12-13",
+   "candidates": [
+    {
+     "offset": 0,
+     "in_band": true,
+     "days_all_viable": true,
+     "target_density": 0.9921,
+     "window_start": "2019-11-30",
+     "window_end": "2019-12-12",
+     "days_outside_whitelist": 0
+    },
+    {
+     "offset": 1,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.8492,
+     "window_start": "2019-11-23",
+     "window_end": "2019-12-05",
+     "days_outside_whitelist": 4
+    },
+    {
+     "offset": 2,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-16",
+     "window_end": "2019-11-28",
+     "days_outside_whitelist": 11
+    },
+    {
+     "offset": 3,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-09",
+     "window_end": "2019-11-21",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 4,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-02",
+     "window_end": "2019-11-14",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 5,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-26",
+     "window_end": "2019-11-07",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 6,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-19",
+     "window_end": "2019-10-31",
+     "days_outside_whitelist": 13
+    }
+   ],
+   "chosen_offset": 0,
+   "chosen_window": [
+    "2019-11-30",
+    "2019-12-12"
+   ],
+   "chosen_days_outside_whitelist": 0
+  },
+  {
+   "episode_id": "ep|test|7|767723|345",
+   "target": "767723",
+   "duration_days": 7,
+   "start_day": "2019-12-12",
+   "candidates": [
+    {
+     "offset": 0,
+     "in_band": true,
+     "days_all_viable": true,
+     "target_density": 0.7103,
+     "window_start": "2019-11-29",
+     "window_end": "2019-12-11",
+     "days_outside_whitelist": 0
+    },
+    {
+     "offset": 1,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.7063,
+     "window_start": "2019-11-22",
+     "window_end": "2019-12-04",
+     "days_outside_whitelist": 5
+    },
+    {
+     "offset": 2,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-15",
+     "window_end": "2019-11-27",
+     "days_outside_whitelist": 12
+    },
+    {
+     "offset": 3,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-08",
+     "window_end": "2019-11-20",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 4,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-01",
+     "window_end": "2019-11-13",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 5,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-25",
+     "window_end": "2019-11-06",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 6,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-18",
+     "window_end": "2019-10-30",
+     "days_outside_whitelist": 13
+    }
+   ],
+   "chosen_offset": 0,
+   "chosen_window": [
+    "2019-11-29",
+    "2019-12-11"
+   ],
+   "chosen_days_outside_whitelist": 0
+  },
+  {
+   "episode_id": "ep|test|7|773458|345",
+   "target": "773458",
+   "duration_days": 7,
+   "start_day": "2019-12-12",
+   "candidates": [
+    {
+     "offset": 0,
+     "in_band": true,
+     "days_all_viable": true,
+     "target_density": 0.7103,
+     "window_start": "2019-11-29",
+     "window_end": "2019-12-11",
+     "days_outside_whitelist": 0
+    },
+    {
+     "offset": 1,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.7063,
+     "window_start": "2019-11-22",
+     "window_end": "2019-12-04",
+     "days_outside_whitelist": 5
+    },
+    {
+     "offset": 2,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-15",
+     "window_end": "2019-11-27",
+     "days_outside_whitelist": 12
+    },
+    {
+     "offset": 3,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-08",
+     "window_end": "2019-11-20",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 4,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-01",
+     "window_end": "2019-11-13",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 5,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-25",
+     "window_end": "2019-11-06",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 6,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-18",
+     "window_end": "2019-10-30",
+     "days_outside_whitelist": 13
+    }
+   ],
+   "chosen_offset": 0,
+   "chosen_window": [
+    "2019-11-29",
+    "2019-12-11"
+   ],
+   "chosen_days_outside_whitelist": 0
+  },
+  {
+   "episode_id": "ep|test|7|773474|333",
+   "target": "773474",
+   "duration_days": 7,
+   "start_day": "2019-11-30",
+   "candidates": [
+    {
+     "offset": 0,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-17",
+     "window_end": "2019-11-29",
+     "days_outside_whitelist": 10
+    },
+    {
+     "offset": 1,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-10",
+     "window_end": "2019-11-22",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 2,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-03",
+     "window_end": "2019-11-15",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 3,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-27",
+     "window_end": "2019-11-08",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 4,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-20",
+     "window_end": "2019-11-01",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 5,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-13",
+     "window_end": "2019-10-25",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 6,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-06",
+     "window_end": "2019-10-18",
+     "days_outside_whitelist": 13
+    }
+   ],
+   "chosen_offset": null,
+   "chosen_window": null,
+   "chosen_days_outside_whitelist": null
+  },
+  {
+   "episode_id": "ep|test|7|773522|352",
+   "target": "773522",
+   "duration_days": 7,
+   "start_day": "2019-12-19",
+   "candidates": [
+    {
+     "offset": 0,
+     "in_band": true,
+     "days_all_viable": true,
+     "target_density": 0.8477,
+     "window_start": "2019-12-06",
+     "window_end": "2019-12-18",
+     "days_outside_whitelist": 0
+    },
+    {
+     "offset": 1,
+     "in_band": true,
+     "days_all_viable": true,
+     "target_density": 0.8492,
+     "window_start": "2019-11-29",
+     "window_end": "2019-12-11",
+     "days_outside_whitelist": 0
+    },
+    {
+     "offset": 2,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.7088,
+     "window_start": "2019-11-22",
+     "window_end": "2019-12-04",
+     "days_outside_whitelist": 5
+    },
+    {
+     "offset": 3,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-15",
+     "window_end": "2019-11-27",
+     "days_outside_whitelist": 12
+    },
+    {
+     "offset": 4,
+     "in_band": true,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-08",
+     "window_end": "2019-11-20",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 5,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-11-01",
+     "window_end": "2019-11-13",
+     "days_outside_whitelist": 13
+    },
+    {
+     "offset": 6,
+     "in_band": false,
+     "days_all_viable": false,
+     "target_density": 0.0,
+     "window_start": "2019-10-25",
+     "window_end": "2019-11-06",
+     "days_outside_whitelist": 13
+    }
+   ],
+   "chosen_offset": 0,
+   "chosen_window": [
+    "2019-12-06",
+    "2019-12-18"
+   ],
+   "chosen_days_outside_whitelist": 0
+  }
+ ]
+}

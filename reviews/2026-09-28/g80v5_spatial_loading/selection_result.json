@@ -1,0 +1,56 @@
+{
+  "hashes": {
+    "reviews\\2026-09-28\\G80V5_SPATIAL_LOADING_PLAN.md": "3d4c7c0a3cbfb22a92c96f075c0c11113f0ce28a6c3bf18bb3b9e380ce2b48fb",
+    "models\\o_spatial_loading.py": "8df3ae6a6f746d3cfb05c65e52bd39689cf82293c22977b618d7d3ae1150faeb",
+    "scripts\\run_o_spatial_loading.py": "ab909d2148452395015ff6f383c337eff0729dc1e2f7717516a1a771db8598ee"
+  },
+  "baseline": {
+    "nrmse": {
+      "q": 0.05918549615841645,
+      "o": 0.14646013206158146
+    },
+    "mae": {
+      "q": 270.90995373454024,
+      "o": 0.01773936066252137
+    }
+  },
+  "trials": [
+    {
+      "ridge": 0.0,
+      "o_nrmse": 0.1464308556217071,
+      "o_mae": 0.01760751355632791,
+      "wins_o_vs_v3": 26
+    },
+    {
+      "ridge": 1.0,
+      "o_nrmse": 0.1463321947394903,
+      "o_mae": 0.017597853364370433,
+      "wins_o_vs_v3": 26
+    },
+    {
+      "ridge": 4.0,
+      "o_nrmse": 0.14611460653387964,
+      "o_mae": 0.01757857091336088,
+      "wins_o_vs_v3": 26
+    },
+    {
+      "ridge": 16.0,
+      "o_nrmse": 0.14580643774408003,
+      "o_mae": 0.017565916157768615,
+      "wins_o_vs_v3": 28
+    },
+    {
+      "ridge": "inf",
+      "o_nrmse": 0.14646013206158146,
+      "o_mae": 0.01773936066252137,
+      "wins_o_vs_v3": 0
+    }
+  ],
+  "chosen": {
+    "ridge": 16.0,
+    "o_nrmse": 0.14580643774408003,
+    "o_mae": 0.017565916157768615,
+    "wins_o_vs_v3": 28
+  },
+  "decision": "candidate"
+}

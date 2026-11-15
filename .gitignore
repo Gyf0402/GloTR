@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.venv-*/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# run outputs (reproducible, large)
+reviews/2026-11-09/glotr_v2/
+reviews/**/__pycache__/
+
+# local data staging — never commit raw PeMS archives
+data/pems/census/
+data/pems/evidence/
+data/pems/processing/
+data/pems/releases/partition_v1/station_versions.json
+raw/
+
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

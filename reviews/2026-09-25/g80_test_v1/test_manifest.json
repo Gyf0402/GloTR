@@ -1,0 +1,524 @@
+{
+  "status": "bound_no_scores",
+  "protocol_sha256": "d6e782e3a0fe6388bb4350d2b0e20cdcc1d41aeba06361bb17b2bf09144357a5",
+  "candidates": [
+    {
+      "episode_id": "ep|test|14|716241|345",
+      "mask_id": "mask|test|14|716241|345",
+      "station_id": "716241",
+      "duration_days": 14,
+      "start_day": "2019-12-12",
+      "input_support": {
+        "start": "2019-12-09",
+        "end": "2019-12-28"
+      },
+      "eligibility_ok": true,
+      "blocker": null,
+      "digests": {
+        "input_sha256": "4d45d0e14903540a7ae8940b9681562fcdb38662af7b047fba5e0608516f5a75",
+        "scoring_sha256": "dceef4773c0407870684249943ab13182e436337098177dcf3cd9d1cefc19ecc",
+        "reference_sha256": "4eab21aa625fc2337c7e7282a33d7f6230b17c13e1b9fdc89977bbd742d2a09f",
+        "visible_sha256": "cbdc530a6857c786d2046a52ece7454aef621e17fcf21f4ef344c241d77addfd"
+      },
+      "counts": {
+        "scoring_slots": 8016,
+        "legal_elements": 115518
+      }
+    },
+    {
+      "episode_id": "ep|test|14|716253|345",
+      "mask_id": "mask|test|14|716253|345",
+      "station_id": "716253",
+      "duration_days": 14,
+      "start_day": "2019-12-12",
+      "input_support": {
+        "start": "2019-12-09",
+        "end": "2019-12-28"
+      },
+      "eligibility_ok": true,
+      "blocker": null,
+      "digests": {
+        "input_sha256": "7519caac04d44b5d7935e642a9ab3f38267435726d68a36eb037e6df3095bb77",
+        "scoring_sha256": "fb77b11cb8cd80b3c5fd969e2d644e50ed3eef87e52af1b837d22230b5bdea2d",
+        "reference_sha256": "bda19912a58c4ceffa01936a13a81fb149b4bb6980f4f7a95f6819c177bc70f4",
+        "visible_sha256": "b8a25dc8a4137572530b6b0c40c1e6696d779bf843f6aa80d94f68b9be4f1cbc"
+      },
+      "counts": {
+        "scoring_slots": 8012,
+        "legal_elements": 115522
+      }
+    },
+    {
+      "episode_id": "ep|test|14|717324|333",
+      "mask_id": "mask|test|14|717324|333",
+      "station_id": "717324",
+      "duration_days": 14,
+      "start_day": "2019-11-30",
+      "input_support": {
+        "start": "2019-11-27",
+        "end": "2019-12-16"
+      },
+      "eligibility_ok": true,
+      "blocker": null,
+      "digests": {
+        "input_sha256": "aba27e511dade585ba33a7568371c4e1eb093cbdd0c3b9b058aefcf1a75d89cc",
+        "scoring_sha256": "3467fb841b30aed654b2589ebc6b356b188bdcb168b7d3aaf27b271f5e2dc8be",
+        "reference_sha256": "cbab9b90781c8ef149b61c1ff429540f0b3e3fc5e0a1bef73a3a6a0bec1c08aa",
+        "visible_sha256": "b39324d5d574d655ae411de00e2f7acf5ae8f6114b13ee220fce9a3a983ea180"
+      },
+      "counts": {
+        "scoring_slots": 7988,
+        "legal_elements": 118750
+      }
+    },
+    {
+      "episode_id": "ep|test|14|717330|333",
+      "mask_id": "mask|test|14|717330|333",
+      "station_id": "717330",
+      "duration_days": 14,
+      "start_day": "2019-11-30",
+      "input_support": {
+        "start": "2019-11-27",
+        "end": "2019-12-16"
+      },
+      "eligibility_ok": true,
+      "blocker": null,
+      "digests": {
+        "input_sha256": "caa0d59b1677d3b8f2d90465d80be0e58e850e3b4c8ad8b7182f9864f816090a",
+        "scoring_sha256": "3d7c7e820772d72e576a17a1f5cee1b604fffc63d4cebb997cb309831a48e41f",
+        "reference_sha256": "43b4653cce3341335312972a6937e85ec98facb4b8bcea5eac7e3aaa6a7e5226",
+        "visible_sha256": "d899a63286c6ab0284485393b1eccd9dba74b8d764d9448a0a17bd04d322eeca"
+      },
+      "counts": {
+        "scoring_slots": 7990,
+        "legal_elements": 118748
+      }
+    },
+    {
+      "episode_id": "ep|test|14|717342|345",
+      "mask_id": "mask|test|14|717342|345",
+      "station_id": "717342",
+      "duration_days": 14,
+      "start_day": "2019-12-12",
+      "input_support": {
+        "start": "2019-12-09",
+        "end": "2019-12-28"
+      },
+      "eligibility_ok": true,
+      "blocker": null,
+      "digests": {
+        "input_sha256": "9ee90f3626df19810d65dd35c3862dc32f6285fc7edb81eda53bd6efcec31695",
+        "scoring_sha256": "8ba6262fac47b92ffe1fe05f3b77632d49bdfe49fda04be05f4992e469205976",
+        "reference_sha256": "993ec6f194d20580eae5b8d3d7b446dc6079d6c92f30b1b5bdf11517d0834507",
+        "visible_sha256": "8635c88a511a69059ccfad2b853c02500f9ba65e9422343787d9af1ac631ed5c"
+      },
+      "counts": {
+        "scoring_slots": 8004,
+        "legal_elements": 115530
+      }
+    },
+    {
+      "episode_id": "ep|test|14|718124|333",
+      "mask_id": "mask|test|14|718124|333",
+      "station_id": "718124",
+      "duration_days": 14,
+      "start_day": "2019-11-30",
+      "input_support": {
+        "start": "2019-11-27",
+        "end": "2019-12-16"
+      },
+      "eligibility_ok": true,
+      "blocker": null,
+      "digests": {
+        "input_sha256": "94e0b90e3d7d11a4e728a776c4f4cf35b7043fb5e301586bb711268b9d1d896f",
+        "scoring_sha256": "3b2cc97af0166b758c60047041b40872cfba28500c0a31671efa941bab95d623",
+        "reference_sha256": "70bef84c3af19085a2ddafad23dac6e33143c5dc55ce6bcb473da4aaad8afaf9",
+        "visible_sha256": "3ca33bc00c0ef6e1ffd113857c036a0cb01ba3f8d955557114b31a488691601a"
+      },
+      "counts": {
+        "scoring_slots": 7990,
+        "legal_elements": 118748
+      }
+    },
+    {
+      "episode_id": "ep|test|14|767723|345",
+      "mask_id": "mask|test|14|767723|345",
+      "station_id": "767723",
+      "duration_days": 14,
+      "start_day": "2019-12-12",
+      "input_support": {
+        "start": "2019-12-09",
+        "end": "2019-12-28"
+      },
+      "eligibility_ok": true,
+      "blocker": null,
+      "digests": {
+        "input_sha256": "85aac71a6518cb161cc36c87673171ca12c8d1f8cd93bd7bf912d8421e7ae853",
+        "scoring_sha256": "dceef4773c0407870684249943ab13182e436337098177dcf3cd9d1cefc19ecc",
+        "reference_sha256": "9205ad7cacb50c88bf77e4b0607e60c9969dc3238a66ae24115674a99d8741c4",
+        "visible_sha256": "a3dde884af8c22784212d59191eda02d4a132ff5fdb4d0adc2d731b9a0b61bcb"
+      },
+      "counts": {
+        "scoring_slots": 8016,
+        "legal_elements": 115518
+      }
+    },
+    {
+      "episode_id": "ep|test|14|773458|345",
+      "mask_id": "mask|test|14|773458|345",
+      "station_id": "773458",
+      "duration_days": 14,
+      "start_day": "2019-12-12",
+      "input_support": {
+        "start": "2019-12-09",
+        "end": "2019-12-28"
+      },
+      "eligibility_ok": true,
+      "blocker": null,
+      "digests": {
+        "input_sha256": "71fb30529a095d2fe96d8d8fd79a774656e053383c8639efb48702c67a20f0a4",
+        "scoring_sha256": "1cf58863f54aa6857c032a738c27b64d403c9ccddd28bd53ca282beb6293fbcf",
+        "reference_sha256": "d88270868ba51c34f5b219588d04d14f347619ae07e8215125e0f1d46d2c0c9d",
+        "visible_sha256": "e4478fba5bf39c14f7dbaf613b1f6d16775121146065e36ab0d6e8824899b10a"
+      },
+      "counts": {
+        "scoring_slots": 8014,
+        "legal_elements": 115520
+      }
+    },
+    {
+      "episode_id": "ep|test|7|716241|345",
+      "mask_id": "mask|test|7|716241|345",
+      "station_id": "716241",
+      "duration_days": 7,
+      "start_day": "2019-12-12",
+      "input_support": {
+        "start": "2019-12-09",
+        "end": "2019-12-21"
+      },
+      "eligibility_ok": true,
+      "blocker": null,
+      "digests": {
+        "input_sha256": "bf878c94ceb2b96a818ee4a44e98654a5b9d227432847a1278b311308dc59ec7",
+        "scoring_sha256": "5b1d18eb2e90e8c105b003b4981522ed6aeaa97a05573d49c2f9af34649a46fa",
+        "reference_sha256": "ac2199f80b525bdc68c9c1c2e90276902dfde5c89490b5c8fc48a2994e132552",
+        "visible_sha256": "c83669e2f60d39530d0a00567e3d6728576e4d5d79e671b2f6c1ac1f477978a6"
+      },
+      "counts": {
+        "scoring_slots": 4004,
+        "legal_elements": 74252
+      }
+    },
+    {
+      "episode_id": "ep|test|7|716253|345",
+      "mask_id": "mask|test|7|716253|345",
+      "station_id": "716253",
+      "duration_days": 7,
+      "start_day": "2019-12-12",
+      "input_support": {
+        "start": "2019-12-09",
+        "end": "2019-12-21"
+      },
+      "eligibility_ok": true,
+      "blocker": null,
+      "digests": {
+        "input_sha256": "b6f4278b55d79cbf6d1ac0c5df445df7b53feb684184c93cdf46bc0a11c19524",
+        "scoring_sha256": "5b1d18eb2e90e8c105b003b4981522ed6aeaa97a05573d49c2f9af34649a46fa",
+        "reference_sha256": "cf7298e889a62a45efb4e59fb0879d14824793db01b9ccaa1d111d59cbebaffe",
+        "visible_sha256": "220115208ccbf8ae4936d351fee009e7b7b3e685bb0d0aeddfb7139664c7084b"
+      },
+      "counts": {
+        "scoring_slots": 4004,
+        "legal_elements": 74252
+      }
+    },
+    {
+      "episode_id": "ep|test|7|717324|333",
+      "mask_id": "mask|test|7|717324|333",
+      "station_id": "717324",
+      "duration_days": 7,
+      "start_day": "2019-11-30",
+      "input_support": {
+        "start": "2019-11-27",
+        "end": "2019-12-09"
+      },
+      "eligibility_ok": true,
+      "blocker": null,
+      "digests": {
+        "input_sha256": "ec18b82548fa69a241c42e537f5a10412b3eddc35b0d3f58402256c978940c2f",
+        "scoring_sha256": "2009c9811e896f29db04877310f58d17ef16484b94b5bc81b96be8ccfbc1d28c",
+        "reference_sha256": "2c52f793d1d383ad2492fec71e3f4d5b36c9bbdbb33d7cf63446a11df3f09875",
+        "visible_sha256": "65912ca70a0cbf8a8dcee8f2b19a3910174852c1805900239cf0185d8dd850a0"
+      },
+      "counts": {
+        "scoring_slots": 4000,
+        "legal_elements": 80506
+      }
+    },
+    {
+      "episode_id": "ep|test|7|717324|346",
+      "mask_id": "mask|test|7|717324|346",
+      "station_id": "717324",
+      "duration_days": 7,
+      "start_day": "2019-12-13",
+      "input_support": {
+        "start": "2019-12-10",
+        "end": "2019-12-22"
+      },
+      "eligibility_ok": true,
+      "blocker": null,
+      "digests": {
+        "input_sha256": "5ea4eda26b4a8c87be76670b85e0be98cc62d53449f76111848db76e0df4447e",
+        "scoring_sha256": "b5fde0a0b74c5098051ad9a7fc2a893c3403bb4f4d29977069ae87734bf547cf",
+        "reference_sha256": "cad9574bcb3a3f983733a609234b9b7693b34090267eb1286f82c0cc14169679",
+        "visible_sha256": "75d506dee4fa4f13692dc4e7ce8ed5fcff0687a85155b459a005e1385b2e5b60"
+      },
+      "counts": {
+        "scoring_slots": 4014,
+        "legal_elements": 73726
+      }
+    },
+    {
+      "episode_id": "ep|test|7|717330|333",
+      "mask_id": "mask|test|7|717330|333",
+      "station_id": "717330",
+      "duration_days": 7,
+      "start_day": "2019-11-30",
+      "input_support": {
+        "start": "2019-11-27",
+        "end": "2019-12-09"
+      },
+      "eligibility_ok": true,
+      "blocker": null,
+      "digests": {
+        "input_sha256": "70a4cdb4d606e954e5775d7dbc93fccbc61f83b237f3d7f341260aa85f278f53",
+        "scoring_sha256": "4ac590a45f2959efdea1ad6cc627a9c6f48ee550281ff17d135e837a2809efa4",
+        "reference_sha256": "c778ad53e748e4194aa0863ac659d4f45a1748235717fb2ca40102b6c361b300",
+        "visible_sha256": "9524a212f42b6624c50adb03fa11e7d632844840f04972dd0d52b3a4ce34a652"
+      },
+      "counts": {
+        "scoring_slots": 3998,
+        "legal_elements": 80508
+      }
+    },
+    {
+      "episode_id": "ep|test|7|717330|346",
+      "mask_id": "mask|test|7|717330|346",
+      "station_id": "717330",
+      "duration_days": 7,
+      "start_day": "2019-12-13",
+      "input_support": {
+        "start": "2019-12-10",
+        "end": "2019-12-22"
+      },
+      "eligibility_ok": true,
+      "blocker": null,
+      "digests": {
+        "input_sha256": "98439460a398b5c828369eb5405b225b1cabb0219232320cc94160a6fbcf8562",
+        "scoring_sha256": "b5fde0a0b74c5098051ad9a7fc2a893c3403bb4f4d29977069ae87734bf547cf",
+        "reference_sha256": "c3720b1b78a598a0fd3e2ac259d605c46442fbc49ebf72436322bd671f2426c4",
+        "visible_sha256": "e91a2c3d802a85120e9f3632c155e364615029c62c005f61c1bb953e7dfd69e2"
+      },
+      "counts": {
+        "scoring_slots": 4014,
+        "legal_elements": 73726
+      }
+    },
+    {
+      "episode_id": "ep|test|7|717342|345",
+      "mask_id": "mask|test|7|717342|345",
+      "station_id": "717342",
+      "duration_days": 7,
+      "start_day": "2019-12-12",
+      "input_support": {
+        "start": "2019-12-09",
+        "end": "2019-12-21"
+      },
+      "eligibility_ok": true,
+      "blocker": null,
+      "digests": {
+        "input_sha256": "6d47ee986e078f175722eb6dc52abc1971ace94ab8ce7b598d0e571f0e5cf84c",
+        "scoring_sha256": "a871e58662654a3f20bd0dcdfa717dd069b8b4b2b05c0086512412a10c59c443",
+        "reference_sha256": "d8a6c4fd3502f0c16d6cd5069230877ec46fc0f24b6c934259b218d11ba46afd",
+        "visible_sha256": "c0a4d896f26c8c9f2ea69f841333a2350419d4382fe8ff85d45e757eb2b6fe09"
+      },
+      "counts": {
+        "scoring_slots": 4002,
+        "legal_elements": 74254
+      }
+    },
+    {
+      "episode_id": "ep|test|7|718124|333",
+      "mask_id": "mask|test|7|718124|333",
+      "station_id": "718124",
+      "duration_days": 7,
+      "start_day": "2019-11-30",
+      "input_support": {
+        "start": "2019-11-27",
+        "end": "2019-12-09"
+      },
+      "eligibility_ok": true,
+      "blocker": null,
+      "digests": {
+        "input_sha256": "47dd18ce6ea48591547d4a1de9556addaaf39def1d21402fcf02e65285298709",
+        "scoring_sha256": "2009c9811e896f29db04877310f58d17ef16484b94b5bc81b96be8ccfbc1d28c",
+        "reference_sha256": "7903c5fa3ae05f73ee4f7afa85f457f0f6220017d4d0ee6a5f4f1adf11140d1c",
+        "visible_sha256": "142e61d5a9b6aa65a2cb7589084d46fb36ba0b013575cdfe745e07a2006b3781"
+      },
+      "counts": {
+        "scoring_slots": 4000,
+        "legal_elements": 80506
+      }
+    },
+    {
+      "episode_id": "ep|test|7|718124|346",
+      "mask_id": "mask|test|7|718124|346",
+      "station_id": "718124",
+      "duration_days": 7,
+      "start_day": "2019-12-13",
+      "input_support": {
+        "start": "2019-12-10",
+        "end": "2019-12-22"
+      },
+      "eligibility_ok": true,
+      "blocker": null,
+      "digests": {
+        "input_sha256": "e490c0917d1e08ac33567c6d3cee2496dbab1bca7c7d6a9ef7de3630a9d8f3bf",
+        "scoring_sha256": "b5fde0a0b74c5098051ad9a7fc2a893c3403bb4f4d29977069ae87734bf547cf",
+        "reference_sha256": "5808cefcc65ff21c6bfe352536d0b8e3efd7d3b9361b375c095e51467a99e9f8",
+        "visible_sha256": "89befa231a03ea17b4ae427b256fa770324abcc867f94dae4a50b8ab69d5e121"
+      },
+      "counts": {
+        "scoring_slots": 4014,
+        "legal_elements": 73726
+      }
+    },
+    {
+      "episode_id": "ep|test|7|767723|345",
+      "mask_id": "mask|test|7|767723|345",
+      "station_id": "767723",
+      "duration_days": 7,
+      "start_day": "2019-12-12",
+      "input_support": {
+        "start": "2019-12-09",
+        "end": "2019-12-21"
+      },
+      "eligibility_ok": true,
+      "blocker": null,
+      "digests": {
+        "input_sha256": "1287e8d95f8d08ba50c2e9739602a4450775225bba0c587f11412ef5ae67420d",
+        "scoring_sha256": "5b1d18eb2e90e8c105b003b4981522ed6aeaa97a05573d49c2f9af34649a46fa",
+        "reference_sha256": "de04100293ab2de54a2f21412901b3934b3633d633377e813df6295509ba54fd",
+        "visible_sha256": "a6df855f6d43134ea6a7ee43d674d244ad5de8043f88653c5c25f1e8e33e7380"
+      },
+      "counts": {
+        "scoring_slots": 4004,
+        "legal_elements": 74252
+      }
+    },
+    {
+      "episode_id": "ep|test|7|773458|345",
+      "mask_id": "mask|test|7|773458|345",
+      "station_id": "773458",
+      "duration_days": 7,
+      "start_day": "2019-12-12",
+      "input_support": {
+        "start": "2019-12-09",
+        "end": "2019-12-21"
+      },
+      "eligibility_ok": true,
+      "blocker": null,
+      "digests": {
+        "input_sha256": "ef2ebf3992212867785442799f2189307bd21b145b4976704681e4dd4e2467dc",
+        "scoring_sha256": "5b1d18eb2e90e8c105b003b4981522ed6aeaa97a05573d49c2f9af34649a46fa",
+        "reference_sha256": "fd649161d645a9b4ddef819190e986cb296b9a588fdd7fac61a3f5fbfc7c702d",
+        "visible_sha256": "3ee0047de2800415f3e99fa8369788ca4523e83170a98663155cc0e1d82f8109"
+      },
+      "counts": {
+        "scoring_slots": 4004,
+        "legal_elements": 74252
+      }
+    },
+    {
+      "episode_id": "ep|test|7|773474|333",
+      "mask_id": "mask|test|7|773474|333",
+      "station_id": "773474",
+      "duration_days": 7,
+      "start_day": "2019-11-30",
+      "input_support": {
+        "start": "2019-11-27",
+        "end": "2019-12-09"
+      },
+      "eligibility_ok": true,
+      "blocker": null,
+      "digests": {
+        "input_sha256": "d2a240799b70cf6f7596348c1a1a521b1af72b73810dd179e37d49cf71ce024b",
+        "scoring_sha256": "6855f5f6cb01586a88828749668555a496196d23dd3ac16a75041a31aac8da71",
+        "reference_sha256": "3b36a20d763dcb5ab8991eb4d93850af2122bdff976c3595e9a005a0b6274257",
+        "visible_sha256": "3f00ca97a36dcb03bced24f874b65abb1e7621f9bf72b7084cad82de8f56e0c3"
+      },
+      "counts": {
+        "scoring_slots": 3998,
+        "legal_elements": 80508
+      }
+    },
+    {
+      "episode_id": "ep|test|7|773522|352",
+      "mask_id": "mask|test|7|773522|352",
+      "station_id": "773522",
+      "duration_days": 7,
+      "start_day": "2019-12-19",
+      "input_support": {
+        "start": "2019-12-16",
+        "end": "2019-12-28"
+      },
+      "eligibility_ok": true,
+      "blocker": null,
+      "digests": {
+        "input_sha256": "a1c5bbc29cafe3585bb4215b528aadf3f3ef6a0e15ed5ca7049c18c798c7501c",
+        "scoring_sha256": "7aff7ab3c10eb00a7058b80aaf52aab98bf7b5f1822cb93f0c9839751110f0cb",
+        "reference_sha256": "3ccdbf198e85af58e9241f7d764677cc5bdb4e5168a950bdb5e23ebe3e38be2f",
+        "visible_sha256": "bfeb738bca86aaca4784e6f86958f20c9459cc6a20a805bea0e13d4cc0fd33ef"
+      },
+      "counts": {
+        "scoring_slots": 4010,
+        "legal_elements": 76196
+      }
+    }
+  ],
+  "allowed_days": [
+    "2019-11-27",
+    "2019-11-28",
+    "2019-11-29",
+    "2019-11-30",
+    "2019-12-01",
+    "2019-12-02",
+    "2019-12-03",
+    "2019-12-04",
+    "2019-12-05",
+    "2019-12-06",
+    "2019-12-07",
+    "2019-12-08",
+    "2019-12-09",
+    "2019-12-10",
+    "2019-12-11",
+    "2019-12-12",
+    "2019-12-13",
+    "2019-12-14",
+    "2019-12-15",
+    "2019-12-16",
+    "2019-12-17",
+    "2019-12-18",
+    "2019-12-19",
+    "2019-12-20",
+    "2019-12-21",
+    "2019-12-22",
+    "2019-12-23",
+    "2019-12-24",
+    "2019-12-25",
+    "2019-12-26",
+    "2019-12-27",
+    "2019-12-28"
+  ],
+  "note": "digests cover inputs, scoring mask, reference and visible support; no model score exists at this point"
+}

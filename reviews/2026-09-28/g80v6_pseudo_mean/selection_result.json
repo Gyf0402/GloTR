@@ -1,0 +1,51 @@
+{
+  "hashes": {
+    "reviews\\2026-09-28\\G80V6_PSEUDO_MEAN_PLAN.md": "46df591412d1258cc23867d458b18592e8a30cc4872ce47b2c67c5de763dcfa3",
+    "models\\o_pseudo_calibration.py": "f1cfb445735e5caa74479be146ba7b40ba847671e108e3a39d7e4ee318f65725",
+    "scripts\\run_o_pseudo_calibration.py": "ccb0b3230de87684a22dca4c4324fe72a35d461771aa2b3e6a1961be60f285e7",
+    "reviews\\2026-09-28\\g80v5_spatial_loading\\selection_result.json": "fd8de6f2ab2690d10d966bafbf29414b46f9399565b7bed0a02bdd64b9037c1e"
+  },
+  "baseline": {
+    "nrmse": {
+      "q": 0.05918549615841645,
+      "o": 0.14580643774408003
+    },
+    "mae": {
+      "q": 270.90995373454024,
+      "o": 0.017565916157768615
+    }
+  },
+  "trials": [
+    {
+      "alpha": 0.0,
+      "o_nrmse": 0.14580643774408003,
+      "o_mae": 0.017565916157768615
+    },
+    {
+      "alpha": 0.1,
+      "o_nrmse": 0.14567257322254737,
+      "o_mae": 0.01750221528974118
+    },
+    {
+      "alpha": 0.25,
+      "o_nrmse": 0.14561666254091907,
+      "o_mae": 0.017477246684112175
+    },
+    {
+      "alpha": 0.5,
+      "o_nrmse": 0.14586708366760495,
+      "o_mae": 0.017608455113299202
+    },
+    {
+      "alpha": 1.0,
+      "o_nrmse": 0.14748637765372374,
+      "o_mae": 0.018340611136260097
+    }
+  ],
+  "chosen": {
+    "alpha": 0.25,
+    "o_nrmse": 0.14561666254091907,
+    "o_mae": 0.017477246684112175
+  },
+  "decision": "candidate"
+}

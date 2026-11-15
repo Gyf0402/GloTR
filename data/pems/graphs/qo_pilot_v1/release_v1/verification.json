@@ -1,0 +1,20 @@
+{
+  "status": "PASS_bounded_graph_and_reference_checks_not_B_or_C_pass",
+  "actual_participant_stations_including_donors": 20,
+  "U_participants": 0,
+  "U_count_full_existing_axis": 997,
+  "existing_axis_count": 5012,
+  "reference_arrays_days_hash_verified": 90,
+  "direct_joint_support_window_enumeration_agrees": true,
+  "selected_anchors": 20,
+  "relation_counts": {
+    "upstream": 19,
+    "downstream": 19,
+    "on_ramp": 0,
+    "off_ramp": 0
+  },
+  "weakly_connected": true,
+  "source_clock_verified": false,
+  "physical_audited": false,
+  "real_fitting_performed": false
+}

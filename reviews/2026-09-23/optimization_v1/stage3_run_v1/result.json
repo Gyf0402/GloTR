@@ -1,0 +1,270 @@
+{
+  "status": "completed",
+  "scope": "Train-separated oracle representation capacity only",
+  "fit_days": 171,
+  "excluded_days": 48,
+  "fit_station_days": 73742,
+  "fit_episodes": 210,
+  "validation_episodes": 58,
+  "scales": [
+    6240.0,
+    0.21276629999999888
+  ],
+  "overall": {
+    "episodes": 58,
+    "stations": 13,
+    "core": {
+      "q": {
+        "profile_macro_nrmse": {
+          "episode_macro": 0.07695442996919155,
+          "sensor_macro": 0.08150058586436969
+        },
+        "raw_mae": {
+          "episode_macro": 368.8525695800781,
+          "sensor_macro": 392.22581728421727
+        }
+      },
+      "o": {
+        "profile_macro_nrmse": {
+          "episode_macro": 0.12336589627224824,
+          "sensor_macro": 0.12666642129994357
+        },
+        "raw_mae": {
+          "episode_macro": 0.015846004308169258,
+          "sensor_macro": 0.016466497028103242
+        }
+      }
+    },
+    "residual": {
+      "q": {
+        "profile_macro_nrmse": {
+          "episode_macro": 0.060330986527019535,
+          "sensor_macro": 0.06257257925776336
+        },
+        "raw_mae": {
+          "episode_macro": 277.97337788548964,
+          "sensor_macro": 289.29847541222205
+        }
+      },
+      "o": {
+        "profile_macro_nrmse": {
+          "episode_macro": 0.12336589627224824,
+          "sensor_macro": 0.12666642129994357
+        },
+        "raw_mae": {
+          "episode_macro": 0.015846004308169258,
+          "sensor_macro": 0.016466497028103242
+        }
+      }
+    }
+  },
+  "by_group": {
+    "4": {
+      "episodes": 25,
+      "stations": 13,
+      "core": {
+        "q": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.08741275399923325,
+            "sensor_macro": 0.08746507305365342
+          },
+          "raw_mae": {
+            "episode_macro": 420.46192260742185,
+            "sensor_macro": 420.86400545560394
+          }
+        },
+        "o": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.13655457675457,
+            "sensor_macro": 0.1370250628544734
+          },
+          "raw_mae": {
+            "episode_macro": 0.018026035986840726,
+            "sensor_macro": 0.018095463478507903
+          }
+        }
+      },
+      "residual": {
+        "q": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.0643734610080719,
+            "sensor_macro": 0.06430763579331912
+          },
+          "raw_mae": {
+            "episode_macro": 298.590224609375,
+            "sensor_macro": 298.36497849684497
+          }
+        },
+        "o": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.13655457675457,
+            "sensor_macro": 0.1370250628544734
+          },
+          "raw_mae": {
+            "episode_macro": 0.018026035986840726,
+            "sensor_macro": 0.018095463478507903
+          }
+        }
+      }
+    },
+    "6": {
+      "episodes": 33,
+      "stations": 11,
+      "core": {
+        "q": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.06903145721915996,
+            "sensor_macro": 0.06903145721915996
+          },
+          "raw_mae": {
+            "episode_macro": 329.75457486239344,
+            "sensor_macro": 329.75457486239344
+          }
+        },
+        "o": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.11337447166442871,
+            "sensor_macro": 0.11337447166442871
+          },
+          "raw_mae": {
+            "episode_macro": 0.01419446515766057,
+            "sensor_macro": 0.01419446515766057
+          }
+        }
+      },
+      "residual": {
+        "q": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.05726850585955562,
+            "sensor_macro": 0.057268505859555625
+          },
+          "raw_mae": {
+            "episode_macro": 262.3545546098189,
+            "sensor_macro": 262.3545546098189
+          }
+        },
+        "o": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.11337447166442871,
+            "sensor_macro": 0.11337447166442871
+          },
+          "raw_mae": {
+            "episode_macro": 0.01419446515766057,
+            "sensor_macro": 0.01419446515766057
+          }
+        }
+      }
+    }
+  },
+  "by_duration": {
+    "7": {
+      "episodes": 35,
+      "stations": 13,
+      "core": {
+        "q": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.07521334641746112,
+            "sensor_macro": 0.0804021856150566
+          },
+          "raw_mae": {
+            "episode_macro": 360.3906511579241,
+            "sensor_macro": 387.11383056640625
+          }
+        },
+        "o": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.12236144691705704,
+            "sensor_macro": 0.1256116412771054
+          },
+          "raw_mae": {
+            "episode_macro": 0.015624790771731309,
+            "sensor_macro": 0.01627788804949094
+          }
+        }
+      },
+      "residual": {
+        "q": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.059785181709698265,
+            "sensor_macro": 0.062394434633927465
+          },
+          "raw_mae": {
+            "episode_macro": 275.7785901750837,
+            "sensor_macro": 288.8891096848708
+          }
+        },
+        "o": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.12236144691705704,
+            "sensor_macro": 0.1256116412771054
+          },
+          "raw_mae": {
+            "episode_macro": 0.015624790771731309,
+            "sensor_macro": 0.01627788804949094
+          }
+        }
+      }
+    },
+    "14": {
+      "episodes": 23,
+      "stations": 13,
+      "core": {
+        "q": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.07960390493921611,
+            "sensor_macro": 0.0830566117969843
+          },
+          "raw_mae": {
+            "episode_macro": 381.7294019616169,
+            "sensor_macro": 399.4683145376352
+          }
+        },
+        "o": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.12489440616058267,
+            "sensor_macro": 0.12779230022659668
+          },
+          "raw_mae": {
+            "episode_macro": 0.016182633602748745,
+            "sensor_macro": 0.016684416108406507
+          }
+        }
+      },
+      "residual": {
+        "q": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.06116155907511711,
+            "sensor_macro": 0.0628870830226403
+          },
+          "raw_mae": {
+            "episode_macro": 281.3132722274117,
+            "sensor_macro": 290.0432950533353
+          }
+        },
+        "o": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.12489440616058267,
+            "sensor_macro": 0.12779230022659668
+          },
+          "raw_mae": {
+            "episode_macro": 0.016182633602748745,
+            "sensor_macro": 0.016684416108406507
+          }
+        }
+      }
+    }
+  },
+  "q_sensor_nrmse_relative_reduction": 0.2322438103464144,
+  "o_bitwise_unchanged": true,
+  "capacity_gate_passed": true,
+  "validation_target_truth_used_for_projection": true,
+  "legal_imputation_result": false,
+  "selection_read": false,
+  "calibration_read": false,
+  "test_read": false,
+  "basis_sha256": "79c0f3e4f3cd04138b0b86126609fd56578108c9fb0ae20a209e05d237891e9f",
+  "mu_sha256": "ec4e8fa8ee2a51c37ed4a6e39f59af88d6ac57adae54558148ca5d15020fe7fe",
+  "q_residual_basis_sha256": "818d834200e1aa4258c9714900fb2a37f264f73a6b5e0566440c208836ff1352",
+  "validation_metrics_sha256": "fecd2b62a579ae106809cfb6c021c0005013b53890d0659fc11abfa620f3e0fd",
+  "source_access_log_days": 194
+}

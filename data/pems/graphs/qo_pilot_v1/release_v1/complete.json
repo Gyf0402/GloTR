@@ -1,0 +1,50 @@
+{
+  "status": "complete_bounded_data_interface",
+  "outputs": [
+    {
+      "file": "candidate_anchors.json",
+      "sha256": "f72608c46f9efd5a816dcb0fcd9b2278a32973f1738c91506e3592105aef89f4",
+      "bytes": 15516
+    },
+    {
+      "file": "edges.csv",
+      "sha256": "cf8880acabc73581ef6afdb096d7156e910bc4481cf9e9b63c352563f8237378",
+      "bytes": 3065
+    },
+    {
+      "file": "exclusions.json",
+      "sha256": "14f684aa3f8a435141e3421db6ce18b2aad0faa8595916842da0bdb76fb13253",
+      "bytes": 5159
+    },
+    {
+      "file": "graph.json",
+      "sha256": "6373d9a58173b4e828fced08b57f944a1ba78ac8733125e1ee100c2f5a034eb4",
+      "bytes": 351553
+    },
+    {
+      "file": "input_binding.json",
+      "sha256": "2c3ce9dcd7b1e03e6aa8c2e5be93007cf8db1318029816d913a6f10f5609348d",
+      "bytes": 118089
+    },
+    {
+      "file": "permanent_u_manifest.json",
+      "sha256": "ce0bb9997637e8f68e3ba259e76d1f1423638aafce5350a4d8e64a849ce079d8",
+      "bytes": 1210812
+    },
+    {
+      "file": "reference_support.npz",
+      "sha256": "37fee35cc4c3aa6c26c0832c62682d192291a3a7ab2678e137a61a5978da959b",
+      "bytes": 18243
+    },
+    {
+      "file": "station_order.csv",
+      "sha256": "f42723eb6d9ecc6e1260f3a9f3361874cc0d5bdd75b3f1617818a6531c197a0e",
+      "bytes": 1441
+    },
+    {
+      "file": "verification.json",
+      "sha256": "4ef0ca71972d7f6e5eea730c3d8f52d2f6d4d201ec145d88bb9356a7523c0803",
+      "bytes": 600
+    }
+  ]
+}

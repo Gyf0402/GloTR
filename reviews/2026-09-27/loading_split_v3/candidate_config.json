@@ -1,0 +1,38 @@
+{
+ "candidate": "loading_split_v3",
+ "parent": "loading_split_v2",
+ "frozen_on": "2026-09-27",
+ "only_change_from_v2": "o channel lam_mag: 0.1 -> 0.01",
+ "q": {
+  "loading": "pseudo_outage(target station self-estimate)",
+  "rank": 4,
+  "lam_mag": 0.1,
+  "lam_smooth": 0.1,
+  "path": "frozen rt.corrected_case channel 0, taken verbatim"
+ },
+ "o": {
+  "loading": "neighbor",
+  "rank": 4,
+  "lam_mag": 0.01,
+  "lam_smooth": 0.1
+ },
+ "neighbor_kernel": "w_j = density_j / (1 + hop_distance(target, donor_j)); parameter-free",
+ "unchanged_from_v2": [
+  "q path (rank, lam_mag, lam_smooth, pseudo_outage loading)",
+  "o loading source (neighbor weighting)",
+  "o rank (4)",
+  "lam_smooth (0.1) on both channels",
+  "pseudo-outage placement rule",
+  "anti-leak gates G2/G2b/G2c/G4",
+  "no per-station patching",
+  "no per-duration switching rule"
+ ],
+ "known_caveat": "lam_mag is a JOINT knob inside the frozen module: it sets both the singular-value threshold that decides which temporal components survive AND the ridge penalty in the loading regression. This candidate lowers both together; the gain is NOT attributed to either one.",
+ "explicitly_out_of_scope_this_round": [
+  "further lam_mag scanning",
+  "rank expansion beyond 4",
+  "separating threshold from ridge (mechanism decomposition, to be done later)"
+ ],
+ "selected_on": "already-exposed Test-21 shrinkage diagnostic scan; post-hoc",
+ "requires": "new, selection-free independent data for confirmation under the inherited criteria P1/P2/P3"
+}

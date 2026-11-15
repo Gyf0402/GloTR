@@ -1,0 +1,536 @@
+{
+  "status": "candidate_roster_screened_from_counts_frozen_before_model_use",
+  "created": "2026-09-27",
+  "census_source": {
+    "path": "reviews\\2026-09-27\\2020_test21_screening\\census\\fixed_UTC_minus_8_candidate_daily.npz",
+    "sha256": "d7bb8a533adbf6889c8d47a2e2de8e75860372c4fc89003c4d9124a598262a1a"
+  },
+  "selection_rule": "graph station in frozen 20-station graph; day qualifies iff hard AND joint_qo>=274 (offset 0); window = target days + both 3-day buffers all qualify inside 2020-01-01..2020-02-19; composition mirrors 2019 Test21; earliest-first non-overlapping supports per (station, duration); no score-based selection",
+  "mirror_2019": {
+    "14": [
+      "716241",
+      "716253",
+      "717324",
+      "717330",
+      "717342",
+      "718124",
+      "767723",
+      "773458"
+    ],
+    "7": [
+      "716241",
+      "716253",
+      "717324",
+      "717324",
+      "717330",
+      "717330",
+      "717342",
+      "718124",
+      "718124",
+      "767723",
+      "773458",
+      "773474",
+      "773522"
+    ]
+  },
+  "n_episodes": 19,
+  "by_duration": {
+    "7": 13,
+    "14": 6
+  },
+  "n_stations": 8,
+  "allowed_days": [
+    "2020-01-01",
+    "2020-01-02",
+    "2020-01-03",
+    "2020-01-04",
+    "2020-01-05",
+    "2020-01-06",
+    "2020-01-07",
+    "2020-01-08",
+    "2020-01-09",
+    "2020-01-10",
+    "2020-01-11",
+    "2020-01-12",
+    "2020-01-13",
+    "2020-01-14",
+    "2020-01-15",
+    "2020-01-16",
+    "2020-01-17",
+    "2020-01-18",
+    "2020-01-19",
+    "2020-01-20",
+    "2020-01-21",
+    "2020-01-22",
+    "2020-01-23",
+    "2020-01-24",
+    "2020-01-25",
+    "2020-01-26",
+    "2020-01-27",
+    "2020-01-28",
+    "2020-01-29",
+    "2020-01-30",
+    "2020-01-31",
+    "2020-02-01",
+    "2020-02-02",
+    "2020-02-03",
+    "2020-02-04",
+    "2020-02-05",
+    "2020-02-06",
+    "2020-02-07",
+    "2020-02-08",
+    "2020-02-09",
+    "2020-02-10",
+    "2020-02-11",
+    "2020-02-12",
+    "2020-02-13",
+    "2020-02-14",
+    "2020-02-15",
+    "2020-02-16",
+    "2020-02-17",
+    "2020-02-18",
+    "2020-02-19"
+  ],
+  "globally_dark_days_in_band": [
+    "2020-01-01",
+    "2020-01-02"
+  ],
+  "substitutions": [
+    {
+      "assigned_station": "717324",
+      "actual_station": "717350",
+      "duration_days": 14,
+      "reason": "assigned station lacks a qualifying window"
+    },
+    {
+      "assigned_station": "717342",
+      "actual_station": "773522",
+      "duration_days": 14,
+      "reason": "assigned station lacks a qualifying window"
+    },
+    {
+      "assigned_station": "718124",
+      "actual_station": "767723",
+      "duration_days": 14,
+      "reason": "assigned station lacks a qualifying window"
+    },
+    {
+      "assigned_station": "717324",
+      "actual_station": "717350",
+      "duration_days": 7,
+      "reason": "assigned station lacks a qualifying window"
+    },
+    {
+      "assigned_station": "717350",
+      "actual_station": "717342",
+      "duration_days": 7,
+      "reason": "assigned station lacks a qualifying window"
+    },
+    {
+      "assigned_station": "717342",
+      "actual_station": "773522",
+      "duration_days": 7,
+      "reason": "assigned station lacks a qualifying window"
+    },
+    {
+      "assigned_station": "718124",
+      "actual_station": "773522",
+      "duration_days": 7,
+      "reason": "assigned station lacks a qualifying window"
+    },
+    {
+      "assigned_station": "773458",
+      "actual_station": "716253",
+      "duration_days": 7,
+      "reason": "assigned station lacks a qualifying window"
+    },
+    {
+      "assigned_station": "773474",
+      "actual_station": "716241",
+      "duration_days": 7,
+      "reason": "assigned station lacks a qualifying window"
+    },
+    {
+      "assigned_station": "773522",
+      "actual_station": "767723",
+      "duration_days": 7,
+      "reason": "assigned station lacks a qualifying window"
+    }
+  ],
+  "shortfalls": [
+    {
+      "station": "767723",
+      "duration_days": 14,
+      "reason": "no qualifying window left in any graph station"
+    },
+    {
+      "station": "773458",
+      "duration_days": 14,
+      "reason": "no qualifying window left in any graph station"
+    }
+  ],
+  "episodes": [
+    {
+      "episode_id": "ep|test2020|14|716241|6",
+      "mask_id": "mask|test2020|14|716241|6",
+      "station_id": "716241",
+      "duration_days": 14,
+      "start_day": "2020-01-07",
+      "input_support": {
+        "start": "2020-01-04",
+        "end": "2020-01-23"
+      },
+      "split": "test2020",
+      "protocol": "K",
+      "selection_source": "mirror_2019",
+      "eligibility_ok": true,
+      "blocker": null,
+      "input_sha256": null,
+      "scoring_sha256": null,
+      "reference_sha256": null
+    },
+    {
+      "episode_id": "ep|test2020|14|716253|5",
+      "mask_id": "mask|test2020|14|716253|5",
+      "station_id": "716253",
+      "duration_days": 14,
+      "start_day": "2020-01-06",
+      "input_support": {
+        "start": "2020-01-03",
+        "end": "2020-01-22"
+      },
+      "split": "test2020",
+      "protocol": "K",
+      "selection_source": "mirror_2019",
+      "eligibility_ok": true,
+      "blocker": null,
+      "input_sha256": null,
+      "scoring_sha256": null,
+      "reference_sha256": null
+    },
+    {
+      "episode_id": "ep|test2020|14|717350|11",
+      "mask_id": "mask|test2020|14|717350|11",
+      "station_id": "717350",
+      "duration_days": 14,
+      "start_day": "2020-01-12",
+      "input_support": {
+        "start": "2020-01-09",
+        "end": "2020-01-28"
+      },
+      "split": "test2020",
+      "protocol": "K",
+      "selection_source": "substitution",
+      "eligibility_ok": true,
+      "blocker": null,
+      "input_sha256": null,
+      "scoring_sha256": null,
+      "reference_sha256": null
+    },
+    {
+      "episode_id": "ep|test2020|14|717330|26",
+      "mask_id": "mask|test2020|14|717330|26",
+      "station_id": "717330",
+      "duration_days": 14,
+      "start_day": "2020-01-27",
+      "input_support": {
+        "start": "2020-01-24",
+        "end": "2020-02-12"
+      },
+      "split": "test2020",
+      "protocol": "K",
+      "selection_source": "mirror_2019",
+      "eligibility_ok": true,
+      "blocker": null,
+      "input_sha256": null,
+      "scoring_sha256": null,
+      "reference_sha256": null
+    },
+    {
+      "episode_id": "ep|test2020|14|773522|6",
+      "mask_id": "mask|test2020|14|773522|6",
+      "station_id": "773522",
+      "duration_days": 14,
+      "start_day": "2020-01-07",
+      "input_support": {
+        "start": "2020-01-04",
+        "end": "2020-01-23"
+      },
+      "split": "test2020",
+      "protocol": "K",
+      "selection_source": "substitution",
+      "eligibility_ok": true,
+      "blocker": null,
+      "input_sha256": null,
+      "scoring_sha256": null,
+      "reference_sha256": null
+    },
+    {
+      "episode_id": "ep|test2020|14|767723|17",
+      "mask_id": "mask|test2020|14|767723|17",
+      "station_id": "767723",
+      "duration_days": 14,
+      "start_day": "2020-01-18",
+      "input_support": {
+        "start": "2020-01-15",
+        "end": "2020-02-03"
+      },
+      "split": "test2020",
+      "protocol": "K",
+      "selection_source": "substitution",
+      "eligibility_ok": true,
+      "blocker": null,
+      "input_sha256": null,
+      "scoring_sha256": null,
+      "reference_sha256": null
+    },
+    {
+      "episode_id": "ep|test2020|7|716241|6",
+      "mask_id": "mask|test2020|7|716241|6",
+      "station_id": "716241",
+      "duration_days": 7,
+      "start_day": "2020-01-07",
+      "input_support": {
+        "start": "2020-01-04",
+        "end": "2020-01-16"
+      },
+      "split": "test2020",
+      "protocol": "K",
+      "selection_source": "mirror_2019",
+      "eligibility_ok": true,
+      "blocker": null,
+      "input_sha256": null,
+      "scoring_sha256": null,
+      "reference_sha256": null
+    },
+    {
+      "episode_id": "ep|test2020|7|716253|5",
+      "mask_id": "mask|test2020|7|716253|5",
+      "station_id": "716253",
+      "duration_days": 7,
+      "start_day": "2020-01-06",
+      "input_support": {
+        "start": "2020-01-03",
+        "end": "2020-01-15"
+      },
+      "split": "test2020",
+      "protocol": "K",
+      "selection_source": "mirror_2019",
+      "eligibility_ok": true,
+      "blocker": null,
+      "input_sha256": null,
+      "scoring_sha256": null,
+      "reference_sha256": null
+    },
+    {
+      "episode_id": "ep|test2020|7|717350|11",
+      "mask_id": "mask|test2020|7|717350|11",
+      "station_id": "717350",
+      "duration_days": 7,
+      "start_day": "2020-01-12",
+      "input_support": {
+        "start": "2020-01-09",
+        "end": "2020-01-21"
+      },
+      "split": "test2020",
+      "protocol": "K",
+      "selection_source": "substitution",
+      "eligibility_ok": true,
+      "blocker": null,
+      "input_sha256": null,
+      "scoring_sha256": null,
+      "reference_sha256": null
+    },
+    {
+      "episode_id": "ep|test2020|7|717342|10",
+      "mask_id": "mask|test2020|7|717342|10",
+      "station_id": "717342",
+      "duration_days": 7,
+      "start_day": "2020-01-11",
+      "input_support": {
+        "start": "2020-01-08",
+        "end": "2020-01-20"
+      },
+      "split": "test2020",
+      "protocol": "K",
+      "selection_source": "substitution",
+      "eligibility_ok": true,
+      "blocker": null,
+      "input_sha256": null,
+      "scoring_sha256": null,
+      "reference_sha256": null
+    },
+    {
+      "episode_id": "ep|test2020|7|717330|26",
+      "mask_id": "mask|test2020|7|717330|26",
+      "station_id": "717330",
+      "duration_days": 7,
+      "start_day": "2020-01-27",
+      "input_support": {
+        "start": "2020-01-24",
+        "end": "2020-02-05"
+      },
+      "split": "test2020",
+      "protocol": "K",
+      "selection_source": "mirror_2019",
+      "eligibility_ok": true,
+      "blocker": null,
+      "input_sha256": null,
+      "scoring_sha256": null,
+      "reference_sha256": null
+    },
+    {
+      "episode_id": "ep|test2020|7|717330|39",
+      "mask_id": "mask|test2020|7|717330|39",
+      "station_id": "717330",
+      "duration_days": 7,
+      "start_day": "2020-02-09",
+      "input_support": {
+        "start": "2020-02-06",
+        "end": "2020-02-18"
+      },
+      "split": "test2020",
+      "protocol": "K",
+      "selection_source": "mirror_2019",
+      "eligibility_ok": true,
+      "blocker": null,
+      "input_sha256": null,
+      "scoring_sha256": null,
+      "reference_sha256": null
+    },
+    {
+      "episode_id": "ep|test2020|7|773522|6",
+      "mask_id": "mask|test2020|7|773522|6",
+      "station_id": "773522",
+      "duration_days": 7,
+      "start_day": "2020-01-07",
+      "input_support": {
+        "start": "2020-01-04",
+        "end": "2020-01-16"
+      },
+      "split": "test2020",
+      "protocol": "K",
+      "selection_source": "substitution",
+      "eligibility_ok": true,
+      "blocker": null,
+      "input_sha256": null,
+      "scoring_sha256": null,
+      "reference_sha256": null
+    },
+    {
+      "episode_id": "ep|test2020|7|718124|17",
+      "mask_id": "mask|test2020|7|718124|17",
+      "station_id": "718124",
+      "duration_days": 7,
+      "start_day": "2020-01-18",
+      "input_support": {
+        "start": "2020-01-15",
+        "end": "2020-01-27"
+      },
+      "split": "test2020",
+      "protocol": "K",
+      "selection_source": "mirror_2019",
+      "eligibility_ok": true,
+      "blocker": null,
+      "input_sha256": null,
+      "scoring_sha256": null,
+      "reference_sha256": null
+    },
+    {
+      "episode_id": "ep|test2020|7|773522|19",
+      "mask_id": "mask|test2020|7|773522|19",
+      "station_id": "773522",
+      "duration_days": 7,
+      "start_day": "2020-01-20",
+      "input_support": {
+        "start": "2020-01-17",
+        "end": "2020-01-29"
+      },
+      "split": "test2020",
+      "protocol": "K",
+      "selection_source": "substitution",
+      "eligibility_ok": true,
+      "blocker": null,
+      "input_sha256": null,
+      "scoring_sha256": null,
+      "reference_sha256": null
+    },
+    {
+      "episode_id": "ep|test2020|7|767723|17",
+      "mask_id": "mask|test2020|7|767723|17",
+      "station_id": "767723",
+      "duration_days": 7,
+      "start_day": "2020-01-18",
+      "input_support": {
+        "start": "2020-01-15",
+        "end": "2020-01-27"
+      },
+      "split": "test2020",
+      "protocol": "K",
+      "selection_source": "mirror_2019",
+      "eligibility_ok": true,
+      "blocker": null,
+      "input_sha256": null,
+      "scoring_sha256": null,
+      "reference_sha256": null
+    },
+    {
+      "episode_id": "ep|test2020|7|716253|18",
+      "mask_id": "mask|test2020|7|716253|18",
+      "station_id": "716253",
+      "duration_days": 7,
+      "start_day": "2020-01-19",
+      "input_support": {
+        "start": "2020-01-16",
+        "end": "2020-01-28"
+      },
+      "split": "test2020",
+      "protocol": "K",
+      "selection_source": "substitution",
+      "eligibility_ok": true,
+      "blocker": null,
+      "input_sha256": null,
+      "scoring_sha256": null,
+      "reference_sha256": null
+    },
+    {
+      "episode_id": "ep|test2020|7|716241|36",
+      "mask_id": "mask|test2020|7|716241|36",
+      "station_id": "716241",
+      "duration_days": 7,
+      "start_day": "2020-02-06",
+      "input_support": {
+        "start": "2020-02-03",
+        "end": "2020-02-15"
+      },
+      "split": "test2020",
+      "protocol": "K",
+      "selection_source": "substitution",
+      "eligibility_ok": true,
+      "blocker": null,
+      "input_sha256": null,
+      "scoring_sha256": null,
+      "reference_sha256": null
+    },
+    {
+      "episode_id": "ep|test2020|7|767723|30",
+      "mask_id": "mask|test2020|7|767723|30",
+      "station_id": "767723",
+      "duration_days": 7,
+      "start_day": "2020-01-31",
+      "input_support": {
+        "start": "2020-01-28",
+        "end": "2020-02-09"
+      },
+      "split": "test2020",
+      "protocol": "K",
+      "selection_source": "substitution",
+      "eligibility_ok": true,
+      "blocker": null,
+      "input_sha256": null,
+      "scoring_sha256": null,
+      "reference_sha256": null
+    }
+  ],
+  "note": "array-level digests stay null: they are computed when the evaluation assembler opens the released arrays; counts-only screening opens no model input"
+}

@@ -1,0 +1,268 @@
+{
+  "status": "completed",
+  "scope": "Train-only legal-donor q8 student candidate",
+  "fit_episodes": 210,
+  "validation_episodes": 58,
+  "overall": {
+    "episodes": 58,
+    "stations": 13,
+    "core": {
+      "q": {
+        "profile_macro_nrmse": {
+          "episode_macro": 0.09931393365921645,
+          "sensor_macro": 0.10632172037775699
+        },
+        "raw_mae": {
+          "episode_macro": 487.8628587393925,
+          "sensor_macro": 522.1761920635516
+        }
+      },
+      "o": {
+        "profile_macro_nrmse": {
+          "episode_macro": 0.17691210246291653,
+          "sensor_macro": 0.18070148802720581
+        },
+        "raw_mae": {
+          "episode_macro": 0.024955558205216097,
+          "sensor_macro": 0.025695118773728612
+        }
+      }
+    },
+    "residual": {
+      "q": {
+        "profile_macro_nrmse": {
+          "episode_macro": 0.08937555821291332,
+          "sensor_macro": 0.09535006405069278
+        },
+        "raw_mae": {
+          "episode_macro": 438.4108255320582,
+          "sensor_macro": 469.20544445331285
+        }
+      },
+      "o": {
+        "profile_macro_nrmse": {
+          "episode_macro": 0.17691210246291653,
+          "sensor_macro": 0.18070148802720581
+        },
+        "raw_mae": {
+          "episode_macro": 0.024955558205216097,
+          "sensor_macro": 0.025695118773728612
+        }
+      }
+    }
+  },
+  "by_group": {
+    "4": {
+      "episodes": 25,
+      "stations": 13,
+      "core": {
+        "q": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.10923385292291642,
+            "sensor_macro": 0.10890497209934089
+          },
+          "raw_mae": {
+            "episode_macro": 528.7716833496094,
+            "sensor_macro": 527.088603093074
+          }
+        },
+        "o": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.19309111297130585,
+            "sensor_macro": 0.19477773687014213
+          },
+          "raw_mae": {
+            "episode_macro": 0.02666581355035305,
+            "sensor_macro": 0.026897686247069102
+          }
+        }
+      },
+      "residual": {
+        "q": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.09495564579963683,
+            "sensor_macro": 0.09454319224907802
+          },
+          "raw_mae": {
+            "episode_macro": 458.1574401855469,
+            "sensor_macro": 456.31787461500903
+          }
+        },
+        "o": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.19309111297130585,
+            "sensor_macro": 0.19477773687014213
+          },
+          "raw_mae": {
+            "episode_macro": 0.02666581355035305,
+            "sensor_macro": 0.026897686247069102
+          }
+        }
+      }
+    },
+    "6": {
+      "episodes": 33,
+      "stations": 11,
+      "core": {
+        "q": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.0917988433079286,
+            "sensor_macro": 0.0917988433079286
+          },
+          "raw_mae": {
+            "episode_macro": 456.8713249437737,
+            "sensor_macro": 456.8713249437737
+          }
+        },
+        "o": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.16465527632019736,
+            "sensor_macro": 0.16465527632019736
+          },
+          "raw_mae": {
+            "episode_macro": 0.02365991021647598,
+            "sensor_macro": 0.02365991021647598
+          }
+        }
+      },
+      "residual": {
+        "q": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.08514821913206216,
+            "sensor_macro": 0.08514821913206215
+          },
+          "raw_mae": {
+            "episode_macro": 423.45126897638494,
+            "sensor_macro": 423.45126897638494
+          }
+        },
+        "o": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.16465527632019736,
+            "sensor_macro": 0.16465527632019736
+          },
+          "raw_mae": {
+            "episode_macro": 0.02365991021647598,
+            "sensor_macro": 0.02365991021647598
+          }
+        }
+      }
+    }
+  },
+  "by_duration": {
+    "7": {
+      "episodes": 35,
+      "stations": 13,
+      "core": {
+        "q": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.09800172064985548,
+            "sensor_macro": 0.10633195363558255
+          },
+          "raw_mae": {
+            "episode_macro": 481.3077750069754,
+            "sensor_macro": 522.0043843587239
+          }
+        },
+        "o": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.17718254370348793,
+            "sensor_macro": 0.18132511889323208
+          },
+          "raw_mae": {
+            "episode_macro": 0.025152018719485827,
+            "sensor_macro": 0.025959218971622296
+          }
+        }
+      },
+      "residual": {
+        "q": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.08932377334151949,
+            "sensor_macro": 0.0966247925773645
+          },
+          "raw_mae": {
+            "episode_macro": 438.3561654227121,
+            "sensor_macro": 476.0851667355268
+          }
+        },
+        "o": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.17718254370348793,
+            "sensor_macro": 0.18132511889323208
+          },
+          "raw_mae": {
+            "episode_macro": 0.025152018719485827,
+            "sensor_macro": 0.025959218971622296
+          }
+        }
+      }
+    },
+    "14": {
+      "episodes": 23,
+      "stations": 13,
+      "core": {
+        "q": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.10131077954302663,
+            "sensor_macro": 0.10652838733333808
+          },
+          "raw_mae": {
+            "episode_macro": 497.83798615828806,
+            "sensor_macro": 523.8179250863882
+          }
+        },
+        "o": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.1765005614446557,
+            "sensor_macro": 0.17905109834212524
+          },
+          "raw_mae": {
+            "episode_macro": 0.0246565965530665,
+            "sensor_macro": 0.0252059272562082
+          }
+        }
+      },
+      "residual": {
+        "q": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.08945436127807783,
+            "sensor_macro": 0.0938468028146487
+          },
+          "raw_mae": {
+            "episode_macro": 438.49400395932406,
+            "sensor_macro": 461.3880169208233
+          }
+        },
+        "o": {
+          "profile_macro_nrmse": {
+            "episode_macro": 0.1765005614446557,
+            "sensor_macro": 0.17905109834212524
+          },
+          "raw_mae": {
+            "episode_macro": 0.0246565965530665,
+            "sensor_macro": 0.0252059272562082
+          }
+        }
+      }
+    }
+  },
+  "q_sensor_nrmse_relative_reduction": 0.10319299093432965,
+  "q_sensor_mae_relative_reduction": 0.10144228790077037,
+  "group_q_nonworse": true,
+  "o_bitwise_unchanged": true,
+  "candidate_retained_by_frozen_rule": true,
+  "basis_mu_validation_dates_excluded": true,
+  "frozen_core_unchanged": true,
+  "selection_read": false,
+  "calibration_read": false,
+  "test_read": false,
+  "fit_source_accesses_before_validation": 146,
+  "total_source_accesses": 194,
+  "head_fit_seconds": 2.609433600009652,
+  "core_trainable_parameters": 23536,
+  "head_parameters": 8713,
+  "core_checkpoint_sha256": "261ef98f7371f1a5c8d4f8883f94d8fb8a39d3acd121f1f80d99cdaae09c7ce5",
+  "head_checkpoint_sha256": "75d697eb40fafc4838857d560b574fd8ef10a65369c31633de12a34308d3edf6",
+  "validation_metrics_sha256": "9551e888c5c313f2f014b6cf153b3d9ed552386c96a8c0a1d947d05b42a874af"
+}

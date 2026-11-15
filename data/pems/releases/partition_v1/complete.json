@@ -1,0 +1,37 @@
+{
+  "status": "complete_draft_deliverables",
+  "outputs": [
+    {
+      "file": "partition_support.json",
+      "sha256": "8a0b8dc9668a407aeac6d6193d371f638cc70d8eae1087fdf3f2f8804ed0c344"
+    },
+    {
+      "file": "permanent_u.json",
+      "sha256": "7228cff899c1cf22cb82af56171f4ada63b1a3b61dce821cca64b08917dbb07a"
+    },
+    {
+      "file": "release_manifest.json",
+      "sha256": "acb814b07d3c7e73315127eef94d61409b06b7befdb6f331266b83d7375fd8d7"
+    },
+    {
+      "file": "station_conflicts.csv.gz",
+      "sha256": "992828093e9c7db525f5a70e9ef048292ea6e7e9f5971d85a5899bb393f30a97"
+    },
+    {
+      "file": "station_partition_support.csv.gz",
+      "sha256": "20acbf3b8e3a86f05b9f1c8d3c1da7494b1e1f28691fdb669a98023e466555a4"
+    },
+    {
+      "file": "station_version_mapping.csv.gz",
+      "sha256": "c11db865d39ad71e487487317738f96a2bf361cdd7c64592d9426c23334cc8f1"
+    },
+    {
+      "file": "station_version_verification.json",
+      "sha256": "cbe2b1ab20d287927be0ef4182b4315e3829d65eaf2940f003694a3676052cee"
+    },
+    {
+      "file": "station_versions.json",
+      "sha256": "de357ca85f15d7044549ce20e8066e67d3a49ae0a5b95b4a24292b73ae5ec91a"
+    }
+  ]
+}

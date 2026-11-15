@@ -1,0 +1,533 @@
+{
+ "status": "frozen_before_any_2020_traffic_array_read",
+ "roster": {
+  "path": "reviews\\2026-09-27\\2020_test21_screening\\roster\\EPISODE_ROSTER_2020_TEST21.json",
+  "sha256": "aef9c6f87db4c890dc87c93ebcfecac3da28c061b283a68922d2fc624d512303",
+  "n": 19,
+  "by_duration": {
+   "7": 13,
+   "14": 6
+  },
+  "n_stations": 8
+ },
+ "2020_processed_days": {
+  "2020-01-01": {
+   "path": "data/pems/releases/arrays_2020/2020-01-01/arrays.npz",
+   "sha256": "8c061c2deae9b87feafa92e077d6549f6fc72c089ddb4ec5157ba3392b13c4be",
+   "bytes": 24650,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-02": {
+   "path": "data/pems/releases/arrays_2020/2020-01-02/arrays.npz",
+   "sha256": "7e26f03f114394ef1a1576268276fd8fe5b5d114e5eeeaf474ff8a04dcb39814",
+   "bytes": 59823,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-03": {
+   "path": "data/pems/releases/arrays_2020/2020-01-03/arrays.npz",
+   "sha256": "18a519dbd2ce67988f8fce91e6c8f3fe3634e88a0864d458ac4c1ab5f3e88af3",
+   "bytes": 83070,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-04": {
+   "path": "data/pems/releases/arrays_2020/2020-01-04/arrays.npz",
+   "sha256": "2357951ab747945f88b6895292fe7c2acf026a35edaae63d9e20d1eb2e73dfdf",
+   "bytes": 97406,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-05": {
+   "path": "data/pems/releases/arrays_2020/2020-01-05/arrays.npz",
+   "sha256": "ef838fce3c4c3058ed3311c5a989c4f75ca6f8f5f59335f14bbc1b85161bf729",
+   "bytes": 97130,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-06": {
+   "path": "data/pems/releases/arrays_2020/2020-01-06/arrays.npz",
+   "sha256": "b45a68283f09d983d3d0f0ce90bcf92999f981e09169b3f12f6519b0adf25db3",
+   "bytes": 92521,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-07": {
+   "path": "data/pems/releases/arrays_2020/2020-01-07/arrays.npz",
+   "sha256": "7d72aed30b2f3e93c10301e0c9a0e4ca1ec2f0dff57aa30d48c9b68dbfe38c31",
+   "bytes": 88119,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-08": {
+   "path": "data/pems/releases/arrays_2020/2020-01-08/arrays.npz",
+   "sha256": "6522081fea9130b9ebb137e1680e1d945f72f251d0496c742f861465e9431d0d",
+   "bytes": 92968,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-09": {
+   "path": "data/pems/releases/arrays_2020/2020-01-09/arrays.npz",
+   "sha256": "a1c29fb094cefc7bb3ec41a59d267910109274ca40fab0a0e27c90a50f9c47e2",
+   "bytes": 97365,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-10": {
+   "path": "data/pems/releases/arrays_2020/2020-01-10/arrays.npz",
+   "sha256": "2314739ba7ce4dc4638d78f476a477e918492577c865ea4206a314fca250da99",
+   "bytes": 98115,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-11": {
+   "path": "data/pems/releases/arrays_2020/2020-01-11/arrays.npz",
+   "sha256": "24a46b0feedb387164eba33d9cc5eecff3b13aacc927383040c206f75e7b74a3",
+   "bytes": 96764,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-12": {
+   "path": "data/pems/releases/arrays_2020/2020-01-12/arrays.npz",
+   "sha256": "8f901d924215d2b4b5c57f922828e7fa5e1e16b8fb9a68dfc6d950e0f844a290",
+   "bytes": 96781,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-13": {
+   "path": "data/pems/releases/arrays_2020/2020-01-13/arrays.npz",
+   "sha256": "eb4373a653a7b6c38a3d4cdc352303bf3197d41a7dd6c975bccca7b8944cadd1",
+   "bytes": 96762,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-14": {
+   "path": "data/pems/releases/arrays_2020/2020-01-14/arrays.npz",
+   "sha256": "81c4d0405100c14768001bc4d68a8551f78ca0db2fb1c4b5d1daa03557e17f05",
+   "bytes": 97512,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-15": {
+   "path": "data/pems/releases/arrays_2020/2020-01-15/arrays.npz",
+   "sha256": "d7e7916896e9c3a3527ed59e53d8870441e011946636e5d6837c8e66dd6af433",
+   "bytes": 91669,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-16": {
+   "path": "data/pems/releases/arrays_2020/2020-01-16/arrays.npz",
+   "sha256": "6f3ea3611bbecb8f07ad49e13f6c9a92f757db278af031da0e8a10bfe73630f6",
+   "bytes": 87544,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-17": {
+   "path": "data/pems/releases/arrays_2020/2020-01-17/arrays.npz",
+   "sha256": "7fa23d262f72b661eb93e1eff7614d6c2b237ecbf9234db8eb3b0e302ac53e3d",
+   "bytes": 87178,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-18": {
+   "path": "data/pems/releases/arrays_2020/2020-01-18/arrays.npz",
+   "sha256": "240ef15fd8ed5ae6165d6ea4c04ed7d005d9c5156b480883d19115cbebad570e",
+   "bytes": 87339,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-19": {
+   "path": "data/pems/releases/arrays_2020/2020-01-19/arrays.npz",
+   "sha256": "215addefca6f032b88b1122e03b8242a0037d637dcf2e70bd4380eed4164d0ae",
+   "bytes": 86272,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-20": {
+   "path": "data/pems/releases/arrays_2020/2020-01-20/arrays.npz",
+   "sha256": "fd39d35c9c069464c7ebf45e4006ac71917dd655471b9ecfdeafae254a7db3f0",
+   "bytes": 83679,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-21": {
+   "path": "data/pems/releases/arrays_2020/2020-01-21/arrays.npz",
+   "sha256": "06a9cc3b1d72e3d552906192cdab79a7392d2d987a376d025e367a1c04e47afd",
+   "bytes": 83962,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-22": {
+   "path": "data/pems/releases/arrays_2020/2020-01-22/arrays.npz",
+   "sha256": "e97fcca301b570f9940d225798b46fa0ae920c50045fd30a43c8763c45f20c50",
+   "bytes": 87706,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-23": {
+   "path": "data/pems/releases/arrays_2020/2020-01-23/arrays.npz",
+   "sha256": "368d983db50402cc79bc745de7daca1e4c830a0306d8e099372d78c2cc90760c",
+   "bytes": 93630,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-24": {
+   "path": "data/pems/releases/arrays_2020/2020-01-24/arrays.npz",
+   "sha256": "aad262381a85ee649971ee6543a3813d36e0732f268b7518f6d4594cf2324d9a",
+   "bytes": 93145,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-25": {
+   "path": "data/pems/releases/arrays_2020/2020-01-25/arrays.npz",
+   "sha256": "f7e3d8411e127b294eff530a269e370b64fed695ef868a9f59242b120dabcda6",
+   "bytes": 91771,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-26": {
+   "path": "data/pems/releases/arrays_2020/2020-01-26/arrays.npz",
+   "sha256": "519164a4f5be4c5cc3a0f22a5e8e876c50debd574094c1cdd0a072d6421e598e",
+   "bytes": 93660,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-27": {
+   "path": "data/pems/releases/arrays_2020/2020-01-27/arrays.npz",
+   "sha256": "7d4a122d37d539ea5b4905e9ea0924c035a0553accb94aede043c47e97d340a9",
+   "bytes": 89428,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-28": {
+   "path": "data/pems/releases/arrays_2020/2020-01-28/arrays.npz",
+   "sha256": "1b053c90854ec962d88eb55b96ad6d066551026ca74372078f48de467579dbae",
+   "bytes": 81313,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-29": {
+   "path": "data/pems/releases/arrays_2020/2020-01-29/arrays.npz",
+   "sha256": "ee769705ab81203ede62ba46269993d70eb1b6f61cc90f31c4aa6f9e91638e39",
+   "bytes": 81564,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-30": {
+   "path": "data/pems/releases/arrays_2020/2020-01-30/arrays.npz",
+   "sha256": "25735469ee1f55ee169316652c524fe89d65dc1f0b730c1de5e8ac0a278e0aa7",
+   "bytes": 84404,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-01-31": {
+   "path": "data/pems/releases/arrays_2020/2020-01-31/arrays.npz",
+   "sha256": "3aa1da3171fe4d718f4ea79167aabccbc7829bb2d3c0c48fd5bd1005a4f9e467",
+   "bytes": 83258,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-02-01": {
+   "path": "data/pems/releases/arrays_2020/2020-02-01/arrays.npz",
+   "sha256": "9c5468af637e9724aa25b7149619036cc00dbd9cb2720f3fc94435c7ce026149",
+   "bytes": 83541,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-02-02": {
+   "path": "data/pems/releases/arrays_2020/2020-02-02/arrays.npz",
+   "sha256": "239533882b4124e3cf7269f11b3f71d7d5acf16f7872e1b0aa504dc6b34c07dd",
+   "bytes": 83422,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-02-03": {
+   "path": "data/pems/releases/arrays_2020/2020-02-03/arrays.npz",
+   "sha256": "ee40e6af46ddde14050c80e64fa42efa1b4e92c8623519956540ed5c9bf40cf8",
+   "bytes": 73845,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-02-04": {
+   "path": "data/pems/releases/arrays_2020/2020-02-04/arrays.npz",
+   "sha256": "83b06f77f831bafb2456123473b17425ee1c05dceda917510f059731c7f4600d",
+   "bytes": 76365,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-02-05": {
+   "path": "data/pems/releases/arrays_2020/2020-02-05/arrays.npz",
+   "sha256": "71b0e19b98be15ac16bbcc20fb645c88fa77dfef4e4779c05b38fc1aa4270a2b",
+   "bytes": 83876,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-02-06": {
+   "path": "data/pems/releases/arrays_2020/2020-02-06/arrays.npz",
+   "sha256": "c91bf9269ad6aaa55f8f604567734b7ebbfe823af127cc30e630a99ed8eff0b2",
+   "bytes": 84538,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-02-07": {
+   "path": "data/pems/releases/arrays_2020/2020-02-07/arrays.npz",
+   "sha256": "e13fa5301648ac1056f06d8d526ef3494016122304326c2a5673a0129362b703",
+   "bytes": 83811,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-02-08": {
+   "path": "data/pems/releases/arrays_2020/2020-02-08/arrays.npz",
+   "sha256": "01f2f09566cf43a97a7cd0d34a52791ee986b31e5c71a8fdcf0caef843335624",
+   "bytes": 83249,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-02-09": {
+   "path": "data/pems/releases/arrays_2020/2020-02-09/arrays.npz",
+   "sha256": "e2aada067095a5dc3256494e9275f9a2cd366f429268bc492c4115f507bb52ae",
+   "bytes": 83477,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-02-10": {
+   "path": "data/pems/releases/arrays_2020/2020-02-10/arrays.npz",
+   "sha256": "1fcf850f22d549085e84683311f96997a0d64a5f6aaae1540ffd775fcfabc181",
+   "bytes": 96060,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-02-11": {
+   "path": "data/pems/releases/arrays_2020/2020-02-11/arrays.npz",
+   "sha256": "46fd70981b8be37e21401ffaed3f3ce2267a9ec1377d78808c3df18b254f6365",
+   "bytes": 106371,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-02-12": {
+   "path": "data/pems/releases/arrays_2020/2020-02-12/arrays.npz",
+   "sha256": "eef6c065cf89572d52090b17c6f221a16942180bc3751d8896a6e4f77965e87a",
+   "bytes": 109071,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-02-13": {
+   "path": "data/pems/releases/arrays_2020/2020-02-13/arrays.npz",
+   "sha256": "c4e68316668a2da33c8f81e97fe55574c32ce418a0fd4e0e5fdc1a6469dc80a9",
+   "bytes": 110089,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-02-14": {
+   "path": "data/pems/releases/arrays_2020/2020-02-14/arrays.npz",
+   "sha256": "1d41b055ccde83a6c2d6f28afac4c12c170975c74eb8220a55ff1522fe1f46fa",
+   "bytes": 113760,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-02-15": {
+   "path": "data/pems/releases/arrays_2020/2020-02-15/arrays.npz",
+   "sha256": "1007de32036b5997fe8fc5a153c13083b6f7face2b21df5bc82f0bfe267de3a4",
+   "bytes": 114680,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-02-16": {
+   "path": "data/pems/releases/arrays_2020/2020-02-16/arrays.npz",
+   "sha256": "4ce57a1386ea7f2cbd0fe1b447cd9bc4132e24747584fa5557d6677f4f1c7ce1",
+   "bytes": 113615,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-02-17": {
+   "path": "data/pems/releases/arrays_2020/2020-02-17/arrays.npz",
+   "sha256": "015a7afa6052ad7119e0184823065705527902f8e64987647fde7eea0fcd5365",
+   "bytes": 110549,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-02-18": {
+   "path": "data/pems/releases/arrays_2020/2020-02-18/arrays.npz",
+   "sha256": "033c67f5d5b03d0bba8b08825b0174f99878705b1e8e440d00c35a9cdbdf3ed4",
+   "bytes": 111308,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  },
+  "2020-02-19": {
+   "path": "data/pems/releases/arrays_2020/2020-02-19/arrays.npz",
+   "sha256": "a8d820cd30cbf81d0841ddb13c9f34b1413dc1118e2c2adb40f19550ea5cab90",
+   "bytes": 119399,
+   "stations": 20,
+   "station_ids_sha256": "7d10bf84aa841857203248ef51a593a343ac3b877c11f5a1e099f82884c2d4cf"
+  }
+ },
+ "pins": {
+  "graph": {
+   "path": "data/pems/graphs/qo_pilot_v1/release_v1/graph.json",
+   "sha256": "6373d9a58173b4e828fced08b57f944a1ba78ac8733125e1ee100c2f5a034eb4"
+  },
+  "graph_transfer": {
+   "path": "reviews/2026-09-26/graph_transfer_review_pass1.json",
+   "sha256": "e87525c3cbd58e7b98554b1133327f546503deac9f1032873595534bc1f77605"
+  },
+  "stage3_basis": {
+   "path": "reviews/2026-09-23/optimization_v1/stage3_run_v1/basis.pt",
+   "sha256": "79c0f3e4f3cd04138b0b86126609fd56578108c9fb0ae20a209e05d237891e9f"
+  },
+  "stage3_mu": {
+   "path": "reviews/2026-09-23/optimization_v1/stage3_run_v1/mu.pt",
+   "sha256": "ec4e8fa8ee2a51c37ed4a6e39f59af88d6ac57adae54558148ca5d15020fe7fe"
+  },
+  "stage4_core": {
+   "path": "reviews/2026-09-23/optimization_v1/stage4_run_v1/core/student.pt",
+   "sha256": "261ef98f7371f1a5c8d4f8883f94d8fb8a39d3acd121f1f80d99cdaae09c7ce5"
+  },
+  "g80_seed05": {
+   "path": "reviews/2026-09-26/g80_v2_round2/stability/seed20260905/full.pt",
+   "sha256": "a5fac4ac159ccc08be146ae41e41c8de771e03e8fc8d2eeec85b78b9a3f646d5"
+  },
+  "g80_seed06": {
+   "path": "reviews/2026-09-26/g80_v2_round2/stability/seed20260906/full.pt",
+   "sha256": "fb3278e586cf5a27186549d88712af84d53d63248c78e7dff517b05d7fa73cab"
+  },
+  "g80_seed07": {
+   "path": "reviews/2026-09-26/g80_v2_round2/stability/seed20260907/full.pt",
+   "sha256": "05b4d7b9f9b4ea2c442143214f6ed1452dc79860be94615b296ad263b2917982"
+  },
+  "v3_config": {
+   "path": "reviews/2026-09-27/loading_split_v3/candidate_config.json",
+   "sha256": "39a1aa2f12c41cea0439c499690cbb801418c119d58dc4768a58a2fda5c33d79"
+  },
+  "v6_selection": {
+   "path": "reviews/2026-09-28/g80v6_pseudo_mean/selection_result.json",
+   "sha256": "5fd58c60a04523581a3fcfaa9ce5c4c2c9d4da33316105add7faa39c1898026f"
+  },
+  "o_tree_model": {
+   "path": "reviews/2026-09-28/o_tree_probe/model_train58.joblib",
+   "sha256": "c4f79dfec6cd884c31623e18274dbcc947a1d2b7116a7442a1077b84ba88d99c"
+  },
+  "o_tree_train_selection": {
+   "path": "reviews/2026-09-28/o_tree_probe/selection_result.json",
+   "sha256": "f9de7ca6afca5fa9b4c8db8ea27b6ac33bde5331c8b9815547a1bb4a75c9ef7f"
+  },
+  "rttc_v7_plan": {
+   "path": "reviews/2026-09-21/rttc_repair/rttc_real_v7/plan.json",
+   "sha256": "a1d067c3525ea4b3beeb2de7c2f06564fb2cc384b80bac5a8e8f9f7dd0a57117"
+  },
+  "grin_selected": {
+   "path": "reviews/2026-09-27/grin_block_tuning/mean_lr001/best.pt",
+   "sha256": "e8c3cb6ea68f0e375eee91873f77e38702a684ea2a41f1d18b0ac68fc4c48151"
+  },
+  "grin_scope": {
+   "path": "reviews/2026-09-27/grin_block_tuning/SCOPE_CHANGE.md",
+   "sha256": "ac7b2609773273eaf42e73c565851c58936620e57e763e714bff985e58a39c76"
+  },
+  "latc_selected": {
+   "path": "reviews/2026-09-27/latc_grin/latc_selection.json",
+   "sha256": "4f6ccb7bd7a1af750b630de010c601b89009af9082018268d4d8e9a79c9c12e0"
+  },
+  "latc_author": {
+   "path": "external/latc-author/LATC-CPU.ipynb",
+   "sha256": "4525fc8eac0fe814db1b5864ab3e4b33be1b64ce4173d3cc1713c0f4d5dedf7a"
+  },
+  "imputeformer_training_log": {
+   "path": "reviews/2026-09-27/imputeformer/training_log.json",
+   "sha256": "75c09eb0cb1c026a40579d8c408534a9a744ca558b05331fef5a39431f875249"
+  },
+  "imputeformer_source": {
+   "path": "external/imputeformer/experiments/imputeformer/models/ImputeFormer.py",
+   "sha256": "a5a4a3162f5c1b2931001a2bdfc40ef9a5ba9fd74d9ace12d24f495d82b7b298"
+  },
+  "imputeformer_train_code": {
+   "path": "scripts/imputeformer_train_predict.py",
+   "sha256": "fd927038cda9bfdd8121e92388a22e3388d0bf8701b4383fcff126a04064821e"
+  },
+  "2019_train_export": {
+   "path": "reviews/2026-09-27/imputeformer/inputs/train.npz",
+   "sha256": "3566fb89b95c928543dac6ba61313a2d08c615cd5140ab5d75c64d9cdf344814"
+  },
+  "2019_imputeformer_predictions": {
+   "path": "reviews/2026-09-27/imputeformer/preds/imputeformer_preds.npz",
+   "sha256": "424a2bdcb9c47c58a7f09f00f6f13c1f68552295a1aa0949023493fa5f07412b"
+  },
+  "attribute_registration": {
+   "path": "runs/current_student_train_preparation_v2/registration.json",
+   "sha256": "3389153b1644a260ee12a97d325522d4356462e8576989216b5bb005e009f90b"
+  },
+  "attribute_manifest": {
+   "path": "data/pems/releases/partition_v1/complete.json",
+   "sha256": "a8c77528a5c559b1427c9b1462684fcb28b8306b3ad47095d5ffdbcba7071b05"
+  }
+ },
+ "arms": [
+  "G80_frozen_seed05",
+  "G80v3_seed05",
+  "G80v6_seed05",
+  "G80v6_plus_o_tree_seed05",
+  "G80v3_seed06",
+  "G80v6_seed06",
+  "G80v6_plus_o_tree_seed06",
+  "G80v3_seed07",
+  "G80v6_seed07",
+  "G80v6_plus_o_tree_seed07",
+  "RTTC_v7_candidate0",
+  "GRIN_mean_lr001_best93",
+  "LATC_author_train_selected",
+  "same_weekday_median_2019_train",
+  "historical_low_rank_null_rank1",
+  "ImputeFormer_2019_training_replay_if_reproducible"
+ ],
+ "excluded_not_fixed": [
+  "BGCP",
+  "Chronos",
+  "mu_only",
+  "Run_B_ridge",
+  "PriSTI",
+  "SPIN",
+  "GT-TDI",
+  "other RTTC author baselines"
+ ],
+ "scoring": {
+  "denominators": [
+   6240.0,
+   0.21276629999999888
+  ],
+  "metric": "per-day profile NRMSE and physical MAE",
+  "aggregation": "station mean of episode means; also report episode mean",
+  "pairing": "common successful cases only",
+  "duration_strata": [
+   7,
+   14
+  ]
+ },
+ "static_attribute_transfer": {
+  "2020_reference": "lookup 2019-12-31 for each frozen graph station",
+  "basis": "graph transfer Pass 1 confirms identical 20 stations, 19 adjacencies, station metadata through 2020-05-22",
+  "no_2020_fit": true
+ },
+ "transductive_pseudo_rule": {
+  "duration_days": 7,
+  "buffer_days": 3,
+  "candidate_offsets_weeks": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "earliest_admissible": true,
+  "target_density_min": 0.5,
+  "candidate_days_must_be_in_frozen_2020_band": true,
+  "fallback_if_none": "corridor donor loading; v6 pseudo shift disabled"
+ },
+ "imputeformer_condition": "old run saved predictions but no checkpoint; replay exact 2019 training and compare 2019 predictions before any 2020 inference; exclude if not reproducible",
+ "execution": "construct masked inputs and predictions for all listed runnable arms, then score once; no model or parameter selection on 2020",
+ "failure": "log per-arm/per-case failures; no substitute configuration; paired comparisons only on common successful cases",
+ "corridor_crop": {
+  "stations": 20,
+  "note": "day entries rewritten; values unchanged"
+ }
+}

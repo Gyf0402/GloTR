@@ -1,0 +1,329 @@
+{
+ "queue": "train_holdout_58",
+ "n_cases": 58,
+ "table": [
+  {
+   "config": {
+    "rank": 1,
+    "lam_mag": 0.1,
+    "lam_smooth": 0.1
+   },
+   "ratio_q": 0.9903826193740161,
+   "ratio_o": 0.9936724707615073,
+   "objective": 0.9920275450677617,
+   "both_channels_improved": true,
+   "per_case_improved": {
+    "q": 34,
+    "o": 42,
+    "n": 58
+   }
+  },
+  {
+   "config": {
+    "rank": 1,
+    "lam_mag": 0.1,
+    "lam_smooth": 1.0
+   },
+   "ratio_q": 0.9911600196309076,
+   "ratio_o": 0.9938425881604611,
+   "objective": 0.9925013038956844,
+   "both_channels_improved": true,
+   "per_case_improved": {
+    "q": 34,
+    "o": 42,
+    "n": 58
+   }
+  },
+  {
+   "config": {
+    "rank": 1,
+    "lam_mag": 1.0,
+    "lam_smooth": 0.1
+   },
+   "ratio_q": 0.99838583032376,
+   "ratio_o": 0.9991421245782693,
+   "objective": 0.9987639774510146,
+   "both_channels_improved": true,
+   "per_case_improved": {
+    "q": 36,
+    "o": 43,
+    "n": 58
+   }
+  },
+  {
+   "config": {
+    "rank": 1,
+    "lam_mag": 1.0,
+    "lam_smooth": 1.0
+   },
+   "ratio_q": 0.9985881963137501,
+   "ratio_o": 0.9991731687057184,
+   "objective": 0.9988806825097343,
+   "both_channels_improved": true,
+   "per_case_improved": {
+    "q": 34,
+    "o": 42,
+    "n": 58
+   }
+  },
+  {
+   "config": {
+    "rank": 1,
+    "lam_mag": 10.0,
+    "lam_smooth": 0.1
+   },
+   "ratio_q": 1.000001294799384,
+   "ratio_o": 0.9999090458995746,
+   "objective": 0.9999551703494793,
+   "both_channels_improved": false,
+   "per_case_improved": {
+    "q": 3,
+    "o": 41,
+    "n": 58
+   }
+  },
+  {
+   "config": {
+    "rank": 1,
+    "lam_mag": 10.0,
+    "lam_smooth": 1.0
+   },
+   "ratio_q": 1.0000009967734371,
+   "ratio_o": 0.9999136586623176,
+   "objective": 0.9999573277178774,
+   "both_channels_improved": false,
+   "per_case_improved": {
+    "q": 3,
+    "o": 41,
+    "n": 58
+   }
+  },
+  {
+   "config": {
+    "rank": 2,
+    "lam_mag": 0.1,
+    "lam_smooth": 0.1
+   },
+   "ratio_q": 0.9862433666214263,
+   "ratio_o": 0.9905178333321416,
+   "objective": 0.988380599976784,
+   "both_channels_improved": true,
+   "per_case_improved": {
+    "q": 37,
+    "o": 48,
+    "n": 58
+   }
+  },
+  {
+   "config": {
+    "rank": 2,
+    "lam_mag": 0.1,
+    "lam_smooth": 1.0
+   },
+   "ratio_q": 0.9881353969758263,
+   "ratio_o": 0.9907843016195248,
+   "objective": 0.9894598492976756,
+   "both_channels_improved": true,
+   "per_case_improved": {
+    "q": 39,
+    "o": 48,
+    "n": 58
+   }
+  },
+  {
+   "config": {
+    "rank": 2,
+    "lam_mag": 1.0,
+    "lam_smooth": 0.1
+   },
+   "ratio_q": 0.9978087726027802,
+   "ratio_o": 0.998485440146889,
+   "objective": 0.9981471063748346,
+   "both_channels_improved": true,
+   "per_case_improved": {
+    "q": 40,
+    "o": 48,
+    "n": 58
+   }
+  },
+  {
+   "config": {
+    "rank": 2,
+    "lam_mag": 1.0,
+    "lam_smooth": 1.0
+   },
+   "ratio_q": 0.9981570563493243,
+   "ratio_o": 0.9985775825798339,
+   "objective": 0.998367319464579,
+   "both_channels_improved": true,
+   "per_case_improved": {
+    "q": 40,
+    "o": 48,
+    "n": 58
+   }
+  },
+  {
+   "config": {
+    "rank": 2,
+    "lam_mag": 10.0,
+    "lam_smooth": 0.1
+   },
+   "ratio_q": 1.000001294799384,
+   "ratio_o": 0.9998545006485702,
+   "objective": 0.999927897723977,
+   "both_channels_improved": false,
+   "per_case_improved": {
+    "q": 3,
+    "o": 47,
+    "n": 58
+   }
+  },
+  {
+   "config": {
+    "rank": 2,
+    "lam_mag": 10.0,
+    "lam_smooth": 1.0
+   },
+   "ratio_q": 1.0000009967734371,
+   "ratio_o": 0.9998645209404808,
+   "objective": 0.999932758856959,
+   "both_channels_improved": false,
+   "per_case_improved": {
+    "q": 3,
+    "o": 47,
+    "n": 58
+   }
+  },
+  {
+   "config": {
+    "rank": 4,
+    "lam_mag": 0.1,
+    "lam_smooth": 0.1
+   },
+   "ratio_q": 0.9771478820782589,
+   "ratio_o": 0.9873411335856727,
+   "objective": 0.9822445078319657,
+   "both_channels_improved": true,
+   "per_case_improved": {
+    "q": 51,
+    "o": 41,
+    "n": 58
+   }
+  },
+  {
+   "config": {
+    "rank": 4,
+    "lam_mag": 0.1,
+    "lam_smooth": 1.0
+   },
+   "ratio_q": 0.9817795527398575,
+   "ratio_o": 0.9879165721458933,
+   "objective": 0.9848480624428755,
+   "both_channels_improved": true,
+   "per_case_improved": {
+    "q": 51,
+    "o": 42,
+    "n": 58
+   }
+  },
+  {
+   "config": {
+    "rank": 4,
+    "lam_mag": 1.0,
+    "lam_smooth": 0.1
+   },
+   "ratio_q": 0.9965576759906649,
+   "ratio_o": 0.9980115691164125,
+   "objective": 0.9972846225535388,
+   "both_channels_improved": true,
+   "per_case_improved": {
+    "q": 50,
+    "o": 46,
+    "n": 58
+   }
+  },
+  {
+   "config": {
+    "rank": 4,
+    "lam_mag": 1.0,
+    "lam_smooth": 1.0
+   },
+   "ratio_q": 0.9972687060647633,
+   "ratio_o": 0.9981518545243181,
+   "objective": 0.9977102802945407,
+   "both_channels_improved": true,
+   "per_case_improved": {
+    "q": 51,
+    "o": 47,
+    "n": 58
+   }
+  },
+  {
+   "config": {
+    "rank": 4,
+    "lam_mag": 10.0,
+    "lam_smooth": 0.1
+   },
+   "ratio_q": 1.000001294799384,
+   "ratio_o": 0.9998295924976855,
+   "objective": 0.9999154436485347,
+   "both_channels_improved": false,
+   "per_case_improved": {
+    "q": 3,
+    "o": 44,
+    "n": 58
+   }
+  },
+  {
+   "config": {
+    "rank": 4,
+    "lam_mag": 10.0,
+    "lam_smooth": 1.0
+   },
+   "ratio_q": 1.0000009967734371,
+   "ratio_o": 0.999840444213705,
+   "objective": 0.9999207204935711,
+   "both_channels_improved": false,
+   "per_case_improved": {
+    "q": 3,
+    "o": 44,
+    "n": 58
+   }
+  }
+ ],
+ "n_configs": 18,
+ "n_passing_both": 12,
+ "chosen": {
+  "config": {
+   "rank": 4,
+   "lam_mag": 0.1,
+   "lam_smooth": 0.1
+  },
+  "ratio_q": 0.9771478820782589,
+  "ratio_o": 0.9873411335856727,
+  "objective": 0.9822445078319657,
+  "both_channels_improved": true,
+  "per_case_improved": {
+   "q": 51,
+   "o": 41,
+   "n": 58
+  }
+ },
+ "post_hoc_sensitivity_drop_dark_donors": {
+  "config": {
+   "rank": 4,
+   "lam_mag": 0.1,
+   "lam_smooth": 0.1
+  },
+  "ratio_q": 0.9769616335912282,
+  "ratio_o": 0.9873583295174716,
+  "objective": 0.9821599815543499,
+  "both_channels_improved": true,
+  "per_case_improved": {
+   "q": 49,
+   "o": 41,
+   "n": 58
+  }
+ },
+ "note": "objective = 0.5*(ratio_q + ratio_o); a configuration is eligible only if BOTH ratios < 1 pre/post. The drop-dark row is a post-hoc sensitivity, not a candidate."
+}

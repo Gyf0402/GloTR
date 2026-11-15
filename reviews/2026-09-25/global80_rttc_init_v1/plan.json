@@ -1,0 +1,353 @@
+{
+  "status": "frozen_before_global80_rttc_init_compare",
+  "work_order": {
+    "rel": "reviews/2026-09-25/GLOBAL80_RTTC_HYBRID_HANDOFF.md",
+    "path": "reviews/2026-09-25/GLOBAL80_RTTC_HYBRID_HANDOFF.md",
+    "sha256": "da809cc0554caa3e534a72825170aeb2192f99de8c93769f901f37ef08503055"
+  },
+  "label": "Train exploratory paired comparison",
+  "formal_evidence": false,
+  "arms": {
+    "g40": {
+      "identity": "retained 40-epoch global-token raw-values checkpoint",
+      "archive": "reviews/2026-09-24/sparse_global_token_full_v1",
+      "npz_field": "raw",
+      "metrics_field": "residual",
+      "checkpoint": {
+        "path": "reviews/2026-09-24/sparse_global_token_full_v1/raw_values.pt",
+        "sha256": "c4adb3dbc6ed0968860546372daaf5e042249f271ddbafbf0fb8d4e737f80332"
+      }
+    },
+    "g80": {
+      "identity": "exploratory 80-epoch global-token continuation checkpoint",
+      "archive": "reviews/2026-09-24/sparse_neighbor_context_full_v1",
+      "npz_field": "control",
+      "metrics_field": "residual",
+      "checkpoint": {
+        "path": "reviews/2026-09-24/sparse_neighbor_context_full_v1/global_control.pt",
+        "sha256": "d60e585ca94793aa903c5dda5c5306393e2bb20acc138c97393f8ddf20785659"
+      }
+    },
+    "rttc_default": {
+      "identity": "modified RTTC stable adapter, default init",
+      "candidate": {
+        "mu": 0.001,
+        "lam": 0.01,
+        "rho": 0.01
+      },
+      "init": "implicit adapter default"
+    },
+    "rttc_hybrid": {
+      "identity": "modified RTTC initialized from G80 target outage profile (raw units)",
+      "candidate": {
+        "mu": 0.001,
+        "lam": 0.01,
+        "rho": 0.01
+      },
+      "init": "g80 control archive x stage-3 scales at hidden target-outage slots"
+    }
+  },
+  "rttc_fixed": {
+    "xi": 1.0,
+    "gamma": 0.01,
+    "max_iter": 250,
+    "warm_iter": 20,
+    "epsilon": 0.0001,
+    "incre": 0.05,
+    "seed": 42,
+    "ranks": "[20, ceil(days/7), 5, 20]",
+    "dtype": "float64",
+    "channels": [
+      "q",
+      "o"
+    ]
+  },
+  "rttc_source": {
+    "official_commit": "4d4420132d30ea56111209879bedcd20b7a4906f",
+    "official_source_modified": false,
+    "adapter": "reviews\\2026-09-19\\ai_handoff_diagnosis_20260919T051738Z\\tools\\rttc_stable.py"
+  },
+  "station_order": [
+    "773437",
+    "718126",
+    "717355",
+    "773537",
+    "717350",
+    "718125",
+    "717342",
+    "717339",
+    "773522",
+    "716253",
+    "717337",
+    "717330",
+    "773490",
+    "773474",
+    "718124",
+    "717324",
+    "773422",
+    "716241",
+    "767723",
+    "773458"
+  ],
+  "validation_ids": [
+    "ep|train|7|716241|117",
+    "ep|train|7|716253|117",
+    "ep|train|7|717324|117",
+    "ep|train|7|717330|117",
+    "ep|train|7|717339|117",
+    "ep|train|7|717342|117",
+    "ep|train|7|717355|117",
+    "ep|train|7|718124|117",
+    "ep|train|7|767723|117",
+    "ep|train|7|773437|117",
+    "ep|train|7|773458|117",
+    "ep|train|7|773474|117",
+    "ep|train|14|716253|117",
+    "ep|train|14|717324|117",
+    "ep|train|14|717330|117",
+    "ep|train|14|717339|117",
+    "ep|train|14|717342|117",
+    "ep|train|14|717355|117",
+    "ep|train|14|718124|117",
+    "ep|train|14|767723|117",
+    "ep|train|14|773437|117",
+    "ep|train|14|773458|117",
+    "ep|train|14|773474|117",
+    "ep|train|7|717350|119",
+    "ep|train|14|717350|119",
+    "ep|train|7|716241|195",
+    "ep|train|7|716253|195",
+    "ep|train|7|717324|195",
+    "ep|train|7|717330|195",
+    "ep|train|7|717339|195",
+    "ep|train|7|717342|195",
+    "ep|train|7|717355|195",
+    "ep|train|7|718124|195",
+    "ep|train|7|767723|195",
+    "ep|train|7|773458|195",
+    "ep|train|7|773474|195",
+    "ep|train|14|716241|195",
+    "ep|train|14|716253|195",
+    "ep|train|14|717324|195",
+    "ep|train|14|717330|195",
+    "ep|train|14|717339|195",
+    "ep|train|14|717342|195",
+    "ep|train|14|717355|195",
+    "ep|train|14|718124|195",
+    "ep|train|14|767723|195",
+    "ep|train|14|773458|195",
+    "ep|train|14|773474|195",
+    "ep|train|7|716241|208",
+    "ep|train|7|716253|208",
+    "ep|train|7|717324|208",
+    "ep|train|7|717330|208",
+    "ep|train|7|717339|208",
+    "ep|train|7|717342|208",
+    "ep|train|7|717355|208",
+    "ep|train|7|718124|208",
+    "ep|train|7|767723|208",
+    "ep|train|7|773458|208",
+    "ep|train|7|773474|208"
+  ],
+  "rttc_tuning_overlap_ids": [
+    "ep|train|14|717324|117",
+    "ep|train|14|717339|195",
+    "ep|train|14|717350|119",
+    "ep|train|14|718124|117",
+    "ep|train|7|767723|195"
+  ],
+  "held_out_53_ids": [
+    "ep|train|7|716241|117",
+    "ep|train|7|716253|117",
+    "ep|train|7|717324|117",
+    "ep|train|7|717330|117",
+    "ep|train|7|717339|117",
+    "ep|train|7|717342|117",
+    "ep|train|7|717355|117",
+    "ep|train|7|718124|117",
+    "ep|train|7|767723|117",
+    "ep|train|7|773437|117",
+    "ep|train|7|773458|117",
+    "ep|train|7|773474|117",
+    "ep|train|14|716253|117",
+    "ep|train|14|717330|117",
+    "ep|train|14|717339|117",
+    "ep|train|14|717342|117",
+    "ep|train|14|717355|117",
+    "ep|train|14|767723|117",
+    "ep|train|14|773437|117",
+    "ep|train|14|773458|117",
+    "ep|train|14|773474|117",
+    "ep|train|7|717350|119",
+    "ep|train|7|716241|195",
+    "ep|train|7|716253|195",
+    "ep|train|7|717324|195",
+    "ep|train|7|717330|195",
+    "ep|train|7|717339|195",
+    "ep|train|7|717342|195",
+    "ep|train|7|717355|195",
+    "ep|train|7|718124|195",
+    "ep|train|7|773458|195",
+    "ep|train|7|773474|195",
+    "ep|train|14|716241|195",
+    "ep|train|14|716253|195",
+    "ep|train|14|717324|195",
+    "ep|train|14|717330|195",
+    "ep|train|14|717342|195",
+    "ep|train|14|717355|195",
+    "ep|train|14|718124|195",
+    "ep|train|14|767723|195",
+    "ep|train|14|773458|195",
+    "ep|train|14|773474|195",
+    "ep|train|7|716241|208",
+    "ep|train|7|716253|208",
+    "ep|train|7|717324|208",
+    "ep|train|7|717330|208",
+    "ep|train|7|717339|208",
+    "ep|train|7|717342|208",
+    "ep|train|7|717355|208",
+    "ep|train|7|718124|208",
+    "ep|train|7|767723|208",
+    "ep|train|7|773458|208",
+    "ep|train|7|773474|208"
+  ],
+  "scales": {
+    "values": [
+      6240.0,
+      0.21276629999999888
+    ],
+    "source": "reviews/2026-09-23/optimization_v1/stage3_run_v1/result.json",
+    "sha256": "21864f1313d6ade9a8483375a049e7a94a54bd7e66c1165560d5fddfc4941eda"
+  },
+  "limits": {
+    "threads": 4,
+    "process_rss_gib": 12,
+    "launch_available_gib": 10,
+    "runtime_available_floor_gib": 4,
+    "wall_s": 3600
+  },
+  "allowed_roles": [
+    "train"
+  ],
+  "closed_roles": [
+    "selection",
+    "calibration",
+    "test"
+  ],
+  "source_days": {
+    "count": 48,
+    "days": [
+      "2019-04-25",
+      "2019-04-26",
+      "2019-04-27",
+      "2019-04-28",
+      "2019-04-29",
+      "2019-04-30",
+      "2019-05-01",
+      "2019-05-02",
+      "2019-05-03",
+      "2019-05-04",
+      "2019-05-05",
+      "2019-05-06",
+      "2019-05-07",
+      "2019-05-08",
+      "2019-05-09",
+      "2019-05-10",
+      "2019-05-11",
+      "2019-05-12",
+      "2019-05-13",
+      "2019-05-14",
+      "2019-05-15",
+      "2019-05-16",
+      "2019-07-12",
+      "2019-07-13",
+      "2019-07-14",
+      "2019-07-15",
+      "2019-07-16",
+      "2019-07-17",
+      "2019-07-18",
+      "2019-07-19",
+      "2019-07-20",
+      "2019-07-21",
+      "2019-07-22",
+      "2019-07-23",
+      "2019-07-24",
+      "2019-07-25",
+      "2019-07-26",
+      "2019-07-27",
+      "2019-07-28",
+      "2019-07-29",
+      "2019-07-30",
+      "2019-07-31",
+      "2019-08-01",
+      "2019-08-02",
+      "2019-08-03",
+      "2019-08-04",
+      "2019-08-05",
+      "2019-08-06"
+    ]
+  },
+  "input_pins": {
+    "work_order": {
+      "path": "reviews/2026-09-25/GLOBAL80_RTTC_HYBRID_HANDOFF.md",
+      "sha256": "da809cc0554caa3e534a72825170aeb2192f99de8c93769f901f37ef08503055"
+    },
+    "g40_checkpoint": {
+      "path": "reviews/2026-09-24/sparse_global_token_full_v1/raw_values.pt",
+      "sha256": "c4adb3dbc6ed0968860546372daaf5e042249f271ddbafbf0fb8d4e737f80332"
+    },
+    "g80_checkpoint": {
+      "path": "reviews/2026-09-24/sparse_neighbor_context_full_v1/global_control.pt",
+      "sha256": "d60e585ca94793aa903c5dda5c5306393e2bb20acc138c97393f8ddf20785659"
+    },
+    "g40_metrics": {
+      "path": "reviews/2026-09-24/sparse_global_token_full_v1/raw_validation_metrics.jsonl",
+      "sha256": "640de1aa912e7dbd1dc9471b68cefd8986ab92935c85a47009f290aabc20f647"
+    },
+    "g80_metrics": {
+      "path": "reviews/2026-09-24/sparse_neighbor_context_full_v1/control_validation_metrics.jsonl",
+      "sha256": "32b2a8fe7162fec86f96fc00ec2a5f1d8a8bd0a01c20e280965903b8f3c9c0c0"
+    },
+    "split": {
+      "path": "reviews/2026-09-23/optimization_v1/split.json",
+      "sha256": "7dd2d8a170c3e0d9e8710888ced50ca2638a9c1cc95a33d5e9a214b2992e789e"
+    },
+    "stage3_result": {
+      "path": "reviews/2026-09-23/optimization_v1/stage3_run_v1/result.json",
+      "sha256": "21864f1313d6ade9a8483375a049e7a94a54bd7e66c1165560d5fddfc4941eda"
+    },
+    "rttc_v7_plan": {
+      "path": "reviews/2026-09-21/rttc_repair/rttc_real_v7/plan.json",
+      "sha256": "a1d067c3525ea4b3beeb2de7c2f06564fb2cc384b80bac5a8e8f9f7dd0a57117"
+    },
+    "rttc_v7_chosen": {
+      "path": "reviews/2026-09-21/rttc_repair/rttc_real_v7/chosen.json",
+      "sha256": "55ab4e76bbe5fdc784ed524712f6554b13a49833dd6b5d7980ca05c47755742f"
+    },
+    "release": {
+      "path": "reviews/2026-09-12/data_release_final/QO_FORMAL_RELEASE.json",
+      "sha256": "87e8ab9f882c14397b473f120152a12c1d56e288a18a5c332c2c873418254f6a"
+    },
+    "roster": {
+      "path": "reviews/2026-09-12/formal_mask_bank/EPISODE_ROSTER_NON_TEST.json",
+      "sha256": "cb38dca7027a8bc087290b01cf61e6f6f2550ddbc2f2a4f4a92b807e8813bbee"
+    },
+    "train_registration": {
+      "path": "runs/current_student_train_preparation_v1/registration.json",
+      "sha256": "a3041d0edb7902c89bf3523d4c60bcb66c8b46036989f3d57459c85e31a6cc57"
+    }
+  },
+  "code_sha256": {
+    "scripts/run_global80_rttc_init_compare.py": "694ae54fc6f967810388ede4421a6e0639c5ccd1521ec9be6d302aa12de342ec",
+    "reviews/2026-09-21/rttc_repair/rttc_real.py": "5bb8efd852352cc9a3ef60a6347c11b012eedc350e362f512b8d2a4a273d7623",
+    "reviews/2026-09-19/ai_handoff_diagnosis_20260919T051738Z/tools/rttc_stable.py": "5cf7d05bbda8f9e4d795bd52acaf4afe191a407490b67eb69bc907bc7b1f39c8",
+    "reviews/2026-09-19/ai_handoff_diagnosis_20260919T051738Z/tools/rttc_pelt.py": "404b1463e64882a2eeb216247eee4f473a1300e9c12733a9fde396bd60e2b821",
+    "reviews/2026-09-19/ai_handoff_diagnosis_20260919T051738Z/tools/rttc_glue.py": "463b8d9a1f36642147c2875a021fbb019a13516d3bdc2455295cfaf16fa0979b",
+    "training/current_release_student_data.py": "d2b5e79f21c55f509c6bd291bbdca1b8a72a16ce47e91edc72119a38e9f1b35c",
+    "training/real_qo_loader.py": "823ee4bf1e14eff72e970a74e7b12ff6035cc8bc6e91c51c0c853054ebf982f4",
+    "scripts/fit_profile_residual_candidate.py": "b1a39e7e7a028ac63b6f3ab5262ac015bb76b4f7b34458a53576fb3f1151332c",
+    "external/rttc/rttc/model/rttc.py": "87d93627cb90e36e06420dabb5912e327443196d7fd823a5298998e08baa93f3"
+  },
+  "authorization": "User work order 2026-09-25 (GLOBAL80_RTTC_HYBRID_HANDOFF.md): fixed-scope Train-internal paired comparison; no tuning, no data-scope change, no promotion.",
+  "promotion_rule": "none; results are exploratory and must not promote any arm"
+}

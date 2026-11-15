@@ -1,0 +1,47 @@
+{
+  "status": "candidate_bound_pending_owner_freeze",
+  "durations": [
+    7,
+    14,
+    28
+  ],
+  "minimum_joint_legal_slots_per_day": 274,
+  "scorable_identity": "value_available AND quality_accepted",
+  "buffer_days_each_side": 3,
+  "window_rule": "every target day and both buffers qualify, and the whole window stays inside one role",
+  "selection_rule": "earliest-first, non-overlapping supports per station and duration, so no two episodes share target or buffer days; the emitted count equals the delivered support_nonoverlap",
+  "mask_rule": "one whole-day mask per episode covering only legal slots, with one shared mask_id for HA, mu-only, basis-only and mu+projection",
+  "forbidden": [
+    "relaxing the threshold to obtain episodes",
+    "copying or repeating episodes",
+    "zero filling or interpolation",
+    "spanning a role boundary"
+  ],
+  "roles": {
+    "train": {
+      "start": "2019-01-01",
+      "end_exclusive": "2019-08-08"
+    },
+    "selection": {
+      "start": "2019-08-08",
+      "end_exclusive": "2019-10-01"
+    },
+    "calibration": {
+      "start": "2019-10-01",
+      "end_exclusive": "2019-11-07"
+    },
+    "test": {
+      "start": "2019-11-07",
+      "end_exclusive": "2020-01-01"
+    }
+  },
+  "boundary": "the census reads published per-station-day counts; no released daily array is opened and no Test value enters any fit, so Test rows are enumerated from counts only",
+  "digests": {
+    "state": "pending",
+    "input_sha256": "digest of the episode's released source arrays; a Test episode needs the gate open",
+    "scoring_sha256": "digest of the scoring support actually used by the run",
+    "reference_sha256": "digest of the reference support actually scored against",
+    "why": "these are array-level digests; inventing them before the run would break the chain"
+  },
+  "freeze": "the formal bank stays pending until the owner freezes the release; this policy is candidate bound"
+}

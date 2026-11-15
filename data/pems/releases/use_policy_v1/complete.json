@@ -1,0 +1,58 @@
+{
+  "status": "assumption_bound_verified",
+  "source_clock_verified": false,
+  "historical_station_effectiveness_verified": false,
+  "model_execution_authorized": false,
+  "inputs": [
+    {
+      "file": "<HOME>\\Documents\\ChatGPT\\\u62d3\u6251\u7ed3\u6784\u3001\u8bed\u4e49\u5148\u9a8c\u3001\u7269\u7406\u673a\u7406\u4ea4\u901a\u6570\u636e\u8865\u5168\\data\\pems\\census\\annual_eligibility_v11_final_20260909c\\fixed_UTC_minus_8_candidate_daily.npz",
+      "sha256": "fb29d63a0b434ff16a57bab93ffddef6036f1525601f3fccbed36e544a184dcf"
+    },
+    {
+      "file": "<HOME>\\Documents\\ChatGPT\\\u62d3\u6251\u7ed3\u6784\u3001\u8bed\u4e49\u5148\u9a8c\u3001\u7269\u7406\u673a\u7406\u4ea4\u901a\u6570\u636e\u8865\u5168\\data\\pems\\census\\annual_eligibility_v11_final_20260909c\\America_Los_Angeles_unique_candidate_daily.npz",
+      "sha256": "8c0a29072a41b15c65341b4d002856041643a12294dd0eaf0f49280d2f7339f8"
+    },
+    {
+      "file": "<HOME>\\Documents\\ChatGPT\\\u62d3\u6251\u7ed3\u6784\u3001\u8bed\u4e49\u5148\u9a8c\u3001\u7269\u7406\u673a\u7406\u4ea4\u901a\u6570\u636e\u8865\u5168\\data\\pems\\releases\\partition_v1\\permanent_u.json",
+      "sha256": "7228cff899c1cf22cb82af56171f4ada63b1a3b61dce821cca64b08917dbb07a"
+    },
+    {
+      "file": "<HOME>\\Documents\\ChatGPT\\\u62d3\u6251\u7ed3\u6784\u3001\u8bed\u4e49\u5148\u9a8c\u3001\u7269\u7406\u673a\u7406\u4ea4\u901a\u6570\u636e\u8865\u5168\\reviews\\2026-09-09\\DATA_RELEASE_SPLIT.json",
+      "sha256": "a7471afd2dc242c701f91163681b28ac414f18dd0a260c890cd047b9925cec45"
+    },
+    {
+      "file": "<HOME>\\Documents\\ChatGPT\\\u62d3\u6251\u7ed3\u6784\u3001\u8bed\u4e49\u5148\u9a8c\u3001\u7269\u7406\u673a\u7406\u4ea4\u901a\u6570\u636e\u8865\u5168\\data_tools\\pems_release_use_policy.py",
+      "sha256": "e22a6ee4b942d8d5480a53dc66e809aba3ed24b2d8544947db6667e9534ecdff"
+    },
+    {
+      "file": "<HOME>\\Documents\\ChatGPT\\\u62d3\u6251\u7ed3\u6784\u3001\u8bed\u4e49\u5148\u9a8c\u3001\u7269\u7406\u673a\u7406\u4ea4\u901a\u6570\u636e\u8865\u5168\\data_tools\\verify_pems_strict_profiles.py",
+      "sha256": "c1cbc78ef1968bd6e67953be6de06316d29b2680e48816ba2aec2e22dd740daa"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "America_Los_Angeles_unique_strict288_masks.npz",
+      "sha256": "48d8217068fa2b339294a3b8a26ca4df41be90cf93f9051ee04d512136f92a51"
+    },
+    {
+      "file": "fixed_UTC_minus_8_strict288_masks.npz",
+      "sha256": "48d8217068fa2b339294a3b8a26ca4df41be90cf93f9051ee04d512136f92a51"
+    },
+    {
+      "file": "missing_slot_diagnosis.json",
+      "sha256": "4189885fe5fcf95254ccac9ec8f795094661509384bc95e71ad4699ae78e8d60"
+    },
+    {
+      "file": "strict288_support.csv",
+      "sha256": "db5d185e5ca013ec2a2fac2696f44437d650e7d0168e0e84bf115d4f15308d96"
+    },
+    {
+      "file": "strict288_support.json",
+      "sha256": "e896bdb13ae8cb77472d890a91d4593924c204e6e420839474ddc69e146f4ef0"
+    },
+    {
+      "file": "verification.json",
+      "sha256": "839517e4eb4ed1c472ebb44be51adbb548697782e7a45f941f692b4e89667aef"
+    }
+  ]
+}

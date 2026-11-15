@@ -1,0 +1,1050 @@
+{
+  "rule": "earliest offset in 0..6 with all 13 days in band and populated; target 7d density >=0.5",
+  "rows": [
+    {
+      "episode_id": "ep|test2020|14|716241|6",
+      "chosen_offset": null,
+      "candidates": [
+        {
+          "offset": 0,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 1,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 2,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 3,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 4,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 5,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 6,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "episode_id": "ep|test2020|14|716253|5",
+      "chosen_offset": null,
+      "candidates": [
+        {
+          "offset": 0,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 1,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 2,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 3,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 4,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 5,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 6,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "episode_id": "ep|test2020|14|717350|11",
+      "chosen_offset": null,
+      "candidates": [
+        {
+          "offset": 0,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 1,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 2,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 3,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 4,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 5,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 6,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "episode_id": "ep|test2020|14|717330|26",
+      "chosen_offset": 0,
+      "candidates": [
+        {
+          "offset": 0,
+          "in_band": true,
+          "all_days_populated": true,
+          "target_density": 0.7093253968253969,
+          "admissible": true
+        },
+        {
+          "offset": 1,
+          "in_band": true,
+          "all_days_populated": true,
+          "target_density": 0.9935515873015873,
+          "admissible": true
+        },
+        {
+          "offset": 2,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 3,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 4,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 5,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 6,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "episode_id": "ep|test2020|14|773522|6",
+      "chosen_offset": null,
+      "candidates": [
+        {
+          "offset": 0,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 1,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 2,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 3,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 4,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 5,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 6,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "episode_id": "ep|test2020|14|767723|17",
+      "chosen_offset": 0,
+      "candidates": [
+        {
+          "offset": 0,
+          "in_band": true,
+          "all_days_populated": true,
+          "target_density": 0.5659722222222222,
+          "admissible": true
+        },
+        {
+          "offset": 1,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 2,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 3,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 4,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 5,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 6,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "episode_id": "ep|test2020|7|716241|6",
+      "chosen_offset": null,
+      "candidates": [
+        {
+          "offset": 0,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 1,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 2,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 3,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 4,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 5,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 6,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "episode_id": "ep|test2020|7|716253|5",
+      "chosen_offset": null,
+      "candidates": [
+        {
+          "offset": 0,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 1,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 2,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 3,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 4,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 5,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 6,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "episode_id": "ep|test2020|7|717350|11",
+      "chosen_offset": null,
+      "candidates": [
+        {
+          "offset": 0,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 1,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 2,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 3,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 4,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 5,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 6,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "episode_id": "ep|test2020|7|717342|10",
+      "chosen_offset": null,
+      "candidates": [
+        {
+          "offset": 0,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 1,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 2,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 3,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 4,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 5,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 6,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "episode_id": "ep|test2020|7|717330|26",
+      "chosen_offset": 0,
+      "candidates": [
+        {
+          "offset": 0,
+          "in_band": true,
+          "all_days_populated": true,
+          "target_density": 0.7093253968253969,
+          "admissible": true
+        },
+        {
+          "offset": 1,
+          "in_band": true,
+          "all_days_populated": true,
+          "target_density": 0.9935515873015873,
+          "admissible": true
+        },
+        {
+          "offset": 2,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 3,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 4,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 5,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 6,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "episode_id": "ep|test2020|7|717330|39",
+      "chosen_offset": 0,
+      "candidates": [
+        {
+          "offset": 0,
+          "in_band": true,
+          "all_days_populated": true,
+          "target_density": 0.9945436507936508,
+          "admissible": true
+        },
+        {
+          "offset": 1,
+          "in_band": true,
+          "all_days_populated": true,
+          "target_density": 0.8462301587301587,
+          "admissible": true
+        },
+        {
+          "offset": 2,
+          "in_band": true,
+          "all_days_populated": true,
+          "target_density": 0.8506944444444444,
+          "admissible": true
+        },
+        {
+          "offset": 3,
+          "in_band": true,
+          "all_days_populated": true,
+          "target_density": 0.9925595238095238,
+          "admissible": true
+        },
+        {
+          "offset": 4,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 5,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 6,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "episode_id": "ep|test2020|7|773522|6",
+      "chosen_offset": null,
+      "candidates": [
+        {
+          "offset": 0,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 1,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 2,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 3,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 4,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 5,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 6,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "episode_id": "ep|test2020|7|718124|17",
+      "chosen_offset": 0,
+      "candidates": [
+        {
+          "offset": 0,
+          "in_band": true,
+          "all_days_populated": true,
+          "target_density": 0.8511904761904762,
+          "admissible": true
+        },
+        {
+          "offset": 1,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 2,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 3,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 4,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 5,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 6,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "episode_id": "ep|test2020|7|773522|19",
+      "chosen_offset": 0,
+      "candidates": [
+        {
+          "offset": 0,
+          "in_band": true,
+          "all_days_populated": true,
+          "target_density": 0.9935515873015873,
+          "admissible": true
+        },
+        {
+          "offset": 1,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 2,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 3,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 4,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 5,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 6,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "episode_id": "ep|test2020|7|767723|17",
+      "chosen_offset": 0,
+      "candidates": [
+        {
+          "offset": 0,
+          "in_band": true,
+          "all_days_populated": true,
+          "target_density": 0.5659722222222222,
+          "admissible": true
+        },
+        {
+          "offset": 1,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 2,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 3,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 4,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 5,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 6,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "episode_id": "ep|test2020|7|716253|18",
+      "chosen_offset": 0,
+      "candidates": [
+        {
+          "offset": 0,
+          "in_band": true,
+          "all_days_populated": true,
+          "target_density": 0.9925595238095238,
+          "admissible": true
+        },
+        {
+          "offset": 1,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 2,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 3,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 4,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 5,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 6,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "episode_id": "ep|test2020|7|716241|36",
+      "chosen_offset": 0,
+      "candidates": [
+        {
+          "offset": 0,
+          "in_band": true,
+          "all_days_populated": true,
+          "target_density": 0.7098214285714286,
+          "admissible": true
+        },
+        {
+          "offset": 1,
+          "in_band": true,
+          "all_days_populated": true,
+          "target_density": 0.9890873015873016,
+          "admissible": true
+        },
+        {
+          "offset": 2,
+          "in_band": true,
+          "all_days_populated": true,
+          "target_density": 0.9915674603174603,
+          "admissible": true
+        },
+        {
+          "offset": 3,
+          "in_band": true,
+          "all_days_populated": true,
+          "target_density": 0.9920634920634921,
+          "admissible": true
+        },
+        {
+          "offset": 4,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 5,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 6,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        }
+      ]
+    },
+    {
+      "episode_id": "ep|test2020|7|767723|30",
+      "chosen_offset": 0,
+      "candidates": [
+        {
+          "offset": 0,
+          "in_band": true,
+          "all_days_populated": true,
+          "target_density": 0.9890873015873016,
+          "admissible": true
+        },
+        {
+          "offset": 1,
+          "in_band": true,
+          "all_days_populated": true,
+          "target_density": 0.8511904761904762,
+          "admissible": true
+        },
+        {
+          "offset": 2,
+          "in_band": true,
+          "all_days_populated": true,
+          "target_density": 0.7073412698412699,
+          "admissible": true
+        },
+        {
+          "offset": 3,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 4,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 5,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        },
+        {
+          "offset": 6,
+          "in_band": false,
+          "all_days_populated": false,
+          "target_density": 0.0,
+          "admissible": false
+        }
+      ]
+    }
+  ]
+}

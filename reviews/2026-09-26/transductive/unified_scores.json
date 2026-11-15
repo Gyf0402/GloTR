@@ -1,0 +1,821 @@
+{
+ "queue": "selection_42",
+ "scales": [
+  6240.0,
+  0.21276629999999888
+ ],
+ "arms": {
+  "full": {
+   "n_cases": 42,
+   "source": "reviews\\2026-09-26\\loss\\dev\\seed20260905",
+   "episode_macro": {
+    "q": 0.06205862471914364,
+    "o": 0.16234953112997438
+   },
+   "episode_macro_by_duration": {
+    "7": {
+     "n": 32,
+     "q": 0.06026470627299889,
+     "o": 0.15804861904561923
+    },
+    "14": {
+     "n": 10,
+     "q": 0.0677991637468068,
+     "o": 0.17611244979991109
+    }
+   },
+   "sensor_macro": {
+    "q": 0.06195466155573804,
+    "o": 0.1629840113002437
+   },
+   "per_case": [
+    {
+     "episode_id": "ep|selection|7|716241|228",
+     "target_station": "716241",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.058446796501500545,
+      "o": 0.13811754482229083
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|716241|248",
+     "target_station": "716241",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.06791831027088054,
+      "o": 0.1543124437223353
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|716241|261",
+     "target_station": "716241",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.05416398673124613,
+      "o": 0.14149986840589432
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|716253|228",
+     "target_station": "716253",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.061992811512365624,
+      "o": 0.14683867056211172
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|716253|253",
+     "target_station": "716253",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.06610541990907957,
+      "o": 0.20201010708732275
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717324|228",
+     "target_station": "717324",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.052240989805213696,
+      "o": 0.08799101156510998
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717324|248",
+     "target_station": "717324",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.051393663806449594,
+      "o": 0.09079456696457222
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717324|261",
+     "target_station": "717324",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.04827920062497141,
+      "o": 0.08556358402397361
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717330|228",
+     "target_station": "717330",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.05342615355713743,
+      "o": 0.19201375113860708
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717330|248",
+     "target_station": "717330",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.054471987215719594,
+      "o": 0.19417295566295167
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717330|261",
+     "target_station": "717330",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.05899417373280238,
+      "o": 0.1796830925063668
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717339|228",
+     "target_station": "717339",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.061658144219233935,
+      "o": 0.15203874493068273
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717339|248",
+     "target_station": "717339",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.06265114087068956,
+      "o": 0.1415547357955815
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717339|261",
+     "target_station": "717339",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.08052488710988044,
+      "o": 0.24366865750030148
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717342|228",
+     "target_station": "717342",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.051076276977529964,
+      "o": 0.14187650772176075
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717342|248",
+     "target_station": "717342",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.05025373596911716,
+      "o": 0.12429112268219156
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717342|261",
+     "target_station": "717342",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.05458397516463368,
+      "o": 0.23026895012878534
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717350|262",
+     "target_station": "717350",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.0628448096220228,
+      "o": 0.1829170834514507
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717355|228",
+     "target_station": "717355",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.06233959646302418,
+      "o": 0.1500062716567487
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717355|248",
+     "target_station": "717355",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.06223656332364624,
+      "o": 0.12272648048278205
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717355|261",
+     "target_station": "717355",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.06899103494042205,
+      "o": 0.14498126607985573
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|718124|228",
+     "target_station": "718124",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.06549612647252288,
+      "o": 0.18347111280283515
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|718124|248",
+     "target_station": "718124",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.07217114378100453,
+      "o": 0.19899506044013598
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|718124|261",
+     "target_station": "718124",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.062291428126403314,
+      "o": 0.20610139882943562
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|767723|228",
+     "target_station": "767723",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.05325422168407305,
+      "o": 0.1076005927862226
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|767723|257",
+     "target_station": "767723",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.05775611332472868,
+      "o": 0.1506592377239573
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|773458|228",
+     "target_station": "773458",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.06111057049586797,
+      "o": 0.12045228177591369
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|773458|248",
+     "target_station": "773458",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.06686538949847112,
+      "o": 0.13297145338468994
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|773458|261",
+     "target_station": "773458",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.05893444886878137,
+      "o": 0.12506061501005664
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|773474|228",
+     "target_station": "773474",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.06234925323784779,
+      "o": 0.17635790674622642
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|773474|248",
+     "target_station": "773474",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.06646119362540284,
+      "o": 0.20541300403811286
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|773474|261",
+     "target_station": "773474",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.05718705329329427,
+      "o": 0.20314572903055161
+     }
+    },
+    {
+     "episode_id": "ep|selection|14|716241|248",
+     "target_station": "716241",
+     "duration_days": 14,
+     "profile_macro_nrmse": {
+      "q": 0.06510714786686049,
+      "o": 0.16439481408235182
+     }
+    },
+    {
+     "episode_id": "ep|selection|14|716253|253",
+     "target_station": "716253",
+     "duration_days": 14,
+     "profile_macro_nrmse": {
+      "q": 0.07535202636812523,
+      "o": 0.2437746846152835
+     }
+    },
+    {
+     "episode_id": "ep|selection|14|717324|248",
+     "target_station": "717324",
+     "duration_days": 14,
+     "profile_macro_nrmse": {
+      "q": 0.054225785340611156,
+      "o": 0.09814466029317999
+     }
+    },
+    {
+     "episode_id": "ep|selection|14|717330|248",
+     "target_station": "717330",
+     "duration_days": 14,
+     "profile_macro_nrmse": {
+      "q": 0.06307213452952194,
+      "o": 0.20609707231391863
+     }
+    },
+    {
+     "episode_id": "ep|selection|14|717339|248",
+     "target_station": "717339",
+     "duration_days": 14,
+     "profile_macro_nrmse": {
+      "q": 0.07592180894630296,
+      "o": 0.15511242142503992
+     }
+    },
+    {
+     "episode_id": "ep|selection|14|717342|248",
+     "target_station": "717342",
+     "duration_days": 14,
+     "profile_macro_nrmse": {
+      "q": 0.05589986450972353,
+      "o": 0.1600589139684462
+     }
+    },
+    {
+     "episode_id": "ep|selection|14|717355|248",
+     "target_station": "717355",
+     "duration_days": 14,
+     "profile_macro_nrmse": {
+      "q": 0.06629562196299228,
+      "o": 0.13548435645679163
+     }
+    },
+    {
+     "episode_id": "ep|selection|14|718124|248",
+     "target_station": "718124",
+     "duration_days": 14,
+     "profile_macro_nrmse": {
+      "q": 0.07915621789382658,
+      "o": 0.22043918529489767
+     }
+    },
+    {
+     "episode_id": "ep|selection|14|773458|248",
+     "target_station": "773458",
+     "duration_days": 14,
+     "profile_macro_nrmse": {
+      "q": 0.06688303644660092,
+      "o": 0.1339990329814003
+     }
+    },
+    {
+     "episode_id": "ep|selection|14|773474|248",
+     "target_station": "773474",
+     "duration_days": 14,
+     "profile_macro_nrmse": {
+      "q": 0.076077993603503,
+      "o": 0.24361935656780126
+     }
+    }
+   ]
+  },
+  "rttc_v7_archived": {
+   "n_cases": 42,
+   "source": "reviews/2026-09-21/rttc_repair/rttc_real_v7/selection",
+   "episode_macro": {
+    "q": 0.06023260022445412,
+    "o": 0.1728223661714944
+   },
+   "episode_macro_by_duration": {
+    "7": {
+     "n": 32,
+     "q": 0.05776273538847876,
+     "o": 0.16426224322284383
+    },
+    "14": {
+     "n": 10,
+     "q": 0.06813616769957523,
+     "o": 0.20021475960717622
+    }
+   },
+   "sensor_macro": {
+    "q": 0.06093088404523023,
+    "o": 0.17494468482483702
+   },
+   "per_case": [
+    {
+     "episode_id": "ep|selection|7|716241|228",
+     "target_station": "716241",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.062124889902226754,
+      "o": 0.14837553893897715
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|716241|248",
+     "target_station": "716241",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.05504794425482388,
+      "o": 0.13399281349674932
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|716241|261",
+     "target_station": "716241",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.05811269320399394,
+      "o": 0.14288625297497112
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|716253|228",
+     "target_station": "716253",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.06390730571583063,
+      "o": 0.16116739206953648
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|716253|253",
+     "target_station": "716253",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.06147040141882502,
+      "o": 0.1956992630258955
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717324|228",
+     "target_station": "717324",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.05254018635429082,
+      "o": 0.10492650436478038
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717324|248",
+     "target_station": "717324",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.048228124737729805,
+      "o": 0.07557543010787694
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717324|261",
+     "target_station": "717324",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.051288871856063914,
+      "o": 0.08663644340402817
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717330|228",
+     "target_station": "717330",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.05647010121313833,
+      "o": 0.20150944972049548
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717330|248",
+     "target_station": "717330",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.05141498717222387,
+      "o": 0.2435555685882756
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717330|261",
+     "target_station": "717330",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.05642397191996044,
+      "o": 0.22142508581405312
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717339|228",
+     "target_station": "717339",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.053546109679856416,
+      "o": 0.1698481194987971
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717339|248",
+     "target_station": "717339",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.04879188590698459,
+      "o": 0.13607997191736024
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717339|261",
+     "target_station": "717339",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.06228182882111404,
+      "o": 0.19918997125398344
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717342|228",
+     "target_station": "717342",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.049978165446766566,
+      "o": 0.12855044210740285
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717342|248",
+     "target_station": "717342",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.04360661616286556,
+      "o": 0.10478792267452375
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717342|261",
+     "target_station": "717342",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.050809060615945166,
+      "o": 0.19074953960989402
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717350|262",
+     "target_station": "717350",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.0700683945180747,
+      "o": 0.22636427379044086
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717355|228",
+     "target_station": "717355",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.060836862367458285,
+      "o": 0.1412965770036125
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717355|248",
+     "target_station": "717355",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.058414298696185245,
+      "o": 0.15519815365218634
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|717355|261",
+     "target_station": "717355",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.07431427110409823,
+      "o": 0.1841210128933867
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|718124|228",
+     "target_station": "718124",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.06189050625907949,
+      "o": 0.17728815223314756
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|718124|248",
+     "target_station": "718124",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.06208737027157886,
+      "o": 0.2098905059924026
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|718124|261",
+     "target_station": "718124",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.061791651713054965,
+      "o": 0.21793192452759896
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|767723|228",
+     "target_station": "767723",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.05968884996687041,
+      "o": 0.10653586003347261
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|767723|257",
+     "target_station": "767723",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.05603019844111123,
+      "o": 0.1418909476738709
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|773458|228",
+     "target_station": "773458",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.06012332965171381,
+      "o": 0.14175724579636495
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|773458|248",
+     "target_station": "773458",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.05984559133354935,
+      "o": 0.1326158682849748
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|773458|261",
+     "target_station": "773458",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.05972052251192278,
+      "o": 0.15653407588841417
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|773474|228",
+     "target_station": "773474",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.05990703512666262,
+      "o": 0.17556682525928125
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|773474|248",
+     "target_station": "773474",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.059261627261169306,
+      "o": 0.1785342342007536
+     }
+    },
+    {
+     "episode_id": "ep|selection|7|773474|261",
+     "target_station": "773474",
+     "duration_days": 7,
+     "profile_macro_nrmse": {
+      "q": 0.058383878826151425,
+      "o": 0.2659104163334939
+     }
+    },
+    {
+     "episode_id": "ep|selection|14|716241|248",
+     "target_station": "716241",
+     "duration_days": 14,
+     "profile_macro_nrmse": {
+      "q": 0.06463356947380246,
+      "o": 0.16800620226671423
+     }
+    },
+    {
+     "episode_id": "ep|selection|14|716253|253",
+     "target_station": "716253",
+     "duration_days": 14,
+     "profile_macro_nrmse": {
+      "q": 0.08158927121066184,
+      "o": 0.27699093483680726
+     }
+    },
+    {
+     "episode_id": "ep|selection|14|717324|248",
+     "target_station": "717324",
+     "duration_days": 14,
+     "profile_macro_nrmse": {
+      "q": 0.05782006899241127,
+      "o": 0.10526387487635902
+     }
+    },
+    {
+     "episode_id": "ep|selection|14|717330|248",
+     "target_station": "717330",
+     "duration_days": 14,
+     "profile_macro_nrmse": {
+      "q": 0.0653161137884144,
+      "o": 0.2834103079866938
+     }
+    },
+    {
+     "episode_id": "ep|selection|14|717339|248",
+     "target_station": "717339",
+     "duration_days": 14,
+     "profile_macro_nrmse": {
+      "q": 0.06683795021476485,
+      "o": 0.1749545566083527
+     }
+    },
+    {
+     "episode_id": "ep|selection|14|717342|248",
+     "target_station": "717342",
+     "duration_days": 14,
+     "profile_macro_nrmse": {
+      "q": 0.058446921914618095,
+      "o": 0.16347549279649629
+     }
+    },
+    {
+     "episode_id": "ep|selection|14|717355|248",
+     "target_station": "717355",
+     "duration_days": 14,
+     "profile_macro_nrmse": {
+      "q": 0.0655652298714704,
+      "o": 0.16134203388366516
+     }
+    },
+    {
+     "episode_id": "ep|selection|14|718124|248",
+     "target_station": "718124",
+     "duration_days": 14,
+     "profile_macro_nrmse": {
+      "q": 0.07252883311496905,
+      "o": 0.23238023888160497
+     }
+    },
+    {
+     "episode_id": "ep|selection|14|773458|248",
+     "target_station": "773458",
+     "duration_days": 14,
+     "profile_macro_nrmse": {
+      "q": 0.07641560422935166,
+      "o": 0.1704157529869717
+     }
+    },
+    {
+     "episode_id": "ep|selection|14|773474|248",
+     "target_station": "773474",
+     "duration_days": 14,
+     "profile_macro_nrmse": {
+      "q": 0.07220811418528826,
+      "o": 0.26590820094809675
+     }
+    }
+   ]
+  },
+  "rttc_v7_archived_in_its_own_scales": {
+   "q": 0.06000182397838341,
+   "o": 0.17275035164104782
+  }
+ }
+}
